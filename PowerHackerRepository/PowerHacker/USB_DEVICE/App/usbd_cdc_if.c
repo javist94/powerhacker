@@ -23,7 +23,7 @@
 #include "usbd_cdc_if.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+#include "../Lib/FIFO.h"
 /* USER CODE END INCLUDE */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -246,7 +246,8 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
   /* USER CODE END 5 */
 }
 
-extern FIFO RX_FIFO;
+extern fifo_t fifo_rx;
+extern volatile uint8_t RX_FLAG;
 
 /**
   * @brief  Data received over USB OUT endpoint are sent over CDC interface
@@ -296,17 +297,15 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 	while(result != USBD_OK);
 
 	//Add data to FIFO queue
-	while (len--)
-	   if (FIFO_INCR(RX_FIFO.head)==RX_FIFO.tail)
-	   {
-		   return USBD_FAIL;  // overrun
-	   }
-	   else
-	   {
-		   RX_FIFO.data[RX_FIFO.head]=*Buf++;
-		   RX_FIFO.head=FIFO_INCR(RX_FIFO.head);
-	   }
-	RX_FIFO.rx_flag = 1;
+	if(fifo_rx != NULL){
+		while (len-- > 0){
+			fifo_add(fifo_rx, Buf);
+			Buf++;
+			RX_FLAG = 1;
+		}
+	}
+
+
   return (USBD_OK);
   /* USER CODE END 6 */
 }

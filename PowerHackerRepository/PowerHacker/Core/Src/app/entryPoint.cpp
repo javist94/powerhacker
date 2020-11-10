@@ -23,7 +23,7 @@ masterController masterControl;
 USBInterface usbController;
 
 extern DAC_HandleTypeDef hdac1, hdac2;
-extern FIFO RX_FIFO;
+extern volatile uint8_t RX_FLAG;
 
 uint32_t dac_value = 0;
 
@@ -46,8 +46,8 @@ unsigned short readSDADC(SDADC_HandleTypeDef *handle){
 
 void entryPointLoop(){
 	captureUserInput();
-	if(RX_FIFO.rx_flag == 1){
-		usbController.sendStr(usbController.receiveStr());
+	if(RX_FLAG == 1){
+		usbController.sendStr(usbController.readSerialUntil('\n'));
 		boardUI.runLed.setState(ledState::on);
 	}else{
 		boardUI.runLed.setState(ledState::off);
@@ -58,7 +58,7 @@ void captureUserInput(){
 	if(boardUI.anyButtonPressed()){
 		buttonTree pressedBtns = boardUI.getPressedButtons();
 		masterControl.digestUI(pressedBtns);
-		std::string test = "<'Mode' Button Pressed>\n";
+		std::string test = "{'action' : 'btnpress', 'button' : 'mode'}\r\n";
 		usbController.sendStr(test);
 		HAL_Delay(200);
 	}

@@ -7,8 +7,9 @@
 
 #include <serialInterfaces.hpp>
 
-/* Create FIFO*/
-FIFO RX_FIFO = {.rx_flag=0, .head=0, .tail=0};
+/* Create FIFO and flag*/
+volatile fifo_t fifo_rx = fifo_create(MAX_RXBUFF_SIZE, sizeof(char));
+volatile uint8_t RX_FLAG = 0;
 
 uint8_t USBInterface::sendStr(std::string const &sendstr){
 	uint8_t result = USBD_OK;
@@ -18,28 +19,36 @@ uint8_t USBInterface::sendStr(std::string const &sendstr){
 	return result;
 }
 
-std::string USBInterface::receiveStr(){
-	uint8_t Len = MAX_RXBUFF_SIZE;
-	uint8_t buffer[MAX_RXBUFF_SIZE];
-	uint8_t* pbuff = buffer;
+std::string USBInterface::readChar(){
+	char buffer_cstr[MAX_RXBUFF_SIZE] = {0};
+	volatile uint8_t i = 0;
+	char c = '0';
 
-	uint32_t count=0;
-	/* Check inputs */
-	  if ((pbuff == NULL) || (Len == 0))
-	 {
-	  return "";
-	 }
-
-	while (Len > 0)
-	{
-		Len--;
-		if (RX_FIFO.head==RX_FIFO.tail) return "";
-		count++;
-		*pbuff++=RX_FIFO.data[RX_FIFO.tail];
-		RX_FIFO.tail=FIFO_INCR(RX_FIFO.tail);
+	while (!fifo_is_empty(fifo_rx)) {
+		fifo_get(fifo_rx, &c);
+		buffer_cstr[i] = c;
+		i++;
 	}
 
-	RX_FIFO.rx_flag = 0;
-	std::string result((char*)buffer);
+	RX_FLAG = 0;
+	std::string result(buffer_cstr);
+	return result;
+}
+
+
+std::string USBInterface::readUntil(char endchar, unsigned short timeout){
+	char buffer_cstr[MAX_RXBUFF_SIZE] = {0};
+	volatile uint8_t i = 0;
+	char c = '0';
+		while (c != endchar) {
+			if(!fifo_is_empty(fifo_rx)){
+				fifo_get(fifo_rx, &c);
+				buffer_cstr[i] = c;
+				i++;
+			}
+		}
+
+	RX_FLAG = 0;
+	std::string result(buffer_cstr);
 	return result;
 }
