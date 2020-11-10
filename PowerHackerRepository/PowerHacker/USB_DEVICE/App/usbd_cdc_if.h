@@ -31,19 +31,6 @@
 #include "usbd_cdc.h"
 
 /* USER CODE BEGIN INCLUDE */
-#define  FIFO_SIZE 128  // must be 2^N
-
-#define FIFO_INCR(x) (((x)+1)&((FIFO_SIZE)-1))
-
-/* Structure of FIFO*/
-typedef struct FIFO
-
-{
-short rx_flag;
-uint32_t head;
-uint32_t tail;
-    uint8_t data[FIFO_SIZE];
-} FIFO;
 
 
 /* USER CODE END INCLUDE */

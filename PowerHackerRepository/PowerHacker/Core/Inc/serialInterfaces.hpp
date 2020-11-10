@@ -12,6 +12,7 @@
 
 #include <usbd_cdc_if.h>
 #include <string>
+#include "../Lib/FIFO.h"
 
 class serialInterface{
 public:

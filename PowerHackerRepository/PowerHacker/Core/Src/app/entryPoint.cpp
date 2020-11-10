@@ -23,7 +23,7 @@ masterController masterControl;
 USBInterface usbController;
 
 extern DAC_HandleTypeDef hdac1, hdac2;
-extern FIFO RX_FIFO;
+extern volatile uint8_t RX_FLAG;
 
 uint32_t dac_value = 0;
 
@@ -46,7 +46,7 @@ unsigned short readSDADC(SDADC_HandleTypeDef *handle){
 
 void entryPointLoop(){
 	captureUserInput();
-	if(RX_FIFO.rx_flag == 1){
+	if(RX_FLAG == 1){
 		usbController.sendStr(usbController.receiveStr());
 		boardUI.runLed.setState(ledState::on);
 	}else{
