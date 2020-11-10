@@ -28,6 +28,7 @@ class USBInterface : public serialInterface{
 public:
 	uint8_t sendStr(std::string const &sendstr);
 	std::string receiveStr();
+	std::string receiveInstruction();
 };
 
 

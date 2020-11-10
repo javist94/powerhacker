@@ -48,7 +48,7 @@
  *-------------------------------------------------------------*/
 
 /**
- * This structure holds the data that denfines a fifo buffer, and pointers
+ * This structure holds the data that defines a fifo buffer, and pointers
  * to access data on the buffer
  */
 struct fifo_descriptor {

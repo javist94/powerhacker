@@ -47,7 +47,7 @@ unsigned short readSDADC(SDADC_HandleTypeDef *handle){
 void entryPointLoop(){
 	captureUserInput();
 	if(RX_FLAG == 1){
-		usbController.sendStr(usbController.receiveStr());
+		usbController.sendStr(usbController.receiveInstruction());
 		boardUI.runLed.setState(ledState::on);
 	}else{
 		boardUI.runLed.setState(ledState::off);
@@ -58,7 +58,7 @@ void captureUserInput(){
 	if(boardUI.anyButtonPressed()){
 		buttonTree pressedBtns = boardUI.getPressedButtons();
 		masterControl.digestUI(pressedBtns);
-		std::string test = "<'Mode' Button Pressed>\n";
+		std::string test = "{'action' : 'btnpress', 'button' : 'mode'}\r\n";
 		usbController.sendStr(test);
 		HAL_Delay(200);
 	}
