@@ -19,12 +19,10 @@ uint8_t USBInterface::sendStr(std::string const &sendstr){
 	return result;
 }
 
-std::string USBInterface::receiveStr(){
-	if(!RX_FLAG) return "{'error' : 'Buffer was empty'}";
-
+std::string USBInterface::readChar(){
 	char buffer_cstr[MAX_RXBUFF_SIZE] = {0};
 	volatile uint8_t i = 0;
-	char c;
+	char c = '0';
 
 	while (!fifo_is_empty(fifo_rx)) {
 		fifo_get(fifo_rx, &c);
@@ -37,35 +35,20 @@ std::string USBInterface::receiveStr(){
 	return result;
 }
 
-//Blocking function, waits until a full instruction has been received
-std::string USBInterface::receiveInstruction(){
-	std::string rxstr = "";
-	while(!RX_FLAG); //Wait until something is received
-	//Loop until string contains new line
-	while(rxstr.find('\n') == std::string::npos){
-		//New line not detected
-		rxstr += this->receiveStr();
-	}
-	//We disable interrupts to avoid altering the FIFO register now
-	__disable_irq();
 
-	//New line detected, detect if it is NOT at the end
-	if(rxstr.back() != '\n'){
-		std::string remainder = "";
-		//The character is not at the end, we need to put back the remainder in the FIFO
-		unsigned short i = (unsigned short)0;
-		i = rxstr.find('\n');
-		remainder = rxstr.substr(i, rxstr.length()-1); //gets from '\n' onwards
-		rxstr = rxstr.substr(0, i); //gets the useful part at this stage
-		//Now we need to return the remainder to the FIFO from left to right
-		for(unsigned short j = 0; j < remainder.length(); j++){
-			fifo_add(fifo_rx, &remainder[j]);
+std::string USBInterface::readUntil(char endchar, unsigned short timeout){
+	char buffer_cstr[MAX_RXBUFF_SIZE] = {0};
+	volatile uint8_t i = 0;
+	char c = '0';
+		while (c != endchar) {
+			if(!fifo_is_empty(fifo_rx)){
+				fifo_get(fifo_rx, &c);
+				buffer_cstr[i] = c;
+				i++;
+			}
 		}
-		//Now we trigger a signal for those characters to be read back in the following iteration
-		RX_FLAG = 1;
-	}
 
-	__enable_irq(); //We enable back interrupts
-
-	return rxstr;
+	RX_FLAG = 0;
+	std::string result(buffer_cstr);
+	return result;
 }

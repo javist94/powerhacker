@@ -47,7 +47,7 @@ unsigned short readSDADC(SDADC_HandleTypeDef *handle){
 void entryPointLoop(){
 	captureUserInput();
 	if(RX_FLAG == 1){
-		usbController.sendStr(usbController.receiveInstruction());
+		usbController.sendStr(usbController.readSerialUntil('\n'));
 		boardUI.runLed.setState(ledState::on);
 	}else{
 		boardUI.runLed.setState(ledState::off);
