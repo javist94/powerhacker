@@ -16,11 +16,12 @@
 #include <boardUserInterface.hpp>
 #include <masterController.hpp>
 #include <serialInterfaces.hpp>
-
+#include <jsonEngine.hpp>
 
 boardUserInterface boardUI;
 masterController masterControl;
 USBInterface usbController;
+jsonEngine jsonEngineRunner;
 
 extern DAC_HandleTypeDef hdac1, hdac2;
 extern volatile uint8_t RX_FLAG;
@@ -46,12 +47,7 @@ unsigned short readSDADC(SDADC_HandleTypeDef *handle){
 
 void entryPointLoop(){
 	captureUserInput();
-	if(RX_FLAG == 1){
-		usbController.sendString(usbController.readUntil('\n'));
-		boardUI.runLed.setState(ledState::on);
-	}else{
-		boardUI.runLed.setState(ledState::off);
-	}
+	masterControl.digestUSB();
 }
 
 void captureUserInput(){
