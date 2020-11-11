@@ -12,21 +12,25 @@
 
 #include <usbd_cdc_if.h>
 #include <string>
+#include "../Lib/FIFO.h"
 
 class serialInterface{
 public:
-	virtual uint8_t sendStr(std::string const &sendstr) = 0; //Slow method (internal memory copy), but quick to test
-	virtual std::string receiveStr() = 0;
+	virtual uint8_t sendString(std::string const &sendstr) = 0; //Slow method (internal memory copy), but quick to test
+	virtual std::string readChar() = 0;
+	virtual std::string readUntil(char endchar, unsigned short timeout) = 0;
 
 protected:
 	serialInterface() {};
+	virtual ~serialInterface() { };
 };
 
 
 class USBInterface : public serialInterface{
 public:
-	uint8_t sendStr(std::string const &sendstr);
-	std::string receiveStr();
+	uint8_t sendString(std::string const &sendstr);
+	std::string readChar();
+	std::string readUntil(char endchar, unsigned short timeout = 100);
 };
 
 
