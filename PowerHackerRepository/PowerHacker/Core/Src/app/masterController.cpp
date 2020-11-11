@@ -8,7 +8,9 @@
 #include <masterController.hpp>
 #include <serialInterfaces.hpp>
 #include <jsonEngine.hpp>
+#include <powerManager.hpp>
 
+extern PowerManager powerManager;
 extern boardUserInterface boardUI;
 extern USBInterface usbController;
 extern jsonEngine jsonEngineRunner;
@@ -26,10 +28,14 @@ void masterController::digestUSB(){
 		//TODO: check cmd is correct
 
 		//Parse JSON and store info into ichunk
-		jsonEngineRunner.parseInstruction(cmd, ichunk);
+		if(jsonEngineRunner.parseInstruction(cmd, ichunk) == DeserializationError::Ok)
+		{
+			//Decide what to do depending on ichunk
+			if(ichunk.instructionType == instructionType_e::voltageSet){
 
-		//Decide what to do depending on ichunk
-		// ¿External void?
+			}
+		}
+
 	}
 }
 

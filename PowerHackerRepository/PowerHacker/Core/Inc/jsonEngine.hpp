@@ -16,14 +16,13 @@
 using namespace std;
 
 enum class instructionType_e{
-	voltageSet, voltageGet, currentSet, currentGet, modeControl, message
+	voltageSet, voltageGet, currentSet, currentGet, modeControl, error, warning, info, other, unknown
 };
 
 struct instructionChunk_t{
 	instructionType_e instructionType;
 	double value;
 	string message;
-	runStatus rstatus;
 };
 
 class jsonEngine{

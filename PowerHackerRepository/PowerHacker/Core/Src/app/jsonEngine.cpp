@@ -14,9 +14,21 @@ DeserializationError jsonEngine::parseInstruction(const string &jsoninstruction,
 	StaticJsonDocument<staticCapacity> doc;
 	DeserializationError err = deserializeJson(doc, jsoninstruction);
 
-	if(!err){
+	if(err == DeserializationError::Ok){
 		instructionChunk.message = doc["message"].as<string>();
 		instructionChunk.value = doc["value"].as<double>();
+		string msgtype = doc["type"].as<string>();
+			if(msgtype == "vset") instructionChunk.instructionType = instructionType_e::voltageSet;
+			else if(msgtype == "vget") instructionChunk.instructionType = instructionType_e::voltageGet;
+			else if(msgtype == "cset") instructionChunk.instructionType = instructionType_e::currentSet;
+			else if(msgtype == "cget") instructionChunk.instructionType = instructionType_e::currentGet;
+			else if(msgtype == "mode") instructionChunk.instructionType = instructionType_e::modeControl;
+			else if(msgtype == "error")instructionChunk.instructionType = instructionType_e::error;
+			else if(msgtype == "warning")instructionChunk.instructionType = instructionType_e::warning;
+			else if(msgtype == "info") instructionChunk.instructionType = instructionType_e::info;
+			else if(msgtype == "other")instructionChunk.instructionType = instructionType_e::other;
+			else instructionChunk.instructionType = instructionType_e::unknown;
+
 	}
 
 	return err;

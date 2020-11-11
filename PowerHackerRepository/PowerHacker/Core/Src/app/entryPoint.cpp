@@ -15,9 +15,11 @@
 #include <entryPointDefinition.hpp>
 #include <boardUserInterface.hpp>
 #include <masterController.hpp>
+#include <PowerManager.hpp>
 #include <serialInterfaces.hpp>
 #include <jsonEngine.hpp>
 
+PowerManager powerManager;
 boardUserInterface boardUI;
 masterController masterControl;
 USBInterface usbController;
