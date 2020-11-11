@@ -41,15 +41,31 @@ std::string USBInterface::readUntil(char endchar, unsigned short timeout){
 	char buffer_cstr[MAX_RXBUFF_SIZE] = {0};
 	volatile uint8_t i = 0;
 	char c = '0';
-		while (c != endchar) {
-			if(!fifo_is_empty(fifo_rx)){
-				fifo_get(fifo_rx, &c);
-				buffer_cstr[i] = c;
-				i++;
-			}
+	bool op_timeout = false;
+	std::string result = "";
+	uint32_t initial_time = HAL_GetTick();
+
+	while (c != endchar && !op_timeout)
+	{
+		if(!fifo_is_empty(fifo_rx)){
+			fifo_get(fifo_rx, &c);
+			buffer_cstr[i] = c;
+			initial_time = HAL_GetTick();
+			i++;
+		}else{
+			if(HAL_GetTick() - initial_time > timeout) op_timeout = true;
 		}
+	}
 
 	RX_FLAG = 0;
-	std::string result(buffer_cstr);
+
+	if(op_timeout){
+		result.clear();
+		result = "{'error' : 'rx_timeout'}\n";
+	}else{
+		result.clear();
+		result.insert(0, buffer_cstr);
+	}
+
 	return result;
 }
