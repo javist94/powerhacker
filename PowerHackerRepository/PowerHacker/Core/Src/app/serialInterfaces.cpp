@@ -11,7 +11,7 @@
 volatile fifo_t fifo_rx = fifo_create(MAX_RXBUFF_SIZE, sizeof(char));
 volatile uint8_t RX_FLAG = 0;
 
-uint8_t USBInterface::sendStr(std::string const &sendstr){
+uint8_t USBInterface::sendString(std::string const &sendstr){
 	uint8_t result = USBD_OK;
 	uint8_t* buffer = (uint8_t*)sendstr.c_str();
 	uint32_t buffsize = sendstr.length() + 1; //Account for the null-terminated character
@@ -36,6 +36,7 @@ std::string USBInterface::readChar(){
 }
 
 
+//Timeout in milliseconds, 100ms by default
 std::string USBInterface::readUntil(char endchar, unsigned short timeout){
 	char buffer_cstr[MAX_RXBUFF_SIZE] = {0};
 	volatile uint8_t i = 0;
