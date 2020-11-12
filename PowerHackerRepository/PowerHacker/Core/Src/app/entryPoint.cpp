@@ -25,27 +25,22 @@ masterController masterControl;
 USBInterface usbController;
 jsonEngine jsonEngineRunner;
 
-extern DAC_HandleTypeDef hdac1, hdac2;
+extern SDADC_HandleTypeDef hsdadc1;
+extern SDADC_HandleTypeDef hsdadc2;
+extern SDADC_HandleTypeDef hsdadc3;
+extern DAC_HandleTypeDef hdac1;
+extern DAC_HandleTypeDef hdac2;
 extern volatile uint8_t RX_FLAG;
+
+extern void powerInit();
 
 uint32_t dac_value = 0;
 
 void entryPointSetup(){
-	// Initialize some peripherals
-	HAL_DAC_Start(&hdac1, DAC_CHANNEL_1);
-	// Check if select is pressed on startup to execute calibration routine
+	powerInit(); //Peripheral initialization
+	//TODO: Check if select is pressed on startup to execute calibration routine
+
 }
-
-void setDAC(DAC_HandleTypeDef *handle){
-	HAL_DAC_SetValue(handle, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dac_value);
-}
-
-unsigned short readSDADC(SDADC_HandleTypeDef *handle){
-	//TODO: implement SDADC read function, returns ushort (16 bits, positive)
-	return (short)0;
-}
-
-
 
 void entryPointLoop(){
 	captureUserInput();

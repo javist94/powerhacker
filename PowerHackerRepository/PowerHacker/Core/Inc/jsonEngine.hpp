@@ -10,6 +10,7 @@
 
 #include <../Lib/json/arduino_json.h>
 #include <masterController.hpp>
+#include <PowerManager.hpp>
 #include <serialInterfaces.hpp>
 #include <string>
 
@@ -23,12 +24,14 @@ struct instructionChunk_t{
 	instructionType_e instructionType;
 	double value;
 	string message;
+	channel_e channel;
 };
 
 class jsonEngine{
 public:
 	DeserializationError parseInstruction(const string &jsoninstruction, instructionChunk_t &instructionChunk);
-
+	string getACKPacket();
+	string getErrPacket(const string &errmsg);
 };
 
 #endif /* INC_JSONENGINE_HPP_ */

@@ -24,16 +24,25 @@ void masterController::digestUSB(){
 	if(RX_FLAG == 1){ //Check we can read
 		std::string cmd;
 		cmd = usbController.readUntil('\n');
-		instructionChunk_t ichunk;
-		//TODO: check cmd is correct
 
-		//Parse JSON and store info into ichunk
-		if(jsonEngineRunner.parseInstruction(cmd, ichunk) == DeserializationError::Ok)
+		instructionChunk_t ichunk;
+		//TODO: check cmd is correct // EXAMPLE: {"type" : "vset", "channel" : "ch1", "value": 2.4}
+		DeserializationError err;
+		err = jsonEngineRunner.parseInstruction(cmd, ichunk);
+
+		if(!err)
 		{
+			//Send ACK to show that the JSON string was received and parsed without errors
+			usbController.sendString(jsonEngineRunner.getACKPacket());
 			//Decide what to do depending on ichunk
 			if(ichunk.instructionType == instructionType_e::voltageSet){
-
+				usbController.sendString("VSET: " + std::to_string(ichunk.value) + "\n" + "CH: " + std::to_string(static_cast<int>(ichunk.channel)));
+				if(ichunk.channel == channel_e::ch1) powerManager.channel1.setVoltage(ichunk.value);
+				else if(ichunk.channel == channel_e::ch2) powerManager.channel2.setVoltage(ichunk.value);
 			}
+		}else{
+			//Parsing error, send back the error in JSON format
+			usbController.sendString(jsonEngineRunner.getErrPacket(string(err.c_str())));
 		}
 
 	}
