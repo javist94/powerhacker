@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * This software component is licensed by ST under BSD 3-Clause license,
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * the "License"; You may not use this file except in compliance with the
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * License. You may obtain a copy of the License at:
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****         (++) Parity: If the parity is enabled, then the MSB bit of the data written
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****              in the data register is transmitted but is changed by the parity bit.
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****         (++) Hardware flow control
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****         (++) Receiver/transmitter modes
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *       5-bit value defining the time between the end of the last stop bit, in a
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *       transmitted message, and the de-activation of the DE (Driver Enable) signal.
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *       It is expressed in sample time units (1/8 or 1/16 bit time, depending on the
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *       oversampling rate).
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  199:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     return HAL_ERROR;
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   }
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 5
 
 
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   if (huart->AdvancedInit.AdvFeatureInit != UART_ADVFEATURE_NO_INIT)
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  256:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****             the HAL_UARTEx_WakeupCallback can be implemented in the user file.
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****    */
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 6
 
 
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  313:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   /* Set the address length */
  314:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   MODIFY_REG(huart->Instance->CR2, USART_CR2_ADDM7, AddressLength);
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 7
 
 
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   /* Enable the Peripheral */
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  370:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     status = HAL_TIMEOUT;
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   }
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   else
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 8
 
 
  373:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   {
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  427:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** /**
  428:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * @}
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 9
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 9
 
 
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
   62              	.LFE136:
   64              		.section	.text.HAL_RS485Ex_Init,"ax",%progbits
   65              		.align	1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 10
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 10
 
 
   66              		.global	HAL_RS485Ex_Init
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  109              	.L5:
  191:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
  110              		.loc 1 191 3 is_stmt 1 view .LVU18
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 11
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 11
 
 
  191:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  151              	.LVL6:
  216:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
  152              		.loc 1 216 3 is_stmt 1 view .LVU33
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 12
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 12
 
 
  153 004a 2368     		ldr	r3, [r4]
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  197              		.cfi_restore 6
  198              		.cfi_restore 7
  199              		.cfi_restore 14
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 13
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 13
 
 
  156:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   }
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  249 0002 08B5     		push	{r3, lr}
  250              	.LCFI4:
  251              		.cfi_def_cfa_offset 8
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 14
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 14
 
 
  252              		.cfi_offset 3, -8
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  294 0032 0120     		movs	r0, #1
  295              	.LVL20:
  321:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 15
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 15
 
 
  296              		.loc 1 321 1 view .LVU65
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  348:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
  342              		.loc 1 348 3 discriminator 2 view .LVU76
  348:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 16
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 16
 
 
  343              		.loc 1 348 17 is_stmt 0 discriminator 2 view .LVU77
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  386 005a 40B9     		cbnz	r0, .L27
  375:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   }
  387              		.loc 1 375 5 is_stmt 1 view .LVU89
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 17
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 17
 
 
  375:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   }
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  431              	.LFE133:
  433              		.section	.text.HAL_UARTEx_EnableStopMode,"ax",%progbits
  434              		.align	1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 18
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 18
 
 
  435              		.global	HAL_UARTEx_EnableStopMode
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  477 0022 0220     		movs	r0, #2
  478              	.LVL37:
  402:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 19
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 19
 
 
  479              		.loc 1 402 1 view .LVU114
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  523              		.loc 1 420 10 discriminator 2 view .LVU126
  524 0020 7047     		bx	lr
  525              	.LVL40:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 20
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 20
 
 
  526              	.L35:
@@ -1164,25 +1164,25 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 1
  545              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
  546              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h"
  547              		.file 12 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s 			page 21
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s 			page 21
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f3xx_hal_uart_ex.c
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:18     .text.UARTEx_Wakeup_AddressConfig:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:25     .text.UARTEx_Wakeup_AddressConfig:0000000000000000 UARTEx_Wakeup_AddressConfig
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:65     .text.HAL_RS485Ex_Init:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:72     .text.HAL_RS485Ex_Init:0000000000000000 HAL_RS485Ex_Init
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:209    .text.HAL_UARTEx_WakeupCallback:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:216    .text.HAL_UARTEx_WakeupCallback:0000000000000000 HAL_UARTEx_WakeupCallback
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:231    .text.HAL_MultiProcessorEx_AddressLength_Set:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:238    .text.HAL_MultiProcessorEx_AddressLength_Set:0000000000000000 HAL_MultiProcessorEx_AddressLength_Set
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:302    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:309    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:0000000000000000 HAL_UARTEx_StopModeWakeUpSourceConfig
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:434    .text.HAL_UARTEx_EnableStopMode:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:441    .text.HAL_UARTEx_EnableStopMode:0000000000000000 HAL_UARTEx_EnableStopMode
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:485    .text.HAL_UARTEx_DisableStopMode:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccrfZdkj.s:492    .text.HAL_UARTEx_DisableStopMode:0000000000000000 HAL_UARTEx_DisableStopMode
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:18     .text.UARTEx_Wakeup_AddressConfig:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:25     .text.UARTEx_Wakeup_AddressConfig:0000000000000000 UARTEx_Wakeup_AddressConfig
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:65     .text.HAL_RS485Ex_Init:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:72     .text.HAL_RS485Ex_Init:0000000000000000 HAL_RS485Ex_Init
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:209    .text.HAL_UARTEx_WakeupCallback:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:216    .text.HAL_UARTEx_WakeupCallback:0000000000000000 HAL_UARTEx_WakeupCallback
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:231    .text.HAL_MultiProcessorEx_AddressLength_Set:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:238    .text.HAL_MultiProcessorEx_AddressLength_Set:0000000000000000 HAL_MultiProcessorEx_AddressLength_Set
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:302    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:309    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:0000000000000000 HAL_UARTEx_StopModeWakeUpSourceConfig
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:434    .text.HAL_UARTEx_EnableStopMode:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:441    .text.HAL_UARTEx_EnableStopMode:0000000000000000 HAL_UARTEx_EnableStopMode
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:485    .text.HAL_UARTEx_DisableStopMode:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccE8hnOU.s:492    .text.HAL_UARTEx_DisableStopMode:0000000000000000 HAL_UARTEx_DisableStopMode
 
 UNDEFINED SYMBOLS
 UART_SetConfig

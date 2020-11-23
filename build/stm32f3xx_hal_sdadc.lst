@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                      ##### How to use this driver #####
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   ==============================================================================
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   [..]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     *** Initialization ***
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           HAL_SDADC_SelectInjectedDelay.
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (#) If external trigger is used for injected conversion, configure this
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           trigger using HAL_SDADC_SelectInjectedExtTrigger.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (#) Select trigger for injected conversion using
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           HAL_SDADC_InjectedStart_IT or HAL_SDADC_InjectedMultiModeStart_DMA.
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (#) In polling mode, use HAL_SDADC_InjectedPollForConversion to detect 
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           the end of injected conversion for SDADC1.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (#) In interrupt mode, HAL_SDADC_InjectedConvCpltCallback will be called
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  199:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      all callbacks are set to the corresponding weak functions:
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      examples @ref HAL_SDADC_ConvCpltCallback(), @ref HAL_SDADC_ErrorCallback().
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      Exception done for MspInit and MspDeInit functions that are
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 5
 
 
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      reset to the legacy weak functions in the @ref HAL_SDADC_Init()/ @ref HAL_SDADC_DeInit() only 
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  256:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /** @defgroup SDADC_Private_Define SDADC Private Define
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****  * @{
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****  */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 6
 
 
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #define SDADC_TIMEOUT          200UL
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  313:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  Initializes the SDADC according to the specified
  314:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         parameters in the SDADC_InitTypeDef structure.
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @note   If multiple SDADC are used, please configure first SDADC1 to set
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 7
 
 
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         the common reference voltage.
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  370:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Set idle low power and slow clock modes */
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->CR1 &= ~(SDADC_CR1_SBI|SDADC_CR1_PDI|SDADC_CR1_SLOWCK);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 8
 
 
  373:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->CR1 |= (hsdadc->Init.IdleLowPowerMode | \
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  427:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Reset all registers */
  428:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->CR1      = 0x00000000UL;
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->CR2      = 0x00000000UL;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 9
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 9
 
 
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->JCHGR    = 0x00000001UL;
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  484:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****    */ 
  485:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
  486:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #if (USE_HAL_SDADC_REGISTER_CALLBACKS == 1)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 10
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 10
 
 
  487:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  541:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       case HAL_SDADC_ERROR_CB_ID :
  542:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         hsdadc->ErrorCallback = pCallback;
  543:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         break;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 11
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 11
 
 
  544:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  598:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  hsdadc Pointer to a SDADC_HandleTypeDef structure that contains
  599:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *                the configuration information for the specified ADC.
  600:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  CallbackID ID of the callback to be unregistered
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 12
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 12
 
 
  601:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         This parameter can be one of the following values:
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  655:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         
  656:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         /* Return error status */
  657:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         status =  HAL_ERROR;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 13
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 13
 
 
  658:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         break;
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  712:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (+) Select regular and injected triggers.
  713:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (+) Select and configure injected external trigger.
  714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (+) Enable/disable delay addition for injected conversions.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 14
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 14
 
 
  715:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       (+) Configure multimode.
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  769:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                              ConfParamStruct->Gain | \
  770:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                              ConfParamStruct->CommonMode | \
  771:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                              ConfParamStruct->Offset);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 15
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 15
 
 
  772:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       /* Exit init mode */
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  826:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         /* Set the channel configuration */
  827:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         hsdadc->Instance->CONFCHR1 &= (uint32_t) ~((uint32_t)SDADC_CONFCHR1_CONFCH0 << ((channelnum
  828:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         hsdadc->Instance->CONFCHR1 |= (uint32_t) (ConfIndex << ((channelnum << 2UL) & 0x1FUL));
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 16
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 16
 
 
  829:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       }
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  883:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Return function status */
  884:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return status;
  885:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 17
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 17
 
 
  886:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  940:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         This parameter can be one of the following value :
  941:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *            @arg SDADC_SOFTWARE_TRIGGER : Software trigger.
  942:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *            @arg SDADC_SYNCHRONOUS_TRIGGER : Synchronous with SDADC1 (only for SDADC2 and SDADC3
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 18
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 18
 
 
  943:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @retval HAL status
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  997:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
  998:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check SDADC state */
  999:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   else if((hsdadc->State == HAL_SDADC_STATE_READY) || \
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 19
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 19
 
 
 1000:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->State == HAL_SDADC_STATE_CALIB) || \
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1054:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1055:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       /* Exit init mode */
 1056:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       SDADC_ExitInitMode(hsdadc);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 20
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 20
 
 
 1057:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1111:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
 1112:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1113:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 21
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 21
 
 
 1114:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  This function allows to configure multimode for regular conversions.
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1168:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_MULTIMODE_TYPE(MultimodeType));
 1169:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1170:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check instance is SDADC1 */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 22
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 22
 
 
 1171:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   if(hsdadc->Instance != SDADC1)
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1225:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
 1226:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  This function allows to start calibration in polling mode.
 1227:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @note   This function should be called only when SDADC instance is in idle state
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 23
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 23
 
 
 1228:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         (neither calibration nor regular or injected conversion ongoing).
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1282:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @retval HAL status
 1283:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
 1284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** HAL_StatusTypeDef HAL_SDADC_PollForCalibEvent(SDADC_HandleTypeDef* hsdadc, uint32_t Timeout)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 24
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 24
 
 
 1285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1339:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1340:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check parameters */
 1341:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_ALL_INSTANCE(hsdadc->Instance));
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 25
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 25
 
 
 1342:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_CALIB_SEQUENCE(CalibrationSequence));
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1396:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   if((hsdadc->State == HAL_SDADC_STATE_READY) || \
 1397:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      (hsdadc->State == HAL_SDADC_STATE_INJ))
 1398:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 26
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 26
 
 
 1399:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Start regular conversion */
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1453:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       hsdadc->ErrorCode = SDADC_ERROR_REGULAR_OVERRUN;
 1454:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #if (USE_HAL_SDADC_REGISTER_CALLBACKS == 1)
 1455:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       hsdadc->ErrorCallback(hsdadc);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 27
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 27
 
 
 1456:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #else
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1510:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
 1511:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** HAL_StatusTypeDef HAL_SDADC_Start_IT(SDADC_HandleTypeDef *hsdadc)
 1512:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 28
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 28
 
 
 1513:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   HAL_StatusTypeDef status;
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1567:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1568:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
 1569:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  This function allows to start regular conversion in DMA mode.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 29
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 29
 
 
 1570:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @note   This function should be called only when SDADC instance is in idle state
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1624:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
 1625:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       /* Set SDADC in error state */
 1626:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       hsdadc->State = HAL_SDADC_STATE_ERROR;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 30
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 30
 
 
 1627:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_ERROR;
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1681:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Return function status */
 1682:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return status;
 1683:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 31
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 31
 
 
 1684:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1738:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   uint32_t tickstart;
 1739:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1740:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check parameters */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 32
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 32
 
 
 1741:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_ALL_INSTANCE(hsdadc->Instance));
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1795:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
 1796:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       hsdadc->State = (hsdadc->State == HAL_SDADC_STATE_INJ) ? \
 1797:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                       HAL_SDADC_STATE_READY : HAL_SDADC_STATE_REG;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 33
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 33
 
 
 1798:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1852:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->Instance->CR1 |= (uint32_t) (SDADC_CR1_JEOCIE | SDADC_CR1_JOVRIE);
 1853:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1854:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Start injected conversion */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 34
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 34
 
 
 1855:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     status = SDADC_InjConvStart(hsdadc);
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1909:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   HAL_StatusTypeDef status;
 1910:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 1911:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check parameters */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 35
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 35
 
 
 1912:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_ALL_INSTANCE(hsdadc->Instance));
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1966:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     status = HAL_ERROR;
 1967:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
 1968:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Return function status */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 36
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 36
 
 
 1969:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   return status;
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2023:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2024:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check parameters */
 2025:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(IS_SDADC_ALL_INSTANCE(hsdadc->Instance));
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 37
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 37
 
 
 2026:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(Channel != ((void*) 0));
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2080:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check SDADC state */
 2081:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   else if((hsdadc->State == HAL_SDADC_STATE_READY) || \
 2082:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->State == HAL_SDADC_STATE_INJ))
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 38
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 38
 
 
 2083:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2137:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2138:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check instance is SDADC1 */
 2139:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   if(hsdadc->Instance != SDADC1)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 39
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 39
 
 
 2140:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2194:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  This function allows to start multimode injected conversions in DMA mode.
 2195:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @note   This function should be called only when SDADC instance is in idle state
 2196:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   *         or if regular conversion is ongoing.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 40
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 40
 
 
 2197:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @param  hsdadc SDADC handle.
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2251:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     if(hsdadc->InjectedMultimode == SDADC_MULTIMODE_SDADC1_SDADC2)
 2252:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
 2253:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_DMA_Start_IT(hsdadc->hdma, (uint32_t)&hsdadc->Instance->JDATA12R, \
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 41
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 41
 
 
 2254:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                 (uint32_t) pData, Length);
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2308:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Clear JDMAEN bit in SDADC_CR1 register */
 2309:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->Instance->CR1 &= ~(SDADC_CR1_JDMAEN);
 2310:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 42
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 42
 
 
 2311:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Stop current DMA transfer */
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2365:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #else
 2366:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     HAL_SDADC_ConvCpltCallback(hsdadc);
 2367:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #endif /* USE_HAL_SDADC_REGISTER_CALLBACKS */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 43
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 43
 
 
 2368:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2422:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2423:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Call calibration callback */
 2424:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #if (USE_HAL_SDADC_REGISTER_CALLBACKS == 1)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 44
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 44
 
 
 2425:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->CalibrationCpltCallback(hsdadc);
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2479:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
 2480:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** __weak void HAL_SDADC_CalibrationCpltCallback(SDADC_HandleTypeDef* hsdadc)
 2481:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 45
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 45
 
 
 2482:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Prevent unused argument(s) compilation warning */
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2536:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2537:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
 2538:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  Injected conversion complete callback. 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 46
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 46
 
 
 2539:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @note   In interrupt mode, user has to read conversion value in this function
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2593:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
 2594:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Get SDADC handle */
 2595:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   SDADC_HandleTypeDef* hsdadc = (SDADC_HandleTypeDef*) ((DMA_HandleTypeDef*)hdma)->Parent;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 47
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 47
 
 
 2596:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2650:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2651:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Update error code */
 2652:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->ErrorCode = SDADC_ERROR_DMA;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 48
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 48
 
 
 2653:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2707:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
 2708:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2709:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** /**
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 49
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 49
 
 
 2710:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   * @brief  This function allows to enter in init mode for SDADC instance.
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
   49              		.thumb
   50              		.thumb_func
   51              		.fpu fpv4-sp-d16
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 50
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 50
 
 
   53              	SDADC_GetInjChannelsNbr:
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
   84              	.LVL6:
   85              	.L3:
 2758:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 51
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 51
 
 
   86              		.loc 1 2758 17 is_stmt 1 discriminator 1 view .LVU18
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2719:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  130              		.loc 1 2719 3 view .LVU29
 2719:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 52
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 52
 
 
  131              		.loc 1 2719 9 is_stmt 0 view .LVU30
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2733:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  170              		.loc 1 2733 1 view .LVU46
  171 002c 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 53
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 53
 
 
 2733:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2784:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   else /* synchronuous trigger */
 2785:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
 2786:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Enter init mode */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 54
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 54
 
 
 2787:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     if(SDADC_EnterInitMode(hsdadc) != HAL_OK)
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  237 0028 20B1     		cbz	r0, .L17
 2790:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_TIMEOUT;
  238              		.loc 1 2790 7 is_stmt 1 view .LVU67
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 55
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 55
 
 
 2790:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_TIMEOUT;
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2816:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   */
 2817:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** static HAL_StatusTypeDef SDADC_RegConvStop(SDADC_HandleTypeDef* hsdadc)
 2818:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 56
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 56
 
 
 2819:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   uint32_t tickstart;
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2873:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->CLRISR |= SDADC_ISR_CLRROVRF;
 2874:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
 2875:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Update SDADC state */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 57
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 57
 
 
 2876:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->State = (hsdadc->State == HAL_SDADC_STATE_REG) ? \
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2900:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
 2901:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   else /* external or synchronuous trigger */
 2902:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 58
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 58
 
 
 2903:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Enter init mode */
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2904:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
  331              		.loc 1 2904 5 is_stmt 1 view .LVU97
 2904:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 59
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 59
 
 
  332              		.loc 1 2904 8 is_stmt 0 view .LVU98
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  370 004e EAE7     		b	.L27
  371              	.LVL29:
  372              	.L35:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 60
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 60
 
 
 2915:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       }
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  418              		.loc 1 2823 5 view .LVU125
  419 0008 012B     		cmp	r3, #1
  420 000a 12D0     		beq	.L47
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 61
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 61
 
 
  421              	.L37:
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  458              	.LCFI5:
  459              		.cfi_remember_state
  460              		.cfi_def_cfa_offset 12
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 62
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 62
 
 
  461              		@ sp needed
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  500 0050 2368     		ldr	r3, [r4]
 2869:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   UNUSED(dummy_read_for_register_reset);
  501              		.loc 1 2869 51 view .LVU158
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 63
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 63
 
 
  502 0052 5A6E     		ldr	r2, [r3, #100]
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  540 0082 1360     		str	r3, [r2]
 2859:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
  541              		.loc 1 2859 7 is_stmt 1 view .LVU175
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 64
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 64
 
 
  542 0084 2046     		mov	r0, r4
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  582              		.cfi_startproc
  583              		@ args = 0, pretend = 0, frame = 8
  584              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 65
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 65
 
 
  585              		.loc 1 2942 1 is_stmt 0 view .LVU185
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2960:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     if((HAL_GetTick()-tickstart) > SDADC_TIMEOUT)
  622              		.loc 1 2960 5 is_stmt 1 view .LVU199
  623              		.loc 1 2960 9 is_stmt 0 view .LVU200
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 66
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 66
 
 
  624 001c FFF7FEFF 		bl	HAL_GetTick
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 3000:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Clear JEOCF by reading SDADC_JDATAR register */
 3001:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   dummy_read_for_register_reset = hsdadc->Instance->JDATAR;
 3002:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   UNUSED(dummy_read_for_register_reset);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 67
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 67
 
 
 3003:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  672              	.L58:
 2995:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  673              		.loc 1 2995 3 is_stmt 1 view .LVU218
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 68
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 68
 
 
 2995:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  711 0070 2046     		mov	r0, r4
  712 0072 FFF7FEFF 		bl	SDADC_EnterInitMode
  713              	.LVL44:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 69
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 69
 
 
 2971:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  753              	.L69:
 2998:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
  754              		.loc 1 2998 5 is_stmt 1 view .LVU251
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 70
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 70
 
 
 2998:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  323:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  806              		.loc 1 323 3 view .LVU259
  323:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 71
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 71
 
 
  807              		.loc 1 323 5 is_stmt 0 view .LVU260
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  842              		.loc 1 342 3 is_stmt 1 view .LVU279
  342:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->RegularMultimode    = SDADC_MULTIMODE_SDADC1_SDADC2;
  843              		.loc 1 342 31 is_stmt 0 view .LVU280
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 72
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 72
 
 
  844 0018 4FF40052 		mov	r2, #8192
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  377:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->CR2 |= hsdadc->Init.FastConversionMode;
  880              		.loc 1 377 9 is_stmt 0 view .LVU299
  881 0040 2268     		ldr	r2, [r4]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 73
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 73
 
 
  377:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->CR2 |= hsdadc->Init.FastConversionMode;
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  397:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  919              		.loc 1 397 16 is_stmt 0 discriminator 1 view .LVU317
  920 006c 2368     		ldr	r3, [r4]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 74
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 74
 
 
  397:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  961              		.cfi_restore 14
  325:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
  962              		.loc 1 325 12 is_stmt 0 view .LVU332
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 75
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 75
 
 
  963 009a 0120     		movs	r0, #1
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  414:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Check SDADC handle */
  1014              		.loc 1 414 1 view .LVU340
  1015 0002 38B5     		push	{r3, r4, r5, lr}
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 76
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 76
 
 
  1016              	.LCFI13:
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1053              		.loc 1 432 3 is_stmt 1 view .LVU357
  432:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   hsdadc->Instance->CONF2R   = 0x00000000UL;
  1054              		.loc 1 432 9 is_stmt 0 view .LVU358
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 77
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 77
 
 
  1055 0024 0368     		ldr	r3, [r0]
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1092              		.loc 1 418 12 view .LVU375
  1093 0040 0120     		movs	r0, #1
  1094              	.LVL57:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 78
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 78
 
 
  455:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1137 0002 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
  749:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  1138              		.loc 1 749 5 view .LVU390
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 79
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 79
 
 
  1139 0006 012B     		cmp	r3, #1
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  768:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                              ConfParamStruct->Gain | \
  1179              		.loc 1 768 7 is_stmt 1 view .LVU405
  768:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                              ConfParamStruct->Gain | \
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 80
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 80
 
 
  1180              		.loc 1 768 61 is_stmt 0 view .LVU406
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1225              		.cfi_offset 4, -20
  1226              		.cfi_offset 5, -16
  1227              		.cfi_offset 6, -12
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 81
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 81
 
 
  1228              		.cfi_offset 7, -8
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1265 001e 104B     		ldr	r3, .L109
  1266 0020 9D42     		cmp	r5, r3
  1267 0022 19D0     		beq	.L103
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 82
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 82
 
 
  824:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  815:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_TIMEOUT;
  1307              		.loc 1 815 7 view .LVU450
  815:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_TIMEOUT;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 83
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 83
 
 
  1308              		.loc 1 815 21 is_stmt 0 view .LVU451
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1352              		.loc 1 864 13 is_stmt 0 view .LVU463
  1353 0000 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
  864:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 84
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 84
 
 
  1354              		.loc 1 864 47 view .LVU464
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1393 0028 8261     		str	r2, [r0, #24]
  856:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  1394              		.loc 1 856 21 view .LVU480
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 85
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 85
 
 
  1395 002a 0020     		movs	r0, #0
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1439              	.LFE136:
  1441              		.section	.text.HAL_SDADC_InjectedConfigChannel,"ax",%progbits
  1442              		.align	1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 86
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 86
 
 
  1443              		.global	HAL_SDADC_InjectedConfigChannel
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  912:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     /* Set or clear JCONT bit in SDADC_CR2 */
  1485              		.loc 1 912 29 view .LVU504
  1486 0016 5961     		str	r1, [r3, #20]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 87
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 87
 
 
  914:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1525              	.LVL91:
  1526              	.L127:
  929:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 88
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 88
 
 
  1527              		.loc 1 929 12 view .LVU521
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  960:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->State == HAL_SDADC_STATE_INJ))
  1571              		.loc 1 960 52 view .LVU534
  1572 0014 042A     		cmp	r2, #4
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 89
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 89
 
 
  1573 0016 05D0     		beq	.L133
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1618              		.loc 1 986 1 is_stmt 1 view -0
  1619              		.cfi_startproc
  1620              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 90
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 90
 
 
  1621              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  996:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
  1659              		.loc 1 996 12 view .LVU562
  1660 0020 7047     		bx	lr
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 91
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 91
 
 
  1661              	.LVL103:
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1037:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  1707              		.loc 1 1037 12 is_stmt 0 view .LVU573
  1708 0002 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 92
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 92
 
 
 1037:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1748 002a 5368     		ldr	r3, [r2, #4]
  1749 002c 23F47063 		bic	r3, r3, #3840
  1750 0030 5360     		str	r3, [r2, #4]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 93
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 93
 
 
 1050:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -5578,7 +5578,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1086:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  1796              		.loc 1 1086 3 view .LVU600
 1086:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 94
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 94
 
 
  1797              		.loc 1 1086 12 is_stmt 0 view .LVU601
@@ -5638,7 +5638,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1836              		.loc 1 1098 29 view .LVU616
  1837 0028 5368     		ldr	r3, [r2, #4]
  1838 002a 23F04003 		bic	r3, r3, #64
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 95
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 95
 
 
  1839 002e 5360     		str	r3, [r2, #4]
@@ -5698,7 +5698,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1883              	.LVL122:
 1134:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
  1884              		.loc 1 1134 12 view .LVU629
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 96
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 96
 
 
  1885 000a 7047     		bx	lr
@@ -5758,7 +5758,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1928              		.thumb_func
  1929              		.fpu fpv4-sp-d16
  1931              	HAL_SDADC_InjectedMultiModeConfigChannel:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 97
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 97
 
 
  1932              	.LVL127:
@@ -5818,7 +5818,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  1970              	.LVL130:
 1164:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  1971              		.loc 1 1164 21 view .LVU658
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 98
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 98
 
 
  1972 001c 7047     		bx	lr
@@ -5878,7 +5878,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1244:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  2018              		.loc 1 1244 5 view .LVU669
  2019 0006 012B     		cmp	r3, #1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 99
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 99
 
 
  2020 0008 02D0     		beq	.L179
@@ -5938,7 +5938,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2059              		.loc 1 1257 7 is_stmt 1 view .LVU684
 1257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  2060              		.loc 1 1257 13 is_stmt 0 view .LVU685
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 100
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 100
 
 
  2061 0030 2368     		ldr	r3, [r4]
@@ -5998,7 +5998,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1292:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  2105              		.loc 1 1292 5 view .LVU698
  2106 0004 022B     		cmp	r3, #2
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 101
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 101
 
 
  2107 0006 01D0     		beq	.L192
@@ -6058,7 +6058,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1308:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****         {
  2147              		.loc 1 1308 14 is_stmt 0 view .LVU713
  2148 0028 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 102
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 102
 
 
  2149              	.LVL146:
@@ -6118,7 +6118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2193              	HAL_SDADC_CalibrationStart_IT:
  2194              	.LVL148:
  2195              	.LFB146:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 103
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 103
 
 
 1337:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   HAL_StatusTypeDef status = HAL_OK;
@@ -6178,7 +6178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2235              		.loc 1 1348 7 view .LVU740
  2236 0018 0646     		mov	r6, r0
  2237 001a 20B1     		cbz	r0, .L196
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 104
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 104
 
 
 1351:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_TIMEOUT;
@@ -6238,7 +6238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2276 0048 2268     		ldr	r2, [r4]
 1367:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  2277              		.loc 1 1367 29 view .LVU757
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 105
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 105
 
 
  2278 004a 5368     		ldr	r3, [r2, #4]
@@ -6298,7 +6298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2323              	.LVL157:
  2324              	.L202:
 1407:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 106
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 106
 
 
  2325              		.loc 1 1407 3 is_stmt 1 view .LVU769
@@ -6358,7 +6358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2369 000a 052B     		cmp	r3, #5
  2370 000c 01D0     		beq	.L206
 1493:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 107
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 107
 
 
  2371              		.loc 1 1493 12 view .LVU782
@@ -6418,7 +6418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2415              		.loc 1 1519 5 view .LVU794
  2416 0006 012B     		cmp	r3, #1
  2417 0008 03D0     		beq	.L211
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 108
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 108
 
 
 1519:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      (hsdadc->State == HAL_SDADC_STATE_INJ))
@@ -6478,7 +6478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2462 0000 08B5     		push	{r3, lr}
  2463              	.LCFI30:
  2464              		.cfi_def_cfa_offset 8
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 109
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 109
 
 
  2465              		.cfi_offset 3, -8
@@ -6538,7 +6538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2505              		.global	HAL_SDADC_Start_DMA
  2506              		.syntax unified
  2507              		.thumb
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 110
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 110
 
 
  2508              		.thumb_func
@@ -6598,7 +6598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2547              		.loc 1 1595 18 view .LVU837
  2548 0016 6069     		ldr	r0, [r4, #20]
 1595:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (Length != 1U))
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 111
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 111
 
 
  2549              		.loc 1 1595 30 view .LVU838
@@ -6658,7 +6658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1611:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->hdma->XferErrorCallback = SDADC_DMAError;
  2588              		.loc 1 1611 5 is_stmt 1 view .LVU854
 1611:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->hdma->XferErrorCallback = SDADC_DMAError;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 112
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 112
 
 
  2589              		.loc 1 1611 11 is_stmt 0 view .LVU855
@@ -6718,7 +6718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2627 006a 6069     		ldr	r0, [r4, #20]
  2628 006c FFF7FEFF 		bl	HAL_DMA_Start_IT
  2629              	.LVL176:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 113
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 113
 
 
 1622:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                         (uint32_t) pData, Length) != HAL_OK)
@@ -6778,7 +6778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2670 0090 FCE7     		b	.L221
  2671              	.L234:
  2672 0092 00BF     		.align	2
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 114
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 114
 
 
  2673              	.L233:
@@ -6838,7 +6838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2718              		.loc 1 1683 1 is_stmt 0 view .LVU896
  2719 0012 10BD     		pop	{r4, pc}
  2720              	.LVL186:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 115
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 115
 
 
  2721              	.L236:
@@ -6898,7 +6898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2762              		.syntax unified
  2763              		.thumb
  2764              		.thumb_func
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 116
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 116
 
 
  2765              		.fpu fpv4-sp-d16
@@ -6958,7 +6958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      (hsdadc->State == HAL_SDADC_STATE_REG))
  2811              		.loc 1 1714 13 is_stmt 0 view .LVU922
  2812 0002 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 117
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 117
 
 
 1714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      (hsdadc->State == HAL_SDADC_STATE_REG))
@@ -7018,7 +7018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2858              		.loc 1 1812 3 is_stmt 1 view .LVU933
 1815:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  2859              		.loc 1 1815 3 view .LVU934
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 118
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 118
 
 
 1818:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****      (hsdadc->State != HAL_SDADC_STATE_REG_INJ))
@@ -7078,7 +7078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2904              	.LCFI35:
  2905              		.cfi_def_cfa_offset 8
  2906              		.cfi_offset 3, -8
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 119
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 119
 
 
  2907              		.cfi_offset 14, -4
@@ -7138,7 +7138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2947              		.syntax unified
  2948              		.thumb
  2949              		.thumb_func
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 120
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 120
 
 
  2950              		.fpu fpv4-sp-d16
@@ -7198,7 +7198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  2991 001a 1360     		str	r3, [r2]
 1891:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
  2992              		.loc 1 1891 5 is_stmt 1 view .LVU976
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 121
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 121
 
 
 1891:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
@@ -7258,7 +7258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3036              		.loc 1 1922 8 is_stmt 1 view .LVU989
 1922:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->InjectedContMode == SDADC_CONTINUOUS_CONV_OFF) && \
  3037              		.loc 1 1922 18 is_stmt 0 view .LVU990
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 122
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 122
 
 
  3038 000e E36A     		ldr	r3, [r4, #44]
@@ -7318,7 +7318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1936:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->State == HAL_SDADC_STATE_REG))
  3075              		.loc 1 1936 10 view .LVU1008
  3076 0034 012B     		cmp	r3, #1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 123
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 123
 
 
  3077 0036 03D0     		beq	.L266
@@ -7378,7 +7378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3114              		.loc 1 1951 56 is_stmt 0 view .LVU1025
  3115 005e 2068     		ldr	r0, [r4]
 1951:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                         (uint32_t) pData, Length) != HAL_OK)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 124
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 124
 
 
  3116              		.loc 1 1951 8 view .LVU1026
@@ -7438,7 +7438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3157 0088 0120     		movs	r0, #1
  3158              	.LVL220:
  3159              	.L263:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 125
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 125
 
 
 1969:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
@@ -7498,7 +7498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3205 0008 012B     		cmp	r3, #1
  3206 000a 01D9     		bls	.L285
 1990:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 126
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 126
 
 
  3207              		.loc 1 1990 12 view .LVU1051
@@ -7558,7 +7558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3247              	.L278:
 2011:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** }
  3248              		.loc 1 2011 3 is_stmt 1 view .LVU1066
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 127
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 127
 
 
 2012:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
@@ -7618,7 +7618,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3291              		.loc 1 2030 12 view .LVU1080
  3292 0008 0B60     		str	r3, [r1]
 2031:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 128
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 128
 
 
  3293              		.loc 1 2031 3 is_stmt 1 view .LVU1081
@@ -7678,7 +7678,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3337 0006 2B4D     		ldr	r5, .L304
  3338 0008 A842     		cmp	r0, r5
  3339 000a 01D0     		beq	.L302
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 129
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 129
 
 
 2059:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
@@ -7738,7 +7738,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3377              		.loc 1 2074 8 is_stmt 1 view .LVU1110
 2074:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->RegularContMode == SDADC_CONTINUOUS_CONV_OFF) && \
  3378              		.loc 1 2074 10 is_stmt 0 view .LVU1111
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 130
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 130
 
 
  3379 002e 2BB9     		cbnz	r3, .L290
@@ -7798,7 +7798,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2087:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
  3417              		.loc 1 2087 5 is_stmt 1 view .LVU1128
 2087:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 131
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 131
 
 
  3418              		.loc 1 2087 14 is_stmt 0 view .LVU1129
@@ -7858,7 +7858,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3456              		.loc 1 2108 7 is_stmt 1 view .LVU1145
 2108:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_ERROR;
  3457              		.loc 1 2108 21 is_stmt 0 view .LVU1146
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 132
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 132
 
 
  3458 0080 FF23     		movs	r3, #255
@@ -7918,7 +7918,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3498 00a8 B1E7     		b	.L288
  3499              	.LVL249:
  3500              	.L297:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 133
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 133
 
 
 2064:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
@@ -7978,7 +7978,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3546              		.loc 1 2170 1 is_stmt 0 view .LVU1171
  3547 000a 7047     		bx	lr
  3548              	.LVL252:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 134
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 134
 
 
  3549              	.L316:
@@ -8038,7 +8038,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2159:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_ERROR;
  3589              		.loc 1 2159 7 is_stmt 1 view .LVU1186
 2159:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****       status = HAL_ERROR;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 135
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 135
 
 
  3590              		.loc 1 2159 21 is_stmt 0 view .LVU1187
@@ -8098,7 +8098,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3635 0000 436B     		ldr	r3, [r0, #52]
 2187:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  3636              		.loc 1 2187 38 view .LVU1199
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 136
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 136
 
 
  3637 0002 13B9     		cbnz	r3, .L320
@@ -8158,7 +8158,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2208:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(pData != ((void*) 0));
  3683              		.loc 1 2208 3 view .LVU1210
 2209:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   assert_param(Length != 0UL);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 137
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 137
 
 
  3684              		.loc 1 2209 3 view .LVU1211
@@ -8218,7 +8218,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3721 0022 8069     		ldr	r0, [r0, #24]
 2224:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           (hsdadc->hdma->Init.Mode == DMA_NORMAL) && \
  3722              		.loc 1 2224 67 view .LVU1229
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 138
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 138
 
 
  3723 0024 18B9     		cbnz	r0, .L324
@@ -8278,7 +8278,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2241:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     hsdadc->hdma->XferErrorCallback = SDADC_DMAError;
  3761              		.loc 1 2241 36 view .LVU1246
  3762 004e 1B48     		ldr	r0, .L339+4
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 139
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 139
 
 
  3763 0050 9862     		str	r0, [r3, #40]
@@ -8338,7 +8338,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3800              	.LVL269:
 2253:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                                 (uint32_t) pData, Length);
  3801              		.loc 1 2253 16 view .LVU1264
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 140
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 140
 
 
  3802 0078 6069     		ldr	r0, [r4, #20]
@@ -8398,7 +8398,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3842              	.L330:
 2270:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
  3843              		.loc 1 2270 7 is_stmt 1 view .LVU1279
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 141
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 141
 
 
 2270:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     }
@@ -8458,7 +8458,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3891              		.loc 1 2292 3 view .LVU1288
 2295:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
  3892              		.loc 1 2295 3 view .LVU1289
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 142
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 142
 
 
 2295:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   {
@@ -8518,7 +8518,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2309:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  3933              		.loc 1 2309 27 is_stmt 0 view .LVU1304
  3934 0020 1A68     		ldr	r2, [r3]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 143
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 143
 
 
  3935 0022 22F48032 		bic	r2, r2, #65536
@@ -8578,7 +8578,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  3980              	.LVL289:
  3981              	.LFB168:
 2334:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   uint32_t value;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 144
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 144
 
 
  3982              		.loc 1 2334 1 is_stmt 1 view -0
@@ -8638,7 +8638,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4025              	.LFB170:
 2481:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Prevent unused argument(s) compilation warning */
  4026              		.loc 1 2481 1 is_stmt 1 view -0
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 145
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 145
 
 
  4027              		.cfi_startproc
@@ -8698,7 +8698,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4078              		.cfi_offset 14, -4
 2577:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  4079              		.loc 1 2577 3 is_stmt 1 view .LVU1338
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 146
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 146
 
 
  4080              	.LVL296:
@@ -8758,7 +8758,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4130              	.LCFI44:
  4131              		.cfi_def_cfa_offset 8
  4132              		.cfi_offset 3, -8
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 147
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 147
 
 
  4133              		.cfi_offset 14, -4
@@ -8818,7 +8818,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2611:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Get SDADC handle */
  4183              		.loc 1 2611 1 is_stmt 0 view .LVU1355
  4184 0000 08B5     		push	{r3, lr}
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 148
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 148
 
 
  4185              	.LCFI45:
@@ -8878,7 +8878,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4235              		.cfi_startproc
  4236              		@ args = 0, pretend = 0, frame = 0
  4237              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 149
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 149
 
 
 2629:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   /* Get SDADC handle */
@@ -8938,7 +8938,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4288              	.LVL315:
  4289              	.LFB148:
 1418:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   uint32_t tickstart;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 150
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 150
 
 
  4290              		.loc 1 1418 1 is_stmt 1 view -0
@@ -8998,7 +8998,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 1437:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
  4330              		.loc 1 1437 10 view .LVU1387
  4331 001c 12F0080F 		tst	r2, #8
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 151
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 151
 
 
  4332 0020 0BD1     		bne	.L385
@@ -9058,7 +9058,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4369              		.loc 1 1467 7 is_stmt 1 view .LVU1404
 1467:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****                       HAL_SDADC_STATE_READY : HAL_SDADC_STATE_INJ;
  4370              		.loc 1 1467 30 is_stmt 0 view .LVU1405
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 152
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 152
 
 
  4371 004a 94F83C30 		ldrb	r3, [r4, #60]	@ zero_extendqisi2
@@ -9118,7 +9118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4412 0076 0120     		movs	r0, #1
  4413              	.LVL323:
 1429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****   }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 153
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 153
 
 
  4414              		.loc 1 1429 12 view .LVU1419
@@ -9178,7 +9178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4462              		.global	HAL_SDADC_PollForInjectedConversion
  4463              		.syntax unified
  4464              		.thumb
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 154
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 154
 
 
  4465              		.thumb_func
@@ -9238,7 +9238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4507              		.loc 1 1753 17 view .LVU1441
  4508 001a 0646     		mov	r6, r0
  4509              	.LVL332:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 155
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 155
 
 
 1756:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
@@ -9298,7 +9298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4547              		.loc 1 1783 5 is_stmt 1 view .LVU1458
 1783:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     if(hsdadc->InjConvRemaining == 0UL)
  4548              		.loc 1 1783 11 is_stmt 0 view .LVU1459
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 156
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 156
 
 
  4549 0046 636A     		ldr	r3, [r4, #36]
@@ -9358,7 +9358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4586              	.L409:
 1772:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #if (USE_HAL_SDADC_REGISTER_CALLBACKS == 1)
  4587              		.loc 1 1772 7 is_stmt 1 view .LVU1477
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 157
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 157
 
 
 1772:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** #if (USE_HAL_SDADC_REGISTER_CALLBACKS == 1)
@@ -9418,7 +9418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4632              		.fpu fpv4-sp-d16
  4634              	HAL_SDADC_IRQHandler:
  4635              	.LVL336:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 158
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 158
 
 
  4636              	.LFB169:
@@ -9478,7 +9478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4675              		.loc 1 2414 29 is_stmt 0 view .LVU1503
  4676 0024 1968     		ldr	r1, [r3]
 2414:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****           ((tmp_isr & SDADC_ISR_EOCALF) == SDADC_ISR_EOCALF))
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 159
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 159
 
 
  4677              		.loc 1 2414 10 view .LVU1504
@@ -9538,7 +9538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4717 0058 F9D1     		bne	.L412
 2371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
  4718              		.loc 1 2371 15 discriminator 1 view .LVU1519
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 160
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 160
 
 
  4719 005a A36A     		ldr	r3, [r4, #40]
@@ -9598,7 +9598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
 2394:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
  4759              		.loc 1 2394 5 is_stmt 1 view .LVU1534
 2394:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c ****     {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 161
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 161
 
 
  4760              		.loc 1 2394 7 is_stmt 0 view .LVU1535
@@ -9658,7 +9658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4797 00b2 042B     		cmp	r3, #4
  4798 00b4 03D0     		beq	.L430
  4799 00b6 0323     		movs	r3, #3
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 162
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 162
 
 
  4800              	.L418:
@@ -9718,7 +9718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4840              	.LVL349:
 2438:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_sdadc.c **** 
  4841              		.loc 1 2438 30 view .LVU1567
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 163
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 163
 
 
  4842 00e4 42F01002 		orr	r2, r2, #16
@@ -9778,7 +9778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4884              		.thumb
  4885              		.thumb_func
  4886              		.fpu fpv4-sp-d16
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 164
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 164
 
 
  4888              	HAL_SDADC_GetState:
@@ -9838,155 +9838,155 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 1
  4937              		.file 7 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h"
  4938              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
  4939              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 165
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 165
 
 
  4940              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_sdadc.h"
  4941              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 166
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 166
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f3xx_hal_sdadc.c
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:18     .text.SDADC_ExitInitMode:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:25     .text.SDADC_ExitInitMode:0000000000000000 SDADC_ExitInitMode
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:47     .text.SDADC_GetInjChannelsNbr:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:53     .text.SDADC_GetInjChannelsNbr:0000000000000000 SDADC_GetInjChannelsNbr
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:107    .text.SDADC_EnterInitMode:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:113    .text.SDADC_EnterInitMode:0000000000000000 SDADC_EnterInitMode
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:177    .text.SDADC_RegConvStart:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:183    .text.SDADC_RegConvStart:0000000000000000 SDADC_RegConvStart
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:271    .text.SDADC_InjConvStart:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:277    .text.SDADC_InjConvStart:0000000000000000 SDADC_InjConvStart
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:389    .text.SDADC_RegConvStop:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:395    .text.SDADC_RegConvStop:0000000000000000 SDADC_RegConvStop
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:572    .text.SDADC_InjConvStop:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:578    .text.SDADC_InjConvStop:0000000000000000 SDADC_InjConvStop
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:770    .text.HAL_SDADC_MspInit:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:777    .text.HAL_SDADC_MspInit:0000000000000000 HAL_SDADC_MspInit
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:792    .text.HAL_SDADC_Init:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:799    .text.HAL_SDADC_Init:0000000000000000 HAL_SDADC_Init
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:970    .text.HAL_SDADC_Init:00000000000000a0 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:975    .text.HAL_SDADC_MspDeInit:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:982    .text.HAL_SDADC_MspDeInit:0000000000000000 HAL_SDADC_MspDeInit
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:997    .text.HAL_SDADC_DeInit:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1004   .text.HAL_SDADC_DeInit:0000000000000000 HAL_SDADC_DeInit
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1101   .text.HAL_SDADC_PrepareChannelConfig:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1108   .text.HAL_SDADC_PrepareChannelConfig:0000000000000000 HAL_SDADC_PrepareChannelConfig
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1206   .text.HAL_SDADC_AssociateChannelConfig:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1213   .text.HAL_SDADC_AssociateChannelConfig:0000000000000000 HAL_SDADC_AssociateChannelConfig
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1327   .text.HAL_SDADC_AssociateChannelConfig:0000000000000060 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1332   .text.HAL_SDADC_ConfigChannel:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1339   .text.HAL_SDADC_ConfigChannel:0000000000000000 HAL_SDADC_ConfigChannel
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1437   .text.HAL_SDADC_ConfigChannel:0000000000000048 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1442   .text.HAL_SDADC_InjectedConfigChannel:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1449   .text.HAL_SDADC_InjectedConfigChannel:0000000000000000 HAL_SDADC_InjectedConfigChannel
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1536   .text.HAL_SDADC_SelectRegularTrigger:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1543   .text.HAL_SDADC_SelectRegularTrigger:0000000000000000 HAL_SDADC_SelectRegularTrigger
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1603   .text.HAL_SDADC_SelectRegularTrigger:000000000000002c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1608   .text.HAL_SDADC_SelectInjectedTrigger:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1615   .text.HAL_SDADC_SelectInjectedTrigger:0000000000000000 HAL_SDADC_SelectInjectedTrigger
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1672   .text.HAL_SDADC_SelectInjectedTrigger:0000000000000028 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1677   .text.HAL_SDADC_SelectInjectedExtTrigger:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1684   .text.HAL_SDADC_SelectInjectedExtTrigger:0000000000000000 HAL_SDADC_SelectInjectedExtTrigger
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1770   .text.HAL_SDADC_SelectInjectedDelay:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1777   .text.HAL_SDADC_SelectInjectedDelay:0000000000000000 HAL_SDADC_SelectInjectedDelay
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1856   .text.HAL_SDADC_MultiModeConfigChannel:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1863   .text.HAL_SDADC_MultiModeConfigChannel:0000000000000000 HAL_SDADC_MultiModeConfigChannel
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1919   .text.HAL_SDADC_MultiModeConfigChannel:0000000000000028 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1924   .text.HAL_SDADC_InjectedMultiModeConfigChannel:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1931   .text.HAL_SDADC_InjectedMultiModeConfigChannel:0000000000000000 HAL_SDADC_InjectedMultiModeConfigChannel
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1984   .text.HAL_SDADC_InjectedMultiModeConfigChannel:0000000000000024 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1989   .text.HAL_SDADC_CalibrationStart:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:1996   .text.HAL_SDADC_CalibrationStart:0000000000000000 HAL_SDADC_CalibrationStart
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2086   .text.HAL_SDADC_PollForCalibEvent:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2093   .text.HAL_SDADC_PollForCalibEvent:0000000000000000 HAL_SDADC_PollForCalibEvent
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2186   .text.HAL_SDADC_CalibrationStart_IT:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2193   .text.HAL_SDADC_CalibrationStart_IT:0000000000000000 HAL_SDADC_CalibrationStart_IT
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 167
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:18     .text.SDADC_ExitInitMode:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:25     .text.SDADC_ExitInitMode:0000000000000000 SDADC_ExitInitMode
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:47     .text.SDADC_GetInjChannelsNbr:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:53     .text.SDADC_GetInjChannelsNbr:0000000000000000 SDADC_GetInjChannelsNbr
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:107    .text.SDADC_EnterInitMode:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:113    .text.SDADC_EnterInitMode:0000000000000000 SDADC_EnterInitMode
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:177    .text.SDADC_RegConvStart:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:183    .text.SDADC_RegConvStart:0000000000000000 SDADC_RegConvStart
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:271    .text.SDADC_InjConvStart:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:277    .text.SDADC_InjConvStart:0000000000000000 SDADC_InjConvStart
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:389    .text.SDADC_RegConvStop:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:395    .text.SDADC_RegConvStop:0000000000000000 SDADC_RegConvStop
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:572    .text.SDADC_InjConvStop:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:578    .text.SDADC_InjConvStop:0000000000000000 SDADC_InjConvStop
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:770    .text.HAL_SDADC_MspInit:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:777    .text.HAL_SDADC_MspInit:0000000000000000 HAL_SDADC_MspInit
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:792    .text.HAL_SDADC_Init:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:799    .text.HAL_SDADC_Init:0000000000000000 HAL_SDADC_Init
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:970    .text.HAL_SDADC_Init:00000000000000a0 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:975    .text.HAL_SDADC_MspDeInit:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:982    .text.HAL_SDADC_MspDeInit:0000000000000000 HAL_SDADC_MspDeInit
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:997    .text.HAL_SDADC_DeInit:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1004   .text.HAL_SDADC_DeInit:0000000000000000 HAL_SDADC_DeInit
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1101   .text.HAL_SDADC_PrepareChannelConfig:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1108   .text.HAL_SDADC_PrepareChannelConfig:0000000000000000 HAL_SDADC_PrepareChannelConfig
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1206   .text.HAL_SDADC_AssociateChannelConfig:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1213   .text.HAL_SDADC_AssociateChannelConfig:0000000000000000 HAL_SDADC_AssociateChannelConfig
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1327   .text.HAL_SDADC_AssociateChannelConfig:0000000000000060 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1332   .text.HAL_SDADC_ConfigChannel:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1339   .text.HAL_SDADC_ConfigChannel:0000000000000000 HAL_SDADC_ConfigChannel
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1437   .text.HAL_SDADC_ConfigChannel:0000000000000048 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1442   .text.HAL_SDADC_InjectedConfigChannel:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1449   .text.HAL_SDADC_InjectedConfigChannel:0000000000000000 HAL_SDADC_InjectedConfigChannel
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1536   .text.HAL_SDADC_SelectRegularTrigger:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1543   .text.HAL_SDADC_SelectRegularTrigger:0000000000000000 HAL_SDADC_SelectRegularTrigger
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1603   .text.HAL_SDADC_SelectRegularTrigger:000000000000002c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1608   .text.HAL_SDADC_SelectInjectedTrigger:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1615   .text.HAL_SDADC_SelectInjectedTrigger:0000000000000000 HAL_SDADC_SelectInjectedTrigger
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1672   .text.HAL_SDADC_SelectInjectedTrigger:0000000000000028 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1677   .text.HAL_SDADC_SelectInjectedExtTrigger:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1684   .text.HAL_SDADC_SelectInjectedExtTrigger:0000000000000000 HAL_SDADC_SelectInjectedExtTrigger
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1770   .text.HAL_SDADC_SelectInjectedDelay:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1777   .text.HAL_SDADC_SelectInjectedDelay:0000000000000000 HAL_SDADC_SelectInjectedDelay
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1856   .text.HAL_SDADC_MultiModeConfigChannel:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1863   .text.HAL_SDADC_MultiModeConfigChannel:0000000000000000 HAL_SDADC_MultiModeConfigChannel
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1919   .text.HAL_SDADC_MultiModeConfigChannel:0000000000000028 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1924   .text.HAL_SDADC_InjectedMultiModeConfigChannel:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1931   .text.HAL_SDADC_InjectedMultiModeConfigChannel:0000000000000000 HAL_SDADC_InjectedMultiModeConfigChannel
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1984   .text.HAL_SDADC_InjectedMultiModeConfigChannel:0000000000000024 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1989   .text.HAL_SDADC_CalibrationStart:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:1996   .text.HAL_SDADC_CalibrationStart:0000000000000000 HAL_SDADC_CalibrationStart
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2086   .text.HAL_SDADC_PollForCalibEvent:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2093   .text.HAL_SDADC_PollForCalibEvent:0000000000000000 HAL_SDADC_PollForCalibEvent
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2186   .text.HAL_SDADC_CalibrationStart_IT:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2193   .text.HAL_SDADC_CalibrationStart_IT:0000000000000000 HAL_SDADC_CalibrationStart_IT
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 167
 
 
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2290   .text.HAL_SDADC_Start:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2297   .text.HAL_SDADC_Start:0000000000000000 HAL_SDADC_Start
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2340   .text.HAL_SDADC_Stop:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2347   .text.HAL_SDADC_Stop:0000000000000000 HAL_SDADC_Stop
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2390   .text.HAL_SDADC_Start_IT:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2397   .text.HAL_SDADC_Start_IT:0000000000000000 HAL_SDADC_Start_IT
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2447   .text.HAL_SDADC_Stop_IT:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2454   .text.HAL_SDADC_Stop_IT:0000000000000000 HAL_SDADC_Stop_IT
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2504   .text.HAL_SDADC_Start_DMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2511   .text.HAL_SDADC_Start_DMA:0000000000000000 HAL_SDADC_Start_DMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2674   .text.HAL_SDADC_Start_DMA:0000000000000094 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4121   .text.SDADC_DMARegularConvCplt:0000000000000000 SDADC_DMARegularConvCplt
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4431   .text.SDADC_DMAError:0000000000000000 SDADC_DMAError
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4066   .text.SDADC_DMARegularHalfConvCplt:0000000000000000 SDADC_DMARegularHalfConvCplt
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2681   .text.HAL_SDADC_Stop_DMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2688   .text.HAL_SDADC_Stop_DMA:0000000000000000 HAL_SDADC_Stop_DMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2760   .text.HAL_SDADC_GetValue:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2767   .text.HAL_SDADC_GetValue:0000000000000000 HAL_SDADC_GetValue
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2788   .text.HAL_SDADC_InjectedStart:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2795   .text.HAL_SDADC_InjectedStart:0000000000000000 HAL_SDADC_InjectedStart
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2838   .text.HAL_SDADC_InjectedStop:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2845   .text.HAL_SDADC_InjectedStop:0000000000000000 HAL_SDADC_InjectedStop
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2888   .text.HAL_SDADC_InjectedStart_IT:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2895   .text.HAL_SDADC_InjectedStart_IT:0000000000000000 HAL_SDADC_InjectedStart_IT
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2945   .text.HAL_SDADC_InjectedStop_IT:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:2952   .text.HAL_SDADC_InjectedStop_IT:0000000000000000 HAL_SDADC_InjectedStop_IT
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3002   .text.HAL_SDADC_InjectedStart_DMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3009   .text.HAL_SDADC_InjectedStart_DMA:0000000000000000 HAL_SDADC_InjectedStart_DMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3175   .text.HAL_SDADC_InjectedStart_DMA:0000000000000094 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4231   .text.SDADC_DMAInjectedConvCplt:0000000000000000 SDADC_DMAInjectedConvCplt
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4176   .text.SDADC_DMAInjectedHalfConvCplt:0000000000000000 SDADC_DMAInjectedHalfConvCplt
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3182   .text.HAL_SDADC_InjectedStop_DMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3189   .text.HAL_SDADC_InjectedStop_DMA:0000000000000000 HAL_SDADC_InjectedStop_DMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3264   .text.HAL_SDADC_InjectedGetValue:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3271   .text.HAL_SDADC_InjectedGetValue:0000000000000000 HAL_SDADC_InjectedGetValue
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3305   .text.HAL_SDADC_MultiModeStart_DMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3312   .text.HAL_SDADC_MultiModeStart_DMA:0000000000000000 HAL_SDADC_MultiModeStart_DMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3511   .text.HAL_SDADC_MultiModeStart_DMA:00000000000000b4 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3519   .text.HAL_SDADC_MultiModeStop_DMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3526   .text.HAL_SDADC_MultiModeStop_DMA:0000000000000000 HAL_SDADC_MultiModeStop_DMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3610   .text.HAL_SDADC_MultiModeStop_DMA:0000000000000044 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3615   .text.HAL_SDADC_MultiModeGetValue:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3622   .text.HAL_SDADC_MultiModeGetValue:0000000000000000 HAL_SDADC_MultiModeGetValue
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3659   .text.HAL_SDADC_InjectedMultiModeStart_DMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3666   .text.HAL_SDADC_InjectedMultiModeStart_DMA:0000000000000000 HAL_SDADC_InjectedMultiModeStart_DMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3868   .text.HAL_SDADC_InjectedMultiModeStart_DMA:00000000000000b8 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3876   .text.HAL_SDADC_InjectedMultiModeStop_DMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3883   .text.HAL_SDADC_InjectedMultiModeStop_DMA:0000000000000000 HAL_SDADC_InjectedMultiModeStop_DMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3967   .text.HAL_SDADC_InjectedMultiModeStop_DMA:0000000000000044 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3972   .text.HAL_SDADC_InjectedMultiModeGetValue:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:3979   .text.HAL_SDADC_InjectedMultiModeGetValue:0000000000000000 HAL_SDADC_InjectedMultiModeGetValue
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4016   .text.HAL_SDADC_CalibrationCpltCallback:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4023   .text.HAL_SDADC_CalibrationCpltCallback:0000000000000000 HAL_SDADC_CalibrationCpltCallback
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4038   .text.HAL_SDADC_ConvHalfCpltCallback:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4045   .text.HAL_SDADC_ConvHalfCpltCallback:0000000000000000 HAL_SDADC_ConvHalfCpltCallback
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4060   .text.SDADC_DMARegularHalfConvCplt:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4093   .text.HAL_SDADC_ConvCpltCallback:0000000000000000 $t
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s 			page 168
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2290   .text.HAL_SDADC_Start:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2297   .text.HAL_SDADC_Start:0000000000000000 HAL_SDADC_Start
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2340   .text.HAL_SDADC_Stop:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2347   .text.HAL_SDADC_Stop:0000000000000000 HAL_SDADC_Stop
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2390   .text.HAL_SDADC_Start_IT:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2397   .text.HAL_SDADC_Start_IT:0000000000000000 HAL_SDADC_Start_IT
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2447   .text.HAL_SDADC_Stop_IT:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2454   .text.HAL_SDADC_Stop_IT:0000000000000000 HAL_SDADC_Stop_IT
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2504   .text.HAL_SDADC_Start_DMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2511   .text.HAL_SDADC_Start_DMA:0000000000000000 HAL_SDADC_Start_DMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2674   .text.HAL_SDADC_Start_DMA:0000000000000094 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4121   .text.SDADC_DMARegularConvCplt:0000000000000000 SDADC_DMARegularConvCplt
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4431   .text.SDADC_DMAError:0000000000000000 SDADC_DMAError
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4066   .text.SDADC_DMARegularHalfConvCplt:0000000000000000 SDADC_DMARegularHalfConvCplt
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2681   .text.HAL_SDADC_Stop_DMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2688   .text.HAL_SDADC_Stop_DMA:0000000000000000 HAL_SDADC_Stop_DMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2760   .text.HAL_SDADC_GetValue:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2767   .text.HAL_SDADC_GetValue:0000000000000000 HAL_SDADC_GetValue
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2788   .text.HAL_SDADC_InjectedStart:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2795   .text.HAL_SDADC_InjectedStart:0000000000000000 HAL_SDADC_InjectedStart
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2838   .text.HAL_SDADC_InjectedStop:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2845   .text.HAL_SDADC_InjectedStop:0000000000000000 HAL_SDADC_InjectedStop
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2888   .text.HAL_SDADC_InjectedStart_IT:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2895   .text.HAL_SDADC_InjectedStart_IT:0000000000000000 HAL_SDADC_InjectedStart_IT
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2945   .text.HAL_SDADC_InjectedStop_IT:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:2952   .text.HAL_SDADC_InjectedStop_IT:0000000000000000 HAL_SDADC_InjectedStop_IT
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3002   .text.HAL_SDADC_InjectedStart_DMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3009   .text.HAL_SDADC_InjectedStart_DMA:0000000000000000 HAL_SDADC_InjectedStart_DMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3175   .text.HAL_SDADC_InjectedStart_DMA:0000000000000094 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4231   .text.SDADC_DMAInjectedConvCplt:0000000000000000 SDADC_DMAInjectedConvCplt
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4176   .text.SDADC_DMAInjectedHalfConvCplt:0000000000000000 SDADC_DMAInjectedHalfConvCplt
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3182   .text.HAL_SDADC_InjectedStop_DMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3189   .text.HAL_SDADC_InjectedStop_DMA:0000000000000000 HAL_SDADC_InjectedStop_DMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3264   .text.HAL_SDADC_InjectedGetValue:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3271   .text.HAL_SDADC_InjectedGetValue:0000000000000000 HAL_SDADC_InjectedGetValue
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3305   .text.HAL_SDADC_MultiModeStart_DMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3312   .text.HAL_SDADC_MultiModeStart_DMA:0000000000000000 HAL_SDADC_MultiModeStart_DMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3511   .text.HAL_SDADC_MultiModeStart_DMA:00000000000000b4 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3519   .text.HAL_SDADC_MultiModeStop_DMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3526   .text.HAL_SDADC_MultiModeStop_DMA:0000000000000000 HAL_SDADC_MultiModeStop_DMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3610   .text.HAL_SDADC_MultiModeStop_DMA:0000000000000044 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3615   .text.HAL_SDADC_MultiModeGetValue:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3622   .text.HAL_SDADC_MultiModeGetValue:0000000000000000 HAL_SDADC_MultiModeGetValue
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3659   .text.HAL_SDADC_InjectedMultiModeStart_DMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3666   .text.HAL_SDADC_InjectedMultiModeStart_DMA:0000000000000000 HAL_SDADC_InjectedMultiModeStart_DMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3868   .text.HAL_SDADC_InjectedMultiModeStart_DMA:00000000000000b8 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3876   .text.HAL_SDADC_InjectedMultiModeStop_DMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3883   .text.HAL_SDADC_InjectedMultiModeStop_DMA:0000000000000000 HAL_SDADC_InjectedMultiModeStop_DMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3967   .text.HAL_SDADC_InjectedMultiModeStop_DMA:0000000000000044 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3972   .text.HAL_SDADC_InjectedMultiModeGetValue:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:3979   .text.HAL_SDADC_InjectedMultiModeGetValue:0000000000000000 HAL_SDADC_InjectedMultiModeGetValue
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4016   .text.HAL_SDADC_CalibrationCpltCallback:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4023   .text.HAL_SDADC_CalibrationCpltCallback:0000000000000000 HAL_SDADC_CalibrationCpltCallback
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4038   .text.HAL_SDADC_ConvHalfCpltCallback:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4045   .text.HAL_SDADC_ConvHalfCpltCallback:0000000000000000 HAL_SDADC_ConvHalfCpltCallback
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4060   .text.SDADC_DMARegularHalfConvCplt:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4093   .text.HAL_SDADC_ConvCpltCallback:0000000000000000 $t
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s 			page 168
 
 
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4100   .text.HAL_SDADC_ConvCpltCallback:0000000000000000 HAL_SDADC_ConvCpltCallback
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4115   .text.SDADC_DMARegularConvCplt:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4148   .text.HAL_SDADC_InjectedConvHalfCpltCallback:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4155   .text.HAL_SDADC_InjectedConvHalfCpltCallback:0000000000000000 HAL_SDADC_InjectedConvHalfCpltCallback
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4170   .text.SDADC_DMAInjectedHalfConvCplt:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4203   .text.HAL_SDADC_InjectedConvCpltCallback:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4210   .text.HAL_SDADC_InjectedConvCpltCallback:0000000000000000 HAL_SDADC_InjectedConvCpltCallback
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4225   .text.SDADC_DMAInjectedConvCplt:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4258   .text.HAL_SDADC_ErrorCallback:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4265   .text.HAL_SDADC_ErrorCallback:0000000000000000 HAL_SDADC_ErrorCallback
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4280   .text.HAL_SDADC_PollForConversion:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4287   .text.HAL_SDADC_PollForConversion:0000000000000000 HAL_SDADC_PollForConversion
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4425   .text.SDADC_DMAError:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4461   .text.HAL_SDADC_PollForInjectedConversion:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4468   .text.HAL_SDADC_PollForInjectedConversion:0000000000000000 HAL_SDADC_PollForInjectedConversion
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4627   .text.HAL_SDADC_IRQHandler:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4634   .text.HAL_SDADC_IRQHandler:0000000000000000 HAL_SDADC_IRQHandler
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4881   .text.HAL_SDADC_GetState:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4888   .text.HAL_SDADC_GetState:0000000000000000 HAL_SDADC_GetState
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4906   .text.HAL_SDADC_GetError:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc1Rh1PC.s:4913   .text.HAL_SDADC_GetError:0000000000000000 HAL_SDADC_GetError
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4100   .text.HAL_SDADC_ConvCpltCallback:0000000000000000 HAL_SDADC_ConvCpltCallback
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4115   .text.SDADC_DMARegularConvCplt:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4148   .text.HAL_SDADC_InjectedConvHalfCpltCallback:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4155   .text.HAL_SDADC_InjectedConvHalfCpltCallback:0000000000000000 HAL_SDADC_InjectedConvHalfCpltCallback
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4170   .text.SDADC_DMAInjectedHalfConvCplt:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4203   .text.HAL_SDADC_InjectedConvCpltCallback:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4210   .text.HAL_SDADC_InjectedConvCpltCallback:0000000000000000 HAL_SDADC_InjectedConvCpltCallback
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4225   .text.SDADC_DMAInjectedConvCplt:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4258   .text.HAL_SDADC_ErrorCallback:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4265   .text.HAL_SDADC_ErrorCallback:0000000000000000 HAL_SDADC_ErrorCallback
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4280   .text.HAL_SDADC_PollForConversion:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4287   .text.HAL_SDADC_PollForConversion:0000000000000000 HAL_SDADC_PollForConversion
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4425   .text.SDADC_DMAError:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4461   .text.HAL_SDADC_PollForInjectedConversion:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4468   .text.HAL_SDADC_PollForInjectedConversion:0000000000000000 HAL_SDADC_PollForInjectedConversion
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4627   .text.HAL_SDADC_IRQHandler:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4634   .text.HAL_SDADC_IRQHandler:0000000000000000 HAL_SDADC_IRQHandler
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4881   .text.HAL_SDADC_GetState:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4888   .text.HAL_SDADC_GetState:0000000000000000 HAL_SDADC_GetState
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4906   .text.HAL_SDADC_GetError:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccZQvpiG.s:4913   .text.HAL_SDADC_GetError:0000000000000000 HAL_SDADC_GetError
 
 UNDEFINED SYMBOLS
 HAL_GetTick

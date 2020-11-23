@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
   27:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****     (#) Configure I2C Digital noise filter using the function HAL_I2CEx_ConfigDigitalFilter()
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****     (#) Configure the enable or disable of I2C Wake Up Mode using the functions :
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****           (++) HAL_I2CEx_EnableWakeUp()
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 2
 
 
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****           (++) HAL_I2CEx_DisableWakeUp()
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
   84:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****       (+) Configure Fast Mode Plus
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c **** 
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c **** @endverbatim
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 3
 
 
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
   59 0020 1368     		ldr	r3, [r2]
   60 0022 23F00103 		bic	r3, r3, #1
   61 0026 1360     		str	r3, [r2]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 4
 
 
  112:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  128:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   else
  129:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   {
  130:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****     return HAL_BUSY;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 5
 
 
  100              		.loc 1 130 12 view .LVU29
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  136 0000 90F84130 		ldrb	r3, [r0, #65]	@ zero_extendqisi2
  137 0004 DBB2     		uxtb	r3, r3
  138              		.loc 1 149 6 view .LVU39
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 6
 
 
  139 0006 202B     		cmp	r3, #32
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  173              		.loc 1 169 5 is_stmt 1 discriminator 2 view .LVU54
  174              		.loc 1 169 25 is_stmt 0 discriminator 2 view .LVU55
  175 0034 1160     		str	r1, [r2]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 7
 
 
  170:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c **** 
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  215              		.global	HAL_I2CEx_EnableWakeUp
  216              		.syntax unified
  217              		.thumb
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 8
 
 
  218              		.thumb_func
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  252 0020 1368     		ldr	r3, [r2]
  253 0022 23F00103 		bic	r3, r3, #1
  254 0026 1360     		str	r3, [r2]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 9
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 9
 
 
  206:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c **** 
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  292 0050 0220     		movs	r0, #2
  293              	.LVL21:
  222:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 10
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 10
 
 
  223:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c **** }
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  241:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****     hi2c->State = HAL_I2C_STATE_BUSY;
  332              		.loc 1 241 5 discriminator 2 view .LVU106
  333              		.loc 1 241 17 is_stmt 0 discriminator 2 view .LVU107
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 11
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 11
 
 
  334 0018 2423     		movs	r3, #36
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  260:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****     return HAL_BUSY;
  370              		.loc 1 260 12 view .LVU121
  371 004c 0220     		movs	r0, #2
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 12
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 12
 
 
  372              	.LVL25:
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  405              		.loc 1 282 3 is_stmt 1 view .LVU127
  283:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c **** 
  284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   /* Enable SYSCFG clock */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 13
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 13
 
 
  285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   __HAL_RCC_SYSCFG_CLK_ENABLE();
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  295:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   * @note  For I2C1, fast mode plus driving capability can be disabled on all selected
  296:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   *        I2C1 pins using I2C_FASTMODEPLUS_I2C1 parameter or independently
  297:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   *        on each one of the following pins PB6, PB7, PB8 and PB9.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 14
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 14
 
 
  298:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c ****   * @note  For remaining I2C1 pins (PA14, PA15...) fast mode plus driving capability
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  487              		@ sp needed
  488 0022 7047     		bx	lr
  489              	.L24:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 15
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 15
 
 
  490              		.align	2
@@ -858,24 +858,24 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 1
  505              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
  506              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h"
  507              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s 			page 16
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f3xx_hal_i2c_ex.c
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:18     .text.HAL_I2CEx_ConfigAnalogFilter:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:26     .text.HAL_I2CEx_ConfigAnalogFilter:0000000000000000 HAL_I2CEx_ConfigAnalogFilter
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:116    .text.HAL_I2CEx_ConfigDigitalFilter:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:123    .text.HAL_I2CEx_ConfigDigitalFilter:0000000000000000 HAL_I2CEx_ConfigDigitalFilter
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:214    .text.HAL_I2CEx_EnableWakeUp:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:221    .text.HAL_I2CEx_EnableWakeUp:0000000000000000 HAL_I2CEx_EnableWakeUp
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:300    .text.HAL_I2CEx_DisableWakeUp:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:307    .text.HAL_I2CEx_DisableWakeUp:0000000000000000 HAL_I2CEx_DisableWakeUp
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:386    .text.HAL_I2CEx_EnableFastModePlus:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:393    .text.HAL_I2CEx_EnableFastModePlus:0000000000000000 HAL_I2CEx_EnableFastModePlus
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:436    .text.HAL_I2CEx_EnableFastModePlus:0000000000000024 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:442    .text.HAL_I2CEx_DisableFastModePlus:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:449    .text.HAL_I2CEx_DisableFastModePlus:0000000000000000 HAL_I2CEx_DisableFastModePlus
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccKUy6XY.s:492    .text.HAL_I2CEx_DisableFastModePlus:0000000000000024 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:18     .text.HAL_I2CEx_ConfigAnalogFilter:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:26     .text.HAL_I2CEx_ConfigAnalogFilter:0000000000000000 HAL_I2CEx_ConfigAnalogFilter
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:116    .text.HAL_I2CEx_ConfigDigitalFilter:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:123    .text.HAL_I2CEx_ConfigDigitalFilter:0000000000000000 HAL_I2CEx_ConfigDigitalFilter
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:214    .text.HAL_I2CEx_EnableWakeUp:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:221    .text.HAL_I2CEx_EnableWakeUp:0000000000000000 HAL_I2CEx_EnableWakeUp
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:300    .text.HAL_I2CEx_DisableWakeUp:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:307    .text.HAL_I2CEx_DisableWakeUp:0000000000000000 HAL_I2CEx_DisableWakeUp
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:386    .text.HAL_I2CEx_EnableFastModePlus:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:393    .text.HAL_I2CEx_EnableFastModePlus:0000000000000000 HAL_I2CEx_EnableFastModePlus
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:436    .text.HAL_I2CEx_EnableFastModePlus:0000000000000024 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:442    .text.HAL_I2CEx_DisableFastModePlus:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:449    .text.HAL_I2CEx_DisableFastModePlus:0000000000000000 HAL_I2CEx_DisableFastModePlus
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccsMX0Ti.s:492    .text.HAL_I2CEx_DisableFastModePlus:0000000000000024 $d
 
 NO UNDEFINED SYMBOLS

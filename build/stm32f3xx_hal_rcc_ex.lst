@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   */
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** #ifdef HAL_RCC_MODULE_ENABLED
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 2
 
 
   32:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   * @{
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   */
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 3
 
 
   89:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** /**
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         {
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****           return HAL_TIMEOUT;
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 4
 
 
  146:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       }
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Check the parameters */
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     assert_param(IS_RCC_USART2CLKSOURCE(PeriphClkInit->Usart2ClockSelection));
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 5
 
 
  203:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Configure the USART2 clock source */
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Check the parameters */
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     assert_param(IS_RCC_I2C2CLKSOURCE(PeriphClkInit->I2c2ClockSelection));
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 6
 
 
  260:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Configure the I2C2 clock source */
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  314:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_I2S) == RCC_PERIPHCLK_I2S)
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   {
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Check the parameters */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 7
 
 
  317:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     assert_param(IS_RCC_I2SCLKSOURCE(PeriphClkInit->I2sClockSelection));
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** #endif /* STM32F303xE || STM32F398xx || */
  373:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****        /* STM32F303xC || STM32F358xx    */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 8
 
 
  374:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  428:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_TIM15) == RCC_PERIPHCLK_TIM15)
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   {
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Check the parameters */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 9
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 9
 
 
  431:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     assert_param(IS_RCC_TIM15CLKSOURCE(PeriphClkInit->Tim15ClockSelection));
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  485:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   /*------------------------------ CEC clock Configuration -------------------*/ 
  486:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_CEC) == RCC_PERIPHCLK_CEC)
  487:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 10
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 10
 
 
  488:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Check the parameters */
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  542:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Check the parameters */
  543:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     assert_param(IS_RCC_TIM17CLKSOURCE(PeriphClkInit->Tim17ClockSelection));
  544:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 11
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 11
 
 
  545:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     /* Configure the CEC clock source */
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  599:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   /* Get the I2C1 clock configuration -----------------------------------------*/
  600:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   PeriphClkInit->I2c1ClockSelection = __HAL_RCC_GET_I2C1_SOURCE();
  601:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 12
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 12
 
 
  602:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** #if defined(STM32F302xE) || defined(STM32F303xE)\
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  656:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   PeriphClkInit->PeriphClockSelection |= RCC_PERIPHCLK_I2S;
  657:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   /* Get the I2S clock configuration -----------------------------------------*/
  658:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   PeriphClkInit->I2sClockSelection = __HAL_RCC_GET_I2S_SOURCE();
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 13
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 13
 
 
  659:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  713:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   PeriphClkInit->PeriphClockSelection |= RCC_PERIPHCLK_TIM8;
  714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   /* Get the TIM8 clock configuration -----------------------------------------*/
  715:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   PeriphClkInit->Tim8ClockSelection = __HAL_RCC_GET_TIM8_SOURCE();
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 14
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 14
 
 
  716:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  770:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   PeriphClkInit->PeriphClockSelection |= RCC_PERIPHCLK_TIM17;
  771:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   /* Get the TIM17 clock configuration -----------------------------------------*/
  772:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   PeriphClkInit->Tim17ClockSelection = __HAL_RCC_GET_TIM17_SOURCE();
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 15
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 15
 
 
  773:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  827:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_UART5   UART5 peripheral clock
  828:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_I2C2    I2C2 peripheral clock
  829:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_I2C3    I2C3 peripheral clock
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 16
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 16
 
 
  830:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_I2S     I2S peripheral clock
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  884:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_TIM16   TIM16 peripheral clock
  885:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_TIM17   TIM17 peripheral clock
  886:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   @endif
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 17
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 17
 
 
  887:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   @if STM32F328xx
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  941:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_TIM20   TIM20 peripheral clock
  942:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_TIM34   TIM34 peripheral clock
  943:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   @endif
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 18
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 18
 
 
  944:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   * @retval Frequency in Hz (0: means that no available frequency for the peripheral)
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  998:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       if (srcclk == RCC_USART1CLKSOURCE_PCLK1)
  999:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
 1000:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         frequency = HAL_RCC_GetPCLK1Freq();
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 19
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 19
 
 
 1001:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       }
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1055:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       /* Check if USART3 clock selection is PCLK1 */
 1056:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       if (srcclk == RCC_USART3CLKSOURCE_PCLK1)
 1057:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 20
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 20
 
 
 1058:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         frequency = HAL_RCC_GetPCLK1Freq();
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1112:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
 1113:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       /* Check if UART5 clock selection is PCLK1 */
 1114:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       if (srcclk == RCC_UART5CLKSOURCE_PCLK1)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 21
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 21
 
 
 1115:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1169:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       break;
 1170:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     }
 1171:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** #endif /* RCC_CFGR3_I2C2SW */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 22
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 22
 
 
 1172:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** #if defined(RCC_CFGR3_I2C3SW)
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1226:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         else /* RCC_USBCLKSOURCE_PLL_DIV1_5 */
 1227:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         {
 1228:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****           frequency = (RCC_GetPLLCLKFreq() * 3U) / 2U;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 23
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 23
 
 
 1229:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         }
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1283:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     }
 1284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** #endif /* RCC_CFGR2_ADCPRE12 */
 1285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** #if defined(RCC_CFGR2_ADCPRE34)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 24
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 24
 
 
 1286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   case RCC_PERIPHCLK_ADC34:
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1340:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
 1341:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         frequency = SystemCoreClock;
 1342:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 25
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 25
 
 
 1343:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       break;
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1397:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
 1398:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         frequency = SystemCoreClock;
 1399:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 26
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 26
 
 
 1400:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       break;
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1454:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
 1455:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         frequency = SystemCoreClock;
 1456:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 27
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 27
 
 
 1457:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       break;
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1511:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     }
 1512:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   }
 1513:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   return(frequency);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 28
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 28
 
 
 1514:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** }
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
   54 0010 0AD0     		beq	.L2
 1542:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   {
 1543:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     prediv = (RCC->CFGR2 & RCC_CFGR2_PREDIV) + 1U;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 29
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 29
 
 
   55              		.loc 1 1543 5 is_stmt 1 view .LVU11
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1567:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** }
   86              		.loc 1 1567 1 is_stmt 0 view .LVU24
   87 002e 7047     		bx	lr
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 30
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 30
 
 
   88              	.L5:
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  119:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
  136              		.loc 1 119 5 is_stmt 1 view .LVU33
  121:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 31
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 31
 
 
  137              		.loc 1 121 5 view .LVU34
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  150:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     if((temp_reg != 0x00000000U) && (temp_reg != (PeriphClkInit->RTCClockSelection & RCC_BDCR_RTCSE
  177              		.loc 1 150 5 is_stmt 1 view .LVU49
  150:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     if((temp_reg != 0x00000000U) && (temp_reg != (PeriphClkInit->RTCClockSelection & RCC_BDCR_RTCSE
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 32
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 32
 
 
  178              		.loc 1 150 20 is_stmt 0 view .LVU50
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
   17:Drivers/CMSIS/Include/cmsis_gcc.h ****  *
   18:Drivers/CMSIS/Include/cmsis_gcc.h ****  * Unless required by applicable law or agreed to in writing, software
   19:Drivers/CMSIS/Include/cmsis_gcc.h ****  * distributed under the License is distributed on an AS IS BASIS, WITHOUT
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 33
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 33
 
 
   20:Drivers/CMSIS/Include/cmsis_gcc.h ****  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
   74:Drivers/CMSIS/Include/cmsis_gcc.h ****   struct __attribute__((packed)) T_UINT32 { uint32_t v; };
   75:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
   76:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32(x)                  (((struct T_UINT32 *)(x))->v)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 34
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 34
 
 
   77:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  131:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsie i" : : : "memory");
  132:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  133:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 35
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 35
 
 
  134:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  188:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  189:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Control Register (non-secure)
  190:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Writes the given value to the non-secure Control Register when in secure state.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 36
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 36
 
 
  191:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    control  Control Register value to set
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  245:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               PSP Register value
  246:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  247:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_PSP(void)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 37
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 37
 
 
  248:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  302:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  303:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  304:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 38
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 38
 
 
  305:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, msp" : "=r" (result) );
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  359:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  360:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, sp_ns" : "=r" (result) );
  361:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 39
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 39
 
 
  362:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  416:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  417:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  418:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 40
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 40
 
 
  419:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  473:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the non-secure Base Priority register when in secure state.
  474:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Base Priority register value
  475:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 41
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 41
 
 
  476:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_BASEPRI_NS(void)
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  530:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  531:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, faultmask" : "=r" (result) );
  532:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 42
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 42
 
 
  533:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  587:Drivers/CMSIS/Include/cmsis_gcc.h ****   mode.
  588:Drivers/CMSIS/Include/cmsis_gcc.h ****   
  589:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Process Stack Pointer Limit (PSPLIM).
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 43
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 43
 
 
  590:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               PSPLIM Register value
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  644:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR psplim, %0" : : "r" (ProcStackPtrLimit));
  645:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  646:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 44
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 44
 
 
  647:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  701:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  702:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_MSPLIM_NS(void)
  703:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 45
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 45
 
 
  704:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)))
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  758:Drivers/CMSIS/Include/cmsis_gcc.h ****            (defined (__ARM_ARCH_8M_BASE__ ) && (__ARM_ARCH_8M_BASE__ == 1))    ) */
  759:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  760:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 46
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 46
 
 
  761:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  815:Drivers/CMSIS/Include/cmsis_gcc.h ****   Access to dedicated instructions
  816:Drivers/CMSIS/Include/cmsis_gcc.h ****   @{
  817:Drivers/CMSIS/Include/cmsis_gcc.h **** */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 47
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 47
 
 
  818:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  872:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  873:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Data Synchronization Barrier
  874:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Acts as a special kind of Data Memory Barrier.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 48
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 48
 
 
  875:Drivers/CMSIS/Include/cmsis_gcc.h ****            It completes when all explicit memory accesses before this instruction complete.
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  929:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Reverse byte order (16 bit)
  930:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Reverses the byte order in a 16-bit value and returns the signed 16-bit result. For exam
  931:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    value  Value to reverse
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 49
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 49
 
 
  932:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Reversed value
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  208              		.loc 2 983 3 view .LVU62
  984:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  985:Drivers/CMSIS/Include/cmsis_gcc.h **** #if ((defined (__ARM_ARCH_7M__      ) && (__ARM_ARCH_7M__      == 1)) || \
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 50
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 50
 
 
  986:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_7EM__     ) && (__ARM_ARCH_7EM__     == 1)) || \
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  242              		.loc 2 1001 3 view .LVU71
  243              		.loc 2 1001 3 is_stmt 0 view .LVU72
  244              		.thumb
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 51
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 51
 
 
  245              		.syntax unified
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  285              		.loc 1 193 5 view .LVU86
  286 00a8 544A     		ldr	r2, .L34
  287 00aa 136B     		ldr	r3, [r2, #48]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 52
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 52
 
 
  288 00ac 23F00303 		bic	r3, r3, #3
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  224:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     
  329              		.loc 1 224 5 is_stmt 1 view .LVU100
  227:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****   }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 53
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 53
 
 
  330              		.loc 1 227 5 view .LVU101
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  371              		.loc 1 378 5 view .LVU114
  372 0126 13F0800F 		tst	r3, #128
  373 012a 06D0     		beq	.L24
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 54
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 54
 
 
  381:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  415              	.LVL26:
  416              	.L26:
  417              	.LBB34:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 55
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 55
 
 
  121:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  165:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         
  458              		.loc 1 165 9 is_stmt 1 view .LVU142
  165:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****         
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 56
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 56
 
 
  459              		.loc 1 165 21 is_stmt 0 view .LVU143
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  504              		.loc 2 1001 3 discriminator 11 view .LVU155
  505              		.loc 2 1001 3 is_stmt 0 discriminator 11 view .LVU156
  506              		.thumb
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 57
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 57
 
 
  507              		.syntax unified
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  981:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  551              		.loc 2 981 31 is_stmt 1 view .LVU169
  552              	.LBB33:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 58
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 58
 
 
  983:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  598              	.LVL45:
  599              	.L35:
  565:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 59
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 59
 
 
  600              		.loc 1 565 1 view .LVU181
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  645 0018 02F44032 		and	r2, r2, #196608
  593:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** #endif /* RCC_CFGR3_USART2SW */
  646              		.loc 1 593 39 view .LVU193
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 60
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 60
 
 
  647 001c C260     		str	r2, [r0, #12]
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  683 0048 0260     		str	r2, [r0]
  669:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
  684              		.loc 1 669 3 is_stmt 1 view .LVU212
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 61
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 61
 
 
  669:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  727              	.LC0:
  728 0000 02040608 		.ascii	"\002\004\006\010\012\014\016\020\024\030\034 $(,0\000"
  728      0A0C0E10 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 62
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 62
 
 
  728      14181C20 
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  772 001e 002C     		cmp	r4, #0
  773 0020 00F04181 		beq	.L70
  774 0024 013C     		subs	r4, r4, #1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 63
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 63
 
 
  775              	.LVL50:
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  824              		.loc 1 1160 7 is_stmt 1 view .LVU239
 1160:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
  825              		.loc 1 1160 10 is_stmt 0 view .LVU240
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 64
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 64
 
 
  826 0078 10F02000 		ands	r0, r0, #32
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1218:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
  866              		.loc 1 1218 18 is_stmt 0 view .LVU255
  867 00b2 5B68     		ldr	r3, [r3, #4]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 65
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 65
 
 
  868              	.LVL56:
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  908              	@ 0 "" 2
  909              	.LVL61:
  910              		.loc 2 1001 3 view .LVU270
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 66
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 66
 
 
  911              		.loc 2 1001 3 is_stmt 0 view .LVU271
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  975:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
  953              		.loc 1 975 12 is_stmt 1 view .LVU284
  975:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 67
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 67
 
 
  954              		.loc 1 975 15 is_stmt 0 view .LVU285
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  995 014e 5C48     		ldr	r0, .L109+12
  996 0150 AAE0     		b	.L39
  997              	.LVL67:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 68
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 68
 
 
  998              	.L48:
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  1036 0172 514A     		ldr	r2, .L109+4
  1037 0174 1268     		ldr	r2, [r2]
 1004:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 69
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 69
 
 
  1038              		.loc 1 1004 52 discriminator 1 view .LVU315
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1032:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
  1078              		.loc 1 1032 15 is_stmt 0 view .LVU330
  1079 01a2 B3F5403F 		cmp	r3, #196608
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 70
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 70
 
 
  1080 01a6 0AD0     		beq	.L102
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1042:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****       {
  1120              		.loc 1 1042 56 discriminator 1 view .LVU345
  1121 01d2 03F18043 		add	r3, r3, #1073741824
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 71
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 71
 
 
  1122              	.LVL82:
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  1160              		.loc 1 949 12 view .LVU361
  1161 0204 0020     		movs	r0, #0
  1162 0206 4FE0     		b	.L39
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 72
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 72
 
 
  1163              	.L105:
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  1203 0236 37E0     		b	.L39
  1204              	.LVL93:
  1205              	.L44:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 73
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 73
 
 
 1139:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  1243              		.loc 1 1228 21 view .LVU392
  1244 025c 24E0     		b	.L39
  1245              	.LVL100:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 74
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 74
 
 
  1246              	.L40:
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
 1259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c ****     }
  1288              		.loc 1 1259 7 is_stmt 1 view .LVU407
  1289 0280 12E0     		b	.L39
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 75
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 75
 
 
  1290              	.LVL107:
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  1329              	.LVL113:
  1330              	.L39:
 1514:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 76
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 76
 
 
  1331              		.loc 1 1514 1 view .LVU423
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  1378              		.cfi_endproc
  1379              	.LFE132:
  1381              		.text
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 77
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 77
 
 
  1382              	.Letext0:
@@ -4572,28 +4572,28 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 1
  1390              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h"
  1391              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
  1392              		.file 12 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s 			page 78
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s 			page 78
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f3xx_hal_rcc_ex.c
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:18     .text.RCC_GetPLLCLKFreq:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:25     .text.RCC_GetPLLCLKFreq:0000000000000000 RCC_GetPLLCLKFreq
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:91     .text.RCC_GetPLLCLKFreq:0000000000000030 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:98     .text.HAL_RCCEx_PeriphCLKConfig:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:105    .text.HAL_RCCEx_PeriphCLKConfig:0000000000000000 HAL_RCCEx_PeriphCLKConfig
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:603    .text.HAL_RCCEx_PeriphCLKConfig:00000000000001fc $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:610    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:617    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000000 HAL_RCCEx_GetPeriphCLKConfig
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:715    .text.HAL_RCCEx_GetPeriphCLKConfig:000000000000006c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:726    .rodata.HAL_RCCEx_GetPeriphCLKFreq.str1.4:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:730    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:737    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000000 HAL_RCCEx_GetPeriphCLKFreq
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:781    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000030 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:814    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000070 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:1355   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002b4 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:1363   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002c8 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccBQwC5i.s:1377   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002d0 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:18     .text.RCC_GetPLLCLKFreq:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:25     .text.RCC_GetPLLCLKFreq:0000000000000000 RCC_GetPLLCLKFreq
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:91     .text.RCC_GetPLLCLKFreq:0000000000000030 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:98     .text.HAL_RCCEx_PeriphCLKConfig:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:105    .text.HAL_RCCEx_PeriphCLKConfig:0000000000000000 HAL_RCCEx_PeriphCLKConfig
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:603    .text.HAL_RCCEx_PeriphCLKConfig:00000000000001fc $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:610    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:617    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000000 HAL_RCCEx_GetPeriphCLKConfig
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:715    .text.HAL_RCCEx_GetPeriphCLKConfig:000000000000006c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:726    .rodata.HAL_RCCEx_GetPeriphCLKFreq.str1.4:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:730    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:737    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000000 HAL_RCCEx_GetPeriphCLKFreq
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:781    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000030 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:814    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000070 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:1355   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002b4 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:1363   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002c8 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6Iv0pH.s:1377   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002d0 $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick

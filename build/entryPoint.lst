@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   26:Core/Inc/serialInterfaces.hpp **** };
   27:Core/Inc/serialInterfaces.hpp **** 
   28:Core/Inc/serialInterfaces.hpp **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 2
 
 
   29:Core/Inc/serialInterfaces.hpp **** class USBInterface : public serialInterface{
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   22:Core/Inc/PowerManager.hpp **** };
   23:Core/Inc/PowerManager.hpp **** 
   24:Core/Inc/PowerManager.hpp **** class powerChannel{
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 3
 
 
   25:Core/Inc/PowerManager.hpp **** public:
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   13:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   14:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** // GNU General Public License for more details.
   15:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 4
 
 
   16:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** // Under Section 7 of GPL version 3, you are granted additional
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   70:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****    *  Meets the requirements of a <a href="tables.html#65">container</a>, a
   71:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****    *  <a href="tables.html#66">reversible container</a>, and a
   72:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****    *  <a href="tables.html#67">sequence</a>.  Of the
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 5
 
 
   73:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****    *  <a href="tables.html#68">optional sequence requirements</a>, only
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  127:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
  128:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       // Wraps a string_view by explicit conversion and thus
  129:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       // allows to add an internal constructor that does not
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 6
 
 
  130:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       // participate in overload resolution when a string_view
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  184:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
  185:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       pointer
  186:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       _M_data() const
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 7
 
 
  187:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       { return _M_dataplus._M_p; }
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  241:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       template<typename _InIterator>
  242:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****         void
  243:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****         _M_construct_aux(_InIterator __beg, _InIterator __end,
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 8
 
 
  244:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 			 std::__false_type)
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  298:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       template<typename _Tp, bool _Requires =
  299:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	       !__are_same<_Tp, _CharT*>::__value
  300:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	       && !__are_same<_Tp, const _CharT*>::__value
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 9
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 9
 
 
  301:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	       && !__are_same<_Tp, iterator>::__value
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  355:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       _S_move(_CharT* __d, const _CharT* __s, size_type __n)
  356:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
  357:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	if (__n == 1)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 10
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 10
 
 
  358:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	  traits_type::assign(*__d, *__s);
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  412:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
  413:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       void
  414:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       _M_assign(const basic_string&);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 11
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 11
 
 
  415:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  469:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
  470:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       /**
  471:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  @brief  Construct string as copy of a substring.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 12
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 12
 
 
  472:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  @param  __str  Source string.
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  526:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       : _M_dataplus(_M_local_data(), __a)
  527:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       { _M_construct(__s, __s ? __s + traits_type::length(__s) : __s+npos); }
  528:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 13
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 13
 
 
  529:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       /**
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  583:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       basic_string(const basic_string& __str, const _Alloc& __a)
  584:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       : _M_dataplus(_M_local_data(), __a)
  585:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       { _M_construct(__str.begin(), __str.end()); }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 14
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 14
 
 
  586:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  640:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 		     const _Alloc& __a = _Alloc())
  641:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	: basic_string(_S_to_string_view(__t).substr(__pos, __n), __a) { }
  642:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 15
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 15
 
 
  643:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       /**
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  111 000a 9842     		cmp	r0, r3
  112 000c 01D0     		beq	.L3
  113              	.LVL5:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 16
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 16
 
 
  114              	.LBB375:
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   47:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****     template<typename _Tp, typename _Up, typename = void>
   48:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****       struct __rebind : __replace_first_arg<_Tp, _Up> { };
   49:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 17
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 17
 
 
   50:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****     template<typename _Tp, typename _Up>
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  104:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 
  105:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****       template<template<typename> class _Func, typename _Tp>
  106:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	struct _Ptr<_Func, _Tp, __void_t<_Func<_Alloc>>>
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 18
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 18
 
 
  107:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	{
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  161:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****       /**
  162:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****        * @brief   The allocator's size type
  163:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****        *
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 19
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 19
 
 
  164:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****        * @c Alloc::size_type if that type exists, otherwise
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  218:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	static pointer
  219:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	_S_allocate(_Alloc2& __a, size_type __n, const_void_pointer, ...)
  220:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	{ return __a.allocate(__n); }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 20
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 20
 
 
  221:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  275:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	static size_type
  276:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	_S_max_size(_Alloc2&, ...)
  277:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	{
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 21
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 21
 
 
  278:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 	  // _GLIBCXX_RESOLVE_LIB_DEFECTS
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  332:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****       deallocate(_Alloc& __a, pointer __p, size_type __n)
  333:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****       { __a.deallocate(__p, __n); }
  334:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 22
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 22
 
 
  335:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****       /**
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  389:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h **** 
  390:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****   /// Partial specialization for std::allocator.
  391:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****   template<typename _Tp>
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 23
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 23
 
 
  392:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****     struct allocator_traits<allocator<_Tp>>
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  446:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****       /**
  447:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****        *  @brief  Allocate memory.
  448:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****        *  @param  __a  An allocator.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 24
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 24
 
 
  449:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h ****        *  @param  __n  The number of objects to allocate space for.
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   30:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** #define _NEW_ALLOCATOR_H 1
   31:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** 
   32:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** #include <bits/c++config.h>
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 25
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 25
 
 
   33:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** #include <new>
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   87:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** 	new_allocator(const new_allocator<_Tp1>&) _GLIBCXX_USE_NOEXCEPT { }
   88:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** 
   89:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h ****       ~new_allocator() _GLIBCXX_USE_NOEXCEPT { }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 26
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 26
 
 
   90:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** 
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  140              	.LBI380:
  150:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
  141              		.loc 3 150 14 is_stmt 1 view .LVU22
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 27
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 27
 
 
  142              	.LBB381:
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   52:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h **** #define __cpp_lib_incomplete_container_elements 201505
   53:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h **** #if __cplusplus >= 201103L
   54:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h **** # define __cpp_lib_allocator_is_always_equal 201411
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 28
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 28
 
 
   55:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h **** #endif
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  109:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h ****    *  @tparam  _Tp  Type of allocated object.
  110:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h ****    */
  111:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h ****   template<typename _Tp>
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 29
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 29
 
 
  112:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h ****     class allocator : public __allocator_base<_Tp>
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  155              	.LBB383:
  156              	.LBI383:
   24:Core/Inc/PowerManager.hpp **** public:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 30
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 30
 
 
  157              		.loc 2 24 7 is_stmt 1 view .LVU26
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  201              	.LBI395:
  119:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h ****       {
  202              		.loc 5 119 7 view .LVU39
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 31
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 31
 
 
  203              	.LBB396:
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
    3:Core/Src/app/entryPoint.cpp ****  *
    4:Core/Src/app/entryPoint.cpp ****  *  Created on: Nov 5, 2020
    5:Core/Src/app/entryPoint.cpp ****  *      Author: javier
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 32
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 32
 
 
    6:Core/Src/app/entryPoint.cpp ****  */
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  270              		.cfi_endproc
  271              	.LFE2699:
  272              		.fnend
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 33
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 33
 
 
  274              		.section	.text.captureUserInput,"ax",%progbits
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  315              	.L11:
  316              	.LCFI5:
  317              		.cfi_restore_state
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 34
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 34
 
 
  318              	.LBB402:
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  367              		@ args = 0, pretend = 0, frame = 0
  368              		@ frame_needed = 0, uses_anonymous_args = 0
  369 0000 08B5     		push	{r3, lr}
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 35
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 35
 
 
  370              		.save {r3, lr}
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
    7:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** // terms of the GNU General Public License as published by the
    8:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** // Free Software Foundation; either version 3, or (at your option)
    9:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** // any later version.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 36
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 36
 
 
   10:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   64:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc ****       _Alloc_traits::_S_on_swap(_M_get_allocator(), __s._M_get_allocator());
   65:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 
   66:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc ****       if (_M_is_local())
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 37
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 37
 
 
   67:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 	if (__s._M_is_local())
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  121:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 	    }
  122:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 	  __s._M_capacity(__tmp_capacity);
  123:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 	}
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 38
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 38
 
 
  124:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  178:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 	    while (__beg != __end)
  179:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 	      {
  180:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 		if (__len == __capacity)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 39
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 39
 
 
  181:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.tcc **** 		  {
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  434              	.LBB403:
  435              	.LBI403:
  436              		.file 9 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 40
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 40
 
 
    1:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h **** // Functions used by iterators -*- C++ -*-
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   55:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h ****  *  This file contains all of the general iterator-related utility
   56:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h ****  *  functions, such as distance() and advance().
   57:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h ****  */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 41
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 41
 
 
   58:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h **** 
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  112:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h **** 	       _GLIBCXX_STD_C::_List_iterator<_Tp>,
  113:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h **** 	       input_iterator_tag);
  114:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 42
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 42
 
 
  115:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/stl_iterator_base_funcs.h ****   template<typename _Tp>
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  186:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       { return _M_dataplus._M_p; }
  458              		.loc 3 186 7 is_stmt 1 view .LVU79
  459              	.LBB407:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 43
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 43
 
 
  187:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   30:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** //
   31:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** // ISO C++ 14882: 21  Strings library
   32:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** //
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 44
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 44
 
 
   33:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** 
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
   87:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****     struct char_traits
   88:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****     {
   89:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****       typedef _CharT                                    char_type;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 45
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 45
 
 
   90:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****       typedef typename _Char_types<_CharT>::int_type    int_type;
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  144:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****     };
  145:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** 
  146:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****   template<typename _CharT>
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 46
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 46
 
 
  147:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****     _GLIBCXX14_CONSTEXPR int
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  201:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** 
  202:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****   template<typename _CharT>
  203:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****     typename char_traits<_CharT>::char_type*
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 47
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 47
 
 
  204:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****     char_traits<_CharT>::
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  258:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****       (void) __n;
  259:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****       // In constexpr contexts all character arrays should be constant.
  260:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****       return __builtin_is_constant_evaluated();
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 48
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 48
 
 
  261:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** #else
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  315:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****       compare(const char_type* __s1, const char_type* __s2, size_t __n)
  316:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h ****       {
  317:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** 	if (__n == 0)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 49
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 49
 
 
  318:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/char_traits.h **** 	  return 0;
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  486 001a 2246     		mov	r2, r4
  487 001c 3146     		mov	r1, r6
  488 001e FFF7FEFF 		bl	memcpy
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 50
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 50
 
 
  489              	.LVL24:
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  534              	.LVL33:
  535              	.LBB419:
  536              	.LBI419:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 51
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 51
 
 
  210:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       { _M_allocated_capacity = __capacity; }
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  570              	.LVL36:
  571              	.LBB422:
  572              	.LBI422:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 52
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 52
 
 
  214:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  615              	.LVL40:
  616              	.L28:
  617              		.loc 8 233 7 view .LVU124
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 53
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 53
 
 
  618 0052 00BF     		.align	2
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  669              		.loc 6 138 7 is_stmt 1 view .LVU127
  670              	.LBB657:
  671              	.LBI657:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 54
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 54
 
 
   80:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** 
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  713              	.LBE667:
  714              	.LBE660:
  715              	.LBE659:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 55
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 55
 
 
  716              	.LBE658:
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  761              	.LBB677:
  762              	.LBI677:
  138:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/allocator.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 56
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 56
 
 
  763              		.loc 6 138 7 is_stmt 1 view .LVU150
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  804              		.loc 10 329 7 is_stmt 1 view .LVU163
  805              	.LBE686:
  806              	.LBE679:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 57
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 57
 
 
  807              	.LBE676:
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  853 0040 0023     		movs	r3, #0
  854 0042 6363     		str	r3, [r4, #52]	@ float
  855 0044 A363     		str	r3, [r4, #56]	@ float
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 58
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 58
 
 
   26:Core/Inc/PowerManager.hpp **** 	void registerHandles(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_HandleTypeDef *sdadcHandleCRead,
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  704:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       operator=(const _CharT* __s)
  705:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       { return this->assign(__s); }
  706:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 59
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 59
 
 
  707:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       /**
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  761:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	    if (!_M_is_local())
  762:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	      {
  763:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 		if (_Alloc_traits::_S_always_equal())
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 60
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 60
 
 
  764:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 		  {
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  818:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** #endif // C++17
  819:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
  820:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       // Iterators:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 61
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 61
 
 
  821:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       /**
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  875:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        */
  876:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       reverse_iterator
  877:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       rend() _GLIBCXX_NOEXCEPT
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 62
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 62
 
 
  878:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       { return reverse_iterator(this->begin()); }
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  932:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
  933:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       ///  Returns the number of characters in the string, not including any
  934:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       ///  null-termination.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 63
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 63
 
 
  935:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       size_type
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  989:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  Returns the total number of characters that the %string can hold
  990:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  before needing to allocate more memory.
  991:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 64
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 64
 
 
  992:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       size_type
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
 1046:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       operator[] (size_type __pos) const _GLIBCXX_NOEXCEPT
 1047:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
 1048:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	__glibcxx_assert(__pos <= size());
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 65
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 65
 
 
 1049:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	return _M_data()[__pos];
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
 1103:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        */
 1104:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       reference
 1105:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       at(size_type __n)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 66
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 66
 
 
 1106:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
 1160:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 
 1161:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       // Modifiers:
 1162:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       /**
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 67
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 67
 
 
 1163:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  @brief  Append a string to this string.
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
 1217:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  @param __str  The string to append.
 1218:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 1219:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 68
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 68
 
 
 1220:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       basic_string&
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
 1274:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  @param __c  The character to use.
 1275:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 1276:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 69
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 69
 
 
 1277:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  Appends __n copies of __c to this string.
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
 1331:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 1332:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****        */
 1333:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       template<typename _Tp>
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 70
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 70
 
 
 1334:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****         _If_sv<_Tp, basic_string&>
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  229:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
  883              		.loc 3 229 7 view .LVU179
  884              	.LBB718:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 71
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 71
 
 
  885              	.LBB719:
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  930              	.LBE718:
  931              	.LBE717:
  932              	.LBB728:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 72
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 72
 
 
  933              	.LBI728:
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  976              	.LBE738:
  977              	.LBB739:
  978              	.LBI739:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 73
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 73
 
 
  156:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	: allocator_type(__a), _M_p(__dat) { }
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  247:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	}
  1022              		.loc 3 247 11 is_stmt 0 view .LVU217
  1023 0062 2B4A     		ldr	r2, .L52+8
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 74
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 74
 
 
  1024              	.LVL60:
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1068              	.LBE701:
  1069              	.LBB703:
  1070              	.LBI703:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 75
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 75
 
 
  200:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1116              		.loc 5 89 7 is_stmt 0 view .LVU240
  1117              	.LBE712:
  1118              	.LBE711:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 76
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 76
 
 
  1119              	.LBE710:
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  119:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h ****       {
  1163              		.loc 5 119 7 view .LVU252
  1164              	.LBB764:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 77
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 77
 
 
  1165              		.loc 5 128 19 is_stmt 0 view .LVU253
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1211              		.loc 5 80 7 view .LVU263
   80:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** 
  1212              		.loc 5 80 7 is_stmt 0 view .LVU264
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 78
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 78
 
 
  1213              	.LBE771:
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1255              		.loc 10 335 2 view .LVU276
  1256              	.LBB864:
  1257              	.LBB808:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 79
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 79
 
 
  1258              	.LBB806:
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1304              	.LBI787:
  665:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
  1305              		.loc 3 665 7 view .LVU286
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 80
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 80
 
 
  1306              	.LBB788:
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  231:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	  _M_destroy(_M_allocated_capacity);
  1351              		.loc 3 231 2 view .LVU299
  1352 00c8 08AB     		add	r3, sp, #32
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 81
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 81
 
 
  1353 00ca 9842     		cmp	r0, r3
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1400              	.LBE825:
  1401              	.LBE824:
  1402              	.LBE864:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 82
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 82
 
 
  1403              		.loc 2 47 7 view .LVU312
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1448              	.LBE793:
  231:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h **** 	  _M_destroy(_M_allocated_capacity);
  1449              		.loc 3 231 2 view .LVU322
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 83
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 83
 
 
  1450 00dc A842     		cmp	r0, r5
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1497              		.loc 3 229 7 discriminator 7 view .LVU333
  1498              	.LBB829:
  1499              	.LBB830:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 84
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 84
 
 
  1500              	.LBI830:
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1545              	.LBB839:
  1546              	.LBI839:
  150:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h ****       {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 85
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 85
 
 
  1547              		.loc 3 150 14 is_stmt 1 view .LVU346
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1590              	.LBE850:
  1591              	.LBE849:
  1592              	.LBB851:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 86
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 86
 
 
  1593              	.LBI851:
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1639              	.LEHB7:
   89:/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-none-eabi/include/c++/9.3.1/ext/new_allocator.h **** 
  1640              		.loc 5 89 7 is_stmt 0 view .LVU372
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 87
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 87
 
 
  1641 00fc FFF7FEFF 		bl	__cxa_end_cleanup
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1692 001b 8402     		.uleb128 .L45-.LFB2694
  1693 001d 00       		.uleb128 0
  1694 001e 8C01     		.uleb128 .LEHB4-.LFB2694
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 88
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 88
 
 
  1695 0020 04       		.uleb128 .LEHE4-.LEHB4
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1751 0010 38BD     		pop	{r3, r4, r5, pc}
  1752              	.LVL99:
  1753              	.L61:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 89
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 89
 
 
   22:Core/Src/app/entryPoint.cpp **** boardUserInterface boardUI;
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1800              	.L63:
  1801 0042 00BF     		.align	2
  1802              	.L62:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 90
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 90
 
 
  1803 0044 00000000 		.word	.LANCHOR2
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1857              		.cfi_endproc
  1858              	.LFE3371:
  1859              		.cantunwind
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 91
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 91
 
 
  1860              		.fnend
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1919 0000 00       		.space	1
  1920              		.section	.bss.masterControl,"aw",%nobits
  1921              		.align	2
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 92
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 92
 
 
  1922              		.set	.LANCHOR1,. + 0
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1978              		.file 46 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
  1979              		.file 47 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
  1980              		.file 48 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 93
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 93
 
 
  1981              		.file 49 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
@@ -5541,72 +5541,72 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 1
  1998              		.file 66 "Core/Inc/jsonEngine.hpp"
  1999              		.file 67 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
  2000              		.file 68 "<built-in>"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 94
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 94
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 entryPoint.cpp
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:18     .text._ZN12USBInterfaceD2Ev:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:26     .text._ZN12USBInterfaceD2Ev:0000000000000000 _ZN12USBInterfaceD2Ev
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:18     .text._ZN12USBInterfaceD2Ev:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:26     .text._ZN12USBInterfaceD2Ev:0000000000000000 _ZN12USBInterfaceD2Ev
 .ARM.exidx.text._ZN12USBInterfaceD2Ev:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:26     .text._ZN12USBInterfaceD2Ev:0000000000000000 _ZN12USBInterfaceD1Ev
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:51     .text._ZN12PowerManagerD2Ev:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:58     .text._ZN12PowerManagerD2Ev:0000000000000000 _ZN12PowerManagerD2Ev
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:26     .text._ZN12USBInterfaceD2Ev:0000000000000000 _ZN12USBInterfaceD1Ev
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:51     .text._ZN12PowerManagerD2Ev:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:58     .text._ZN12PowerManagerD2Ev:0000000000000000 _ZN12PowerManagerD2Ev
 .ARM.exidx.text._ZN12PowerManagerD2Ev:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:58     .text._ZN12PowerManagerD2Ev:0000000000000000 _ZN12PowerManagerD1Ev
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:243    .text.entryPointSetup:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:250    .text.entryPointSetup:0000000000000000 entryPointSetup
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:58     .text._ZN12PowerManagerD2Ev:0000000000000000 _ZN12PowerManagerD1Ev
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:243    .text.entryPointSetup:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:250    .text.entryPointSetup:0000000000000000 entryPointSetup
   .ARM.extab.text.entryPointSetup:0000000000000000 $d
   .ARM.exidx.text.entryPointSetup:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:275    .text.captureUserInput:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:282    .text.captureUserInput:0000000000000000 captureUserInput
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:348    .text.captureUserInput:000000000000003c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:275    .text.captureUserInput:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:282    .text.captureUserInput:0000000000000000 captureUserInput
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:348    .text.captureUserInput:000000000000003c $d
  .ARM.exidx.text.captureUserInput:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:355    .text.entryPointLoop:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:362    .text.entryPointLoop:0000000000000000 entryPointLoop
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:389    .text.entryPointLoop:0000000000000010 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:355    .text.entryPointLoop:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:362    .text.entryPointLoop:0000000000000000 entryPointLoop
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:389    .text.entryPointLoop:0000000000000010 $d
    .ARM.extab.text.entryPointLoop:0000000000000000 $d
    .ARM.exidx.text.entryPointLoop:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:395    .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.str1.4:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:399    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:406    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:0000000000000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:620    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:0000000000000054 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:395    .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.str1.4:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:399    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:406    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:0000000000000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:620    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:0000000000000054 $d
 .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:626    .rodata._ZN12PowerManagerC2Ev.str1.4:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:627    .rodata._ZN12PowerManagerC2Ev.str1.4:0000000000000000 .LC1
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:633    .rodata._ZN12PowerManagerC2Ev.str1.4:0000000000000010 .LC3
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:636    .text._ZN12PowerManagerC2Ev:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:643    .text._ZN12PowerManagerC2Ev:0000000000000000 _ZN12PowerManagerC2Ev
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1658   .text._ZN12PowerManagerC2Ev:0000000000000108 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:626    .rodata._ZN12PowerManagerC2Ev.str1.4:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:627    .rodata._ZN12PowerManagerC2Ev.str1.4:0000000000000000 .LC1
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:633    .rodata._ZN12PowerManagerC2Ev.str1.4:0000000000000010 .LC3
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:636    .text._ZN12PowerManagerC2Ev:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:643    .text._ZN12PowerManagerC2Ev:0000000000000000 _ZN12PowerManagerC2Ev
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1658   .text._ZN12PowerManagerC2Ev:0000000000000108 $d
 .ARM.extab.text._ZN12PowerManagerC2Ev:0000000000000000 $d
 .ARM.exidx.text._ZN12PowerManagerC2Ev:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:643    .text._ZN12PowerManagerC2Ev:0000000000000000 _ZN12PowerManagerC1Ev
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1717   .text._Z41__static_initialization_and_destruction_0ii:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1723   .text._Z41__static_initialization_and_destruction_0ii:0000000000000000 _Z41__static_initialization_and_destruction_0ii
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1803   .text._Z41__static_initialization_and_destruction_0ii:0000000000000044 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:643    .text._ZN12PowerManagerC2Ev:0000000000000000 _ZN12PowerManagerC1Ev
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1717   .text._Z41__static_initialization_and_destruction_0ii:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1723   .text._Z41__static_initialization_and_destruction_0ii:0000000000000000 _Z41__static_initialization_and_destruction_0ii
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1803   .text._Z41__static_initialization_and_destruction_0ii:0000000000000044 $d
 .ARM.exidx.text._Z41__static_initialization_and_destruction_0ii:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1817   .text._ZN12USBInterfaceD0Ev:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1824   .text._ZN12USBInterfaceD0Ev:0000000000000000 _ZN12USBInterfaceD0Ev
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1817   .text._ZN12USBInterfaceD0Ev:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1824   .text._ZN12USBInterfaceD0Ev:0000000000000000 _ZN12USBInterfaceD0Ev
 .ARM.exidx.text._ZN12USBInterfaceD0Ev:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1863   .text._GLOBAL__sub_I_powerManager:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1869   .text._GLOBAL__sub_I_powerManager:0000000000000000 _GLOBAL__sub_I_powerManager
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1863   .text._GLOBAL__sub_I_powerManager:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1869   .text._GLOBAL__sub_I_powerManager:0000000000000000 _GLOBAL__sub_I_powerManager
 .ARM.exidx.text._GLOBAL__sub_I_powerManager:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1893   .init_array:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1912   .bss.dac_value:0000000000000000 dac_value
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1918   .bss.jsonEngineRunner:0000000000000000 jsonEngineRunner
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1939   .bss.usbController:0000000000000000 usbController
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1925   .bss.masterControl:0000000000000000 masterControl
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1906   .bss.boardUI:0000000000000000 boardUI
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1932   .bss.powerManager:0000000000000000 powerManager
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1902   .bss.boardUI:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1909   .bss.dac_value:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1915   .bss.jsonEngineRunner:0000000000000000 $d
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s 			page 95
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1893   .init_array:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1912   .bss.dac_value:0000000000000000 dac_value
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1918   .bss.jsonEngineRunner:0000000000000000 jsonEngineRunner
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1939   .bss.usbController:0000000000000000 usbController
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1925   .bss.masterControl:0000000000000000 masterControl
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1906   .bss.boardUI:0000000000000000 boardUI
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1932   .bss.powerManager:0000000000000000 powerManager
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1902   .bss.boardUI:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1909   .bss.dac_value:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1915   .bss.jsonEngineRunner:0000000000000000 $d
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s 			page 95
 
 
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1921   .bss.masterControl:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1928   .bss.powerManager:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccK5ul6J.s:1935   .bss.usbController:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1921   .bss.masterControl:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1928   .bss.powerManager:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cccpQC24.s:1935   .bss.usbController:0000000000000000 $d
                            .group:0000000000000000 _ZN12USBInterfaceD5Ev
                            .group:0000000000000000 _ZN12PowerManagerD5Ev
                            .group:0000000000000000 _ZN12PowerManagerC5Ev

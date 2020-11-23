@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** 
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** /** @addtogroup STM32F3xx_HAL_Driver
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @{
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   */
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
   36 0002 1A69     		ldr	r2, [r3, #16]
   37 0004 42F08052 		orr	r2, r2, #268435456
   38 0008 1A61     		str	r2, [r3, #16]
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 3
 
 
   78:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   __HAL_RCC_PWR_RELEASE_RESET();
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
   82              		.align	1
   83              		.global	HAL_PWR_DisableBkUpAccess
   84              		.syntax unified
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 4
 
 
   85              		.thumb
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  113:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** 
  114:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****  ===============================================================================
  115:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****                  ##### Peripheral Control functions #####
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 5
 
 
  116:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****  ===============================================================================
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  170:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****       In Stop mode, all clocks in the 1.8V domain are stopped, the PLL, the HSI,
  171:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****       and the HSE RC oscillators are disabled. Internal SRAM and register contents
  172:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****       are preserved.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 6
 
 
  173:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****       The voltage regulator can be configured either in normal or low-power mode to minimize the co
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  227:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****       (++) To wake up from the Stop mode with a comparator wakeup event, it is necessary to:
  228:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****            (+++) Configure the EXTI Line associated with the comparator (example EXTI Line 22 for c
  229:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****                  to be sensitive to to the selected edges (falling, rising or falling 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 7
 
 
  230:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****                  and rising) (Interrupt or Event modes) using the EXTI_Init() function.
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  255:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   *           @ref PWR_WakeUp_Pins
  256:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @retval None
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   */
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 8
 
 
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** void HAL_PWR_DisableWakeUpPin(uint32_t WakeUpPinx)
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  283:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry)
  284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** {
  183              		.loc 1 284 1 is_stmt 1 view -0
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 9
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 9
 
 
  184              		.cfi_startproc
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  217              		.loc 1 295 5 is_stmt 1 view .LVU28
  218              		.syntax unified
  219              	@ 295 "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c" 1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 10
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 10
 
 
  220 0016 30BF     		wfi
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  331:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   assert_param(IS_PWR_STOP_ENTRY(STOPEntry));
  250              		.loc 1 331 3 view .LVU32
  332:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 11
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 11
 
 
  333:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   /* Select the regulator state in STOP mode ---------------------------------*/
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  280              		.loc 1 357 5 is_stmt 1 view .LVU46
  281              		.syntax unified
  282              	@ 357 "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c" 1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 12
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 12
 
 
  283 001a 40BF     		sev
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  365:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** 
  366:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** /**
  367:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @brief Enters STANDBY mode.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 13
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 13
 
 
  368:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @note  In Standby mode, all I/O pins are high impedance except for:
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  363              	.LFE137:
  365              		.section	.text.HAL_PWR_EnableSleepOnExit,"ax",%progbits
  366              		.align	1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 14
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 14
 
 
  367              		.global	HAL_PWR_EnableSleepOnExit
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  410:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   * @retval None
  411:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c ****   */
  412:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** void HAL_PWR_DisableSleepOnExit(void)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 15
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 15
 
 
  413:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** {
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c **** }
  443              		.loc 1 430 1 is_stmt 0 view .LVU68
  444 000a 7047     		bx	lr
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 16
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 16
 
 
  445              	.L39:
@@ -955,46 +955,46 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 1
  486              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
  487              		.file 6 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f373xc.h"
  488              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s 			page 17
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f3xx_hal_pwr.c
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:18     .text.HAL_PWR_DeInit:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:26     .text.HAL_PWR_DeInit:0000000000000000 HAL_PWR_DeInit
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:48     .text.HAL_PWR_DeInit:0000000000000014 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:53     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:60     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 HAL_PWR_EnableBkUpAccess
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:77     .text.HAL_PWR_EnableBkUpAccess:000000000000000c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:82     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:89     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 HAL_PWR_DisableBkUpAccess
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:106    .text.HAL_PWR_DisableBkUpAccess:000000000000000c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:111    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:118    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 HAL_PWR_EnableWakeUpPin
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:137    .text.HAL_PWR_EnableWakeUpPin:000000000000000c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:142    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:149    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 HAL_PWR_DisableWakeUpPin
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:168    .text.HAL_PWR_DisableWakeUpPin:000000000000000c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:173    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:180    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 HAL_PWR_EnterSLEEPMode
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:228    .text.HAL_PWR_EnterSLEEPMode:000000000000001c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:233    .text.HAL_PWR_EnterSTOPMode:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:240    .text.HAL_PWR_EnterSTOPMode:0000000000000000 HAL_PWR_EnterSTOPMode
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:316    .text.HAL_PWR_EnterSTOPMode:0000000000000030 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:322    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:329    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 HAL_PWR_EnterSTANDBYMode
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:360    .text.HAL_PWR_EnterSTANDBYMode:0000000000000018 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:366    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:373    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 HAL_PWR_EnableSleepOnExit
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:390    .text.HAL_PWR_EnableSleepOnExit:000000000000000c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:395    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:402    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 HAL_PWR_DisableSleepOnExit
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:419    .text.HAL_PWR_DisableSleepOnExit:000000000000000c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:424    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:431    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 HAL_PWR_EnableSEVOnPend
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:448    .text.HAL_PWR_EnableSEVOnPend:000000000000000c $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:453    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:460    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 HAL_PWR_DisableSEVOnPend
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cckgPoAP.s:477    .text.HAL_PWR_DisableSEVOnPend:000000000000000c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:18     .text.HAL_PWR_DeInit:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:26     .text.HAL_PWR_DeInit:0000000000000000 HAL_PWR_DeInit
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:48     .text.HAL_PWR_DeInit:0000000000000014 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:53     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:60     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 HAL_PWR_EnableBkUpAccess
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:77     .text.HAL_PWR_EnableBkUpAccess:000000000000000c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:82     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:89     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 HAL_PWR_DisableBkUpAccess
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:106    .text.HAL_PWR_DisableBkUpAccess:000000000000000c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:111    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:118    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 HAL_PWR_EnableWakeUpPin
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:137    .text.HAL_PWR_EnableWakeUpPin:000000000000000c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:142    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:149    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 HAL_PWR_DisableWakeUpPin
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:168    .text.HAL_PWR_DisableWakeUpPin:000000000000000c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:173    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:180    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 HAL_PWR_EnterSLEEPMode
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:228    .text.HAL_PWR_EnterSLEEPMode:000000000000001c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:233    .text.HAL_PWR_EnterSTOPMode:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:240    .text.HAL_PWR_EnterSTOPMode:0000000000000000 HAL_PWR_EnterSTOPMode
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:316    .text.HAL_PWR_EnterSTOPMode:0000000000000030 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:322    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:329    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 HAL_PWR_EnterSTANDBYMode
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:360    .text.HAL_PWR_EnterSTANDBYMode:0000000000000018 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:366    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:373    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 HAL_PWR_EnableSleepOnExit
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:390    .text.HAL_PWR_EnableSleepOnExit:000000000000000c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:395    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:402    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 HAL_PWR_DisableSleepOnExit
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:419    .text.HAL_PWR_DisableSleepOnExit:000000000000000c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:424    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:431    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 HAL_PWR_EnableSEVOnPend
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:448    .text.HAL_PWR_EnableSEVOnPend:000000000000000c $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:453    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:460    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 HAL_PWR_DisableSEVOnPend
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccJ25tRo.s:477    .text.HAL_PWR_DisableSEVOnPend:000000000000000c $d
 
 NO UNDEFINED SYMBOLS

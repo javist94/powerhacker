@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
   27:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @attention
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   *
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * <h2><center>&copy; Copyright (c) 2016 STMicroelectronics.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 2
 
 
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * All rights reserved.</center></h2>
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
   69:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
   70:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   /* NOTE : - This function is not required by USB Device FS peripheral, it is used
   71:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****               only by USB OTG FS peripheral.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 3
 
 
   72:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             - This function is added to ensure compatibility across platforms.
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
   80              		.loc 1 92 3 is_stmt 1 view .LVU13
   81              	.LVL4:
   93:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****                    USB_CNTR_SUSPM | USB_CNTR_ERRM |
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 4
 
 
   94:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****                    USB_CNTR_SOFM | USB_CNTR_ESOFM |
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  111              		.loc 1 120 14 is_stmt 0 view .LVU22
  112 0000 B0F84030 		ldrh	r3, [r0, #64]
  113 0004 23F47C53 		bic	r3, r3, #16128
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 5
 
 
  114 0008 5B04     		lsls	r3, r3, #17
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  146 0000 0020     		movs	r0, #0
  147              	.LVL8:
  148              		.loc 1 144 1 view .LVU31
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 6
 
 
  149 0002 7047     		bx	lr
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  163:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   /* CNTR_FRES = 0 */
  164:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   USBx->CNTR = 0U;
  187              		.loc 1 164 3 is_stmt 1 view .LVU38
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 7
 
 
  188              		.loc 1 164 14 is_stmt 0 view .LVU39
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  226              		@ frame_needed = 0, uses_anonymous_args = 0
  227              		@ link register save eliminated.
  228              		.loc 1 182 1 is_stmt 0 view .LVU48
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 8
 
 
  229 0000 30B4     		push	{r4, r5}
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  199:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     case EP_TYPE_INTR:
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       wEpRegVal |= USB_EP_INTERRUPT;
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       break;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 9
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 9
 
 
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  219:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     {
  220:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       /*Set the endpoint Transmit buffer address */
  221:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_SET_EP_TX_ADDRESS(USBx, ep->num, ep->pmaadress);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 10
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 10
 
 
  304              		.loc 1 221 7 is_stmt 1 view .LVU72
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  223:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  224:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       if (ep->type != EP_TYPE_ISOC)
  357              		.loc 1 224 7 discriminator 3 view .LVU92
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 11
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 11
 
 
  358              		.loc 1 224 13 is_stmt 0 discriminator 3 view .LVU93
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  183:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   uint16_t wEpRegVal;
  403              		.loc 1 183 21 is_stmt 0 view .LVU111
  404 00c8 0020     		movs	r0, #0
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 12
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 12
 
 
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  447              	.LBE7:
  233:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  234:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 13
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 13
 
 
  235:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     else
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  495 0130 B2F80C44 		ldrh	r4, [r2, #1036]
  496 0134 6FEA4444 		mvn	r4, r4, lsl #17
  497 0138 6FEA5444 		mvn	r4, r4, lsr #17
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 14
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 14
 
 
  498 013c A4B2     		uxth	r4, r4
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  548 0170 22F48042 		bic	r2, r2, #16384
  549 0174 22F07002 		bic	r2, r2, #112
  550              	.LVL51:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 15
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 15
 
 
  551              		.loc 1 245 7 is_stmt 1 discriminator 3 view .LVU166
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
  285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   }
  286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 16
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 16
 
 
  287:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   return ret;
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  241:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_RX_DTOG(USBx, ep->num);
  609              		.loc 1 241 7 discriminator 5 view .LVU186
  610 01a6 14F01F0F 		tst	r4, #31
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 17
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 17
 
 
  611 01aa 00D1     		bne	.L24
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  651              	.LVL63:
  255:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  652              		.loc 1 255 5 view .LVU201
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 18
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 18
 
 
  653 01da B3F85020 		ldrh	r2, [r3, #80]
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  692              		.loc 1 255 5 view .LVU216
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     {
  693              		.loc 1 257 5 view .LVU217
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 19
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 19
 
 
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     {
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  261:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  733              		.loc 1 261 7 discriminator 3 view .LVU233
  734              	.LBB21:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 20
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 20
 
 
  261:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  774 0268 22F07002 		bic	r2, r2, #112
  775              	.LVL79:
  263:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_SET_EP_TX_STATUS(USBx, ep->num, USB_EP_TX_DIS);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 21
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 21
 
 
  776              		.loc 1 263 7 discriminator 3 view .LVU249
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  814              		.loc 1 269 7 view .LVU265
  815              	.LBB25:
  269:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 22
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 22
 
 
  816              		.loc 1 269 7 view .LVU266
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  855 02be 12F0400F 		tst	r2, #64
  856 02c2 0CD0     		beq	.L30
  270:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 23
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 23
 
 
  857              		.loc 1 270 7 discriminator 1 view .LVU282
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  896              		.loc 1 275 9 view .LVU297
  275:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  897              		.loc 1 275 9 view .LVU298
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 24
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 24
 
 
  275:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  937              	.LBB31:
  280:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  938              		.loc 1 280 9 view .LVU314
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 25
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 25
 
 
  280:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  980 0004 46D1     		bne	.L36
  299:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   {
  300:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     if (ep->is_in != 0U)
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 26
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 26
 
 
  981              		.loc 1 300 5 is_stmt 1 view .LVU324
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1030              		.loc 1 305 7 discriminator 3 view .LVU344
  1031              		.loc 1 305 7 discriminator 3 view .LVU345
  1032 0040 43F40043 		orr	r3, r3, #32768
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 27
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 27
 
 
  1033              	.LVL109:
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1048              	.L37:
  309:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  1049              		.loc 1 309 7 is_stmt 1 view .LVU352
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 28
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 28
 
 
  1050              	.LBB35:
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1089 007e 23F48043 		bic	r3, r3, #16384
  1090 0082 23F07003 		bic	r3, r3, #112
  1091              	.LVL116:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 29
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 29
 
 
  312:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1130              	.LVL119:
  321:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
  1131              		.loc 1 321 7 is_stmt 0 discriminator 1 view .LVU384
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 30
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 30
 
 
  1132 00ac 9BB2     		uxth	r3, r3
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  322:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  1172              		.loc 1 322 7 is_stmt 0 discriminator 1 view .LVU399
  1173 00e0 43F0C003 		orr	r3, r3, #192
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 31
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 31
 
 
  1174 00e4 20F82230 		strh	r3, [r0, r2, lsl #2]	@ movhi
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1213 0118 2243     		orrs	r2, r2, r4
  1214              	.LVL129:
  327:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_SET_EP_TX_STATUS(USBx, ep->num, USB_EP_TX_DIS);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 32
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 32
 
 
  1215              		.loc 1 327 7 is_stmt 0 discriminator 3 view .LVU415
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  333:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
  1257              		.loc 1 333 7 view .LVU430
  333:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 33
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 33
 
 
  1258              		.loc 1 333 7 view .LVU431
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  334:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_RX_DTOG(USBx, ep->num);
  1298              		.loc 1 334 7 discriminator 1 view .LVU446
  1299              	.LBB48:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 34
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 34
 
 
  334:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_RX_DTOG(USBx, ep->num);
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1339              		.loc 1 338 7 discriminator 3 view .LVU461
  1340              	.LBB50:
  338:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_SET_EP_RX_STATUS(USBx, ep->num, USB_EP_RX_DIS);
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 35
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 35
 
 
  1341              		.loc 1 338 7 discriminator 3 view .LVU462
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1383              		.global	USB_EPSetStall
  1384              		.syntax unified
  1385              		.thumb
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 36
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 36
 
 
  1386              		.thumb_func
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  394:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             PCD_SET_EP_DBUF1_CNT(USBx, ep->num, ep->is_in, len);
  395:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  396:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 37
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 37
 
 
  397:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             /* Write the user buffer to USB PMA */
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  451:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           /* disable double buffer mode */
  452:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           PCD_CLEAR_EP_DBUF(USBx, ep->num);
  453:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 38
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 38
 
 
  454:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           /* Set Tx count with nbre of byte to be transmitted */
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  508:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       /* Set the Double buffer counter */
  509:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       if (ep->type == EP_TYPE_BULK)
  510:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 39
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 39
 
 
  511:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         PCD_SET_EP_DBUF_CNT(USBx, ep->num, ep->is_in, ep->maxpacket);
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1393              		.cfi_startproc
  1394              		@ args = 0, pretend = 0, frame = 0
  1395              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 40
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 40
 
 
  1396              		@ link register save eliminated.
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1437              		.loc 1 570 5 view .LVU494
  570:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   }
  1438              		.loc 1 570 5 view .LVU495
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 41
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 41
 
 
  1439 0028 0A78     		ldrb	r2, [r1]	@ zero_extendqisi2
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1480              		.loc 1 584 6 view .LVU504
  1481 0002 002B     		cmp	r3, #0
  1482 0004 4BD1     		bne	.L53
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 42
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 42
 
 
  585:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   {
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1528              	.LBB56:
  1529              		.loc 1 593 9 view .LVU525
  1530              		.loc 1 593 9 view .LVU526
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 43
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 43
 
 
  1531 0036 0A78     		ldrb	r2, [r1]	@ zero_extendqisi2
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1580              		.loc 1 598 7 discriminator 1 view .LVU543
  1581              	.LBE58:
  1582              		.loc 1 598 7 is_stmt 1 discriminator 3 view .LVU544
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 44
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 44
 
 
  1583              	.LBE57:
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  607:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  608:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** /**
  609:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @brief  USB_StopDevice Stop the usb device mode
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 45
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 45
 
 
  610:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @param  USBx Selected device
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  628:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @brief  USB_SetDevAddress Stop the usb device mode
  629:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @param  USBx Selected device
  630:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @param  address new device address to be assigned
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 46
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 46
 
 
  631:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   *          This parameter can be a value from 0 to 255
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1704              		@ args = 0, pretend = 0, frame = 0
  1705              		@ frame_needed = 0, uses_anonymous_args = 0
  1706              		@ link register save eliminated.
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 47
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 47
 
 
  652:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   /* Prevent unused argument(s) compilation warning */
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1735              		.loc 1 679 1 is_stmt 0 view .LVU587
  1736 0000 0020     		movs	r0, #0
  1737              	.LVL180:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 48
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 48
 
 
  1738              		.loc 1 679 1 view .LVU588
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1783              	.LFB145:
  693:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  694:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** /**
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 49
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 49
 
 
  695:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @brief  USB_ActivateRemoteWakeup : active remote wakeup signalling
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1821              		.loc 1 713 14 is_stmt 0 view .LVU604
  1822 0000 B0F84030 		ldrh	r3, [r0, #64]
  1823 0004 9BB2     		uxth	r3, r3
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 50
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 50
 
 
  1824 0006 23F01003 		bic	r3, r3, #16
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  730:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   uint32_t i, temp1, temp2;
  1864              		.loc 1 730 3 view .LVU614
  731:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   __IO uint16_t *pdwVal;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 51
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 51
 
 
  1865              		.loc 1 731 3 view .LVU615
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1901              		.loc 1 736 24 is_stmt 1 discriminator 3 view .LVU635
  736:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   {
  1902              		.loc 1 736 25 is_stmt 0 discriminator 3 view .LVU636
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 52
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 52
 
 
  1903 001e 013C     		subs	r4, r4, #1
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1949              		.loc 1 359 9 is_stmt 0 view .LVU646
  1950 0006 4A78     		ldrb	r2, [r1, #1]	@ zero_extendqisi2
  359:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 53
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 53
 
 
  1951              		.loc 1 359 6 view .LVU647
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  1989              	.LVL205:
  503:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
  1990              		.loc 1 503 7 is_stmt 1 view .LVU664
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 54
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 54
 
 
  1991              	.LBB61:
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2031              		.loc 1 549 5 view .LVU678
  2032 006c 43F40043 		orr	r3, r3, #32768
  2033              	.LVL210:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 55
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 55
 
 
  549:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   }
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2072 0092 35F82310 		ldrh	r1, [r5, r3, lsl #2]
  467:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         {
  2073              		.loc 1 467 12 view .LVU695
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 56
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 56
 
 
  2074 0096 11F0400F 		tst	r1, #64
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2113 00ce 6FEA5242 		mvn	r2, r2, lsr #17
  2114 00d2 92B2     		uxth	r2, r2
  2115 00d4 A3F80C24 		strh	r2, [r3, #1036]	@ movhi
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 57
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 57
 
 
  2116 00d8 B7E1     		b	.L109
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2156              	.LBB70:
  485:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   }
  2157              		.loc 1 485 5 discriminator 6 view .LVU725
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 58
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 58
 
 
  485:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   }
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2197 012e 23F4E043 		bic	r3, r3, #28672
  2198 0132 23F07003 		bic	r3, r3, #112
  2199              	.LVL230:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 59
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 59
 
 
  385:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2237              		.loc 1 394 13 discriminator 1 view .LVU757
  2238 0162 02EB0313 		add	r3, r2, r3, lsl #4
  2239              	.LVL235:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 60
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 60
 
 
  394:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2281 019e A3F80C24 		strh	r2, [r3, #1036]	@ movhi
  394:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2282              		.loc 1 394 13 is_stmt 1 discriminator 10 view .LVU771
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 61
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 61
 
 
  2283 01a2 0EE0     		b	.L80
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  398:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             ep->xfer_buff += len;
  2325              		.loc 1 398 13 is_stmt 0 discriminator 18 view .LVU784
  2326 01ca FFF7FEFF 		bl	USB_WritePMA
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 62
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 62
 
 
  2327              	.LVL248:
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2365              	.LBB76:
  412:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
  2366              		.loc 1 412 13 discriminator 1 view .LVU801
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 63
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 63
 
 
  412:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2409 0230 2262     		str	r2, [r4, #32]
  407:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****               ep->xfer_len_db = 0U;
  2410              		.loc 1 407 19 view .LVU814
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 64
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 64
 
 
  2411 0232 1E46     		mov	r6, r3
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2452 0258 6FEAC262 		mvn	r2, r2, lsl #27
  2453              	.LVL263:
  412:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 65
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 65
 
 
  2454              		.loc 1 412 13 is_stmt 0 discriminator 14 view .LVU828
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2495              		.loc 1 412 13 discriminator 16 view .LVU841
  2496 0288 B2B2     		uxth	r2, r6
  2497 028a A3F80424 		strh	r2, [r3, #1028]	@ movhi
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 66
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 66
 
 
  2498 028e EDE7     		b	.L88
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2538 02c4 1AE0     		b	.L94
  2539              	.LVL275:
  2540              	.L93:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 67
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 67
 
 
  421:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2581 02f0 92B2     		uxth	r2, r2
  2582 02f2 A3F80424 		strh	r2, [r3, #1028]	@ movhi
  2583 02f6 01E0     		b	.L94
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 68
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 68
 
 
  2584              	.LVL283:
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2623              	.L99:
  439:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2624              		.loc 1 439 13 is_stmt 1 view .LVU885
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 69
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 69
 
 
  2625              	.LBB83:
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  439:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2666              		.loc 1 439 13 is_stmt 0 discriminator 3 view .LVU899
  2667              	.LBE85:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 70
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 70
 
 
  2668              	.LBE84:
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  439:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2708              		.loc 1 439 13 discriminator 6 view .LVU914
  2709 0374 7208     		lsrs	r2, r6, #1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 71
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 71
 
 
  2710              	.LVL297:
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2751              		.loc 1 439 13 is_stmt 1 discriminator 2 view .LVU927
  2752 03a2 012B     		cmp	r3, #1
  2753 03a4 06D0     		beq	.L163
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 72
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 72
 
 
  2754              	.LVL304:
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2795 03d0 92B2     		uxth	r2, r2
  2796 03d2 22F4E242 		bic	r2, r2, #28928
  2797 03d6 22F07002 		bic	r2, r2, #112
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 73
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 73
 
 
  2798              	.LVL310:
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  459:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         }
  2837              		.loc 1 459 11 view .LVU956
  2838 0400 FFF7FEFF 		bl	USB_WritePMA
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 74
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 74
 
 
  2839              	.LVL319:
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2880              	.LVL326:
  2881              	.L112:
  470:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr1;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 75
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 75
 
 
  2882              		.loc 1 470 11 discriminator 14 view .LVU970
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2923              		.loc 1 480 9 is_stmt 0 view .LVU983
  2924 0452 FFF7FEFF 		bl	USB_WritePMA
  2925              	.LVL335:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 76
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 76
 
 
  481:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  2965 0484 02EB0313 		add	r3, r2, r3, lsl #4
  2966              	.LVL341:
  476:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 77
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 77
 
 
  2967              		.loc 1 476 11 discriminator 1 view .LVU999
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  476:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
  3009              		.loc 1 476 11 is_stmt 1 discriminator 10 view .LVU1012
  3010 04c4 15E0     		b	.L116
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 78
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 78
 
 
  3011              	.LVL347:
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3051              	.LVL354:
  476:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
  3052              		.loc 1 476 11 is_stmt 0 discriminator 16 view .LVU1027
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 79
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 79
 
 
  3053 04ee A3F80424 		strh	r2, [r3, #1028]	@ movhi
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  500:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3093              		.loc 1 500 9 view .LVU1042
  500:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 80
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 80
 
 
  3094              		.loc 1 500 22 is_stmt 0 view .LVU1043
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3135 0542 0139     		subs	r1, r1, #1
  3136              	.LVL366:
  3137              	.L129:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 81
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 81
 
 
  503:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  541:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3177              		.loc 1 541 9 is_stmt 1 view .LVU1072
  541:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 82
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 82
 
 
  3178              		.loc 1 541 9 view .LVU1073
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3218              		.loc 1 541 9 discriminator 18 view .LVU1087
  541:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3219              		.loc 1 541 9 discriminator 18 view .LVU1088
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 83
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 83
 
 
  3220              	.LBB103:
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3260 05e4 38E5     		b	.L126
  3261              	.LVL379:
  3262              	.L164:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 84
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 84
 
 
  541:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3303              	.L131:
  511:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  3304              		.loc 1 511 9 is_stmt 0 discriminator 3 view .LVU1117
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 85
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 85
 
 
  3305              	.LBE109:
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3343 0644 B3F80C24 		ldrh	r2, [r3, #1036]
  3344 0648 6FEA4242 		mvn	r2, r2, lsl #17
  3345 064c 6FEA5242 		mvn	r2, r2, lsr #17
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 86
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 86
 
 
  3346 0650 92B2     		uxth	r2, r2
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3388              	.LVL392:
  3389              	.L135:
  511:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 87
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 87
 
 
  3390              		.loc 1 511 9 discriminator 14 view .LVU1146
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  511:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  3433              		.loc 1 511 9 discriminator 30 view .LVU1158
  3434 06aa 0139     		subs	r1, r1, #1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 88
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 88
 
 
  3435              	.LVL398:
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3475 06d8 02D0     		beq	.L142
  520:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****               (((wEPVal & USB_EP_DTOG_RX) == 0U) && ((wEPVal & USB_EP_DTOG_TX) == 0U)))
  3476              		.loc 1 520 88 discriminator 1 view .LVU1173
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 89
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 89
 
 
  3477 06da 0028     		cmp	r0, #0
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  538:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           ep->xfer_len = 0U;
  3519              		.loc 1 538 11 is_stmt 1 view .LVU1186
  539:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         }
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 90
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 90
 
 
  3520              		.loc 1 539 11 view .LVU1187
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  541:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3561              		.loc 1 541 9 discriminator 12 view .LVU1201
  3562 073a 0139     		subs	r1, r1, #1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 91
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 91
 
 
  3563              	.LVL414:
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3605              		.loc 1 541 9 discriminator 25 view .LVU1213
  541:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3606              		.loc 1 541 9 discriminator 25 view .LVU1214
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 92
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 92
 
 
  3607 0764 5909     		lsrs	r1, r3, #5
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  545:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3650              		.loc 1 545 16 view .LVU1226
  3651 079a 0120     		movs	r0, #1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 93
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 93
 
 
  3652              	.LVL429:
@@ -5578,7 +5578,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3689 0004 00EB4200 		add	r0, r0, r2, lsl #1
  3690              	.LVL432:
  3691              		.loc 1 768 48 view .LVU1238
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 94
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 94
 
 
  3692 0008 00F58060 		add	r0, r0, #1024
@@ -5638,7 +5638,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3727              		.loc 1 784 3 is_stmt 1 view .LVU1257
  3728              		.loc 1 784 6 is_stmt 0 view .LVU1258
  3729 0020 13F0010F 		tst	r3, #1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 95
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 95
 
 
  3730 0024 01D0     		beq	.L166
@@ -5676,50 +5676,50 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 1
  3758              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
  3759              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usb.h"
  3760              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s 			page 96
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s 			page 96
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f3xx_ll_usb.c
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:18     .text.USB_CoreInit:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:26     .text.USB_CoreInit:0000000000000000 USB_CoreInit
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:56     .text.USB_EnableGlobalInt:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:63     .text.USB_EnableGlobalInt:0000000000000000 USB_EnableGlobalInt
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:93     .text.USB_DisableGlobalInt:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:100    .text.USB_DisableGlobalInt:0000000000000000 USB_DisableGlobalInt
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:127    .text.USB_SetCurrentMode:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:134    .text.USB_SetCurrentMode:0000000000000000 USB_SetCurrentMode
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:154    .text.USB_DevInit:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:161    .text.USB_DevInit:0000000000000000 USB_DevInit
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:213    .text.USB_ActivateEndpoint:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:220    .text.USB_ActivateEndpoint:0000000000000000 USB_ActivateEndpoint
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:258    .text.USB_ActivateEndpoint:0000000000000020 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:262    .text.USB_ActivateEndpoint:0000000000000024 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:960    .text.USB_DeactivateEndpoint:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:967    .text.USB_DeactivateEndpoint:0000000000000000 USB_DeactivateEndpoint
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1382   .text.USB_EPSetStall:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1389   .text.USB_EPSetStall:0000000000000000 USB_EPSetStall
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1462   .text.USB_EPClearStall:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1469   .text.USB_EPClearStall:0000000000000000 USB_EPClearStall
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1621   .text.USB_StopDevice:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1628   .text.USB_StopDevice:0000000000000000 USB_StopDevice
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1659   .text.USB_SetDevAddress:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1666   .text.USB_SetDevAddress:0000000000000000 USB_SetDevAddress
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1692   .text.USB_DevConnect:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1699   .text.USB_DevConnect:0000000000000000 USB_DevConnect
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1718   .text.USB_DevDisconnect:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1725   .text.USB_DevDisconnect:0000000000000000 USB_DevDisconnect
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1744   .text.USB_ReadInterrupts:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1751   .text.USB_ReadInterrupts:0000000000000000 USB_ReadInterrupts
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1774   .text.USB_ActivateRemoteWakeup:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1781   .text.USB_ActivateRemoteWakeup:0000000000000000 USB_ActivateRemoteWakeup
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1805   .text.USB_DeActivateRemoteWakeup:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1812   .text.USB_DeActivateRemoteWakeup:0000000000000000 USB_DeActivateRemoteWakeup
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1837   .text.USB_WritePMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1844   .text.USB_WritePMA:0000000000000000 USB_WritePMA
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1921   .text.USB_EPStartXfer:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:1928   .text.USB_EPStartXfer:0000000000000000 USB_EPStartXfer
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:3659   .text.USB_ReadPMA:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccO6i4X5.s:3666   .text.USB_ReadPMA:0000000000000000 USB_ReadPMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:18     .text.USB_CoreInit:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:26     .text.USB_CoreInit:0000000000000000 USB_CoreInit
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:56     .text.USB_EnableGlobalInt:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:63     .text.USB_EnableGlobalInt:0000000000000000 USB_EnableGlobalInt
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:93     .text.USB_DisableGlobalInt:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:100    .text.USB_DisableGlobalInt:0000000000000000 USB_DisableGlobalInt
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:127    .text.USB_SetCurrentMode:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:134    .text.USB_SetCurrentMode:0000000000000000 USB_SetCurrentMode
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:154    .text.USB_DevInit:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:161    .text.USB_DevInit:0000000000000000 USB_DevInit
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:213    .text.USB_ActivateEndpoint:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:220    .text.USB_ActivateEndpoint:0000000000000000 USB_ActivateEndpoint
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:258    .text.USB_ActivateEndpoint:0000000000000020 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:262    .text.USB_ActivateEndpoint:0000000000000024 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:960    .text.USB_DeactivateEndpoint:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:967    .text.USB_DeactivateEndpoint:0000000000000000 USB_DeactivateEndpoint
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1382   .text.USB_EPSetStall:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1389   .text.USB_EPSetStall:0000000000000000 USB_EPSetStall
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1462   .text.USB_EPClearStall:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1469   .text.USB_EPClearStall:0000000000000000 USB_EPClearStall
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1621   .text.USB_StopDevice:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1628   .text.USB_StopDevice:0000000000000000 USB_StopDevice
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1659   .text.USB_SetDevAddress:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1666   .text.USB_SetDevAddress:0000000000000000 USB_SetDevAddress
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1692   .text.USB_DevConnect:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1699   .text.USB_DevConnect:0000000000000000 USB_DevConnect
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1718   .text.USB_DevDisconnect:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1725   .text.USB_DevDisconnect:0000000000000000 USB_DevDisconnect
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1744   .text.USB_ReadInterrupts:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1751   .text.USB_ReadInterrupts:0000000000000000 USB_ReadInterrupts
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1774   .text.USB_ActivateRemoteWakeup:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1781   .text.USB_ActivateRemoteWakeup:0000000000000000 USB_ActivateRemoteWakeup
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1805   .text.USB_DeActivateRemoteWakeup:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1812   .text.USB_DeActivateRemoteWakeup:0000000000000000 USB_DeActivateRemoteWakeup
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1837   .text.USB_WritePMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1844   .text.USB_WritePMA:0000000000000000 USB_WritePMA
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1921   .text.USB_EPStartXfer:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:1928   .text.USB_EPStartXfer:0000000000000000 USB_EPStartXfer
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:3659   .text.USB_ReadPMA:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccDSMjf4.s:3666   .text.USB_ReadPMA:0000000000000000 USB_ReadPMA
 
 NO UNDEFINED SYMBOLS
