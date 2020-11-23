@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
   28:Core/Lib/fifo.c **** fifo_t fifo_create(uint16_t count, size_t size)
   29:Core/Lib/fifo.c **** {
   30:Core/Lib/fifo.c **** 	fifo_t newfifo;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 2
 
 
   31:Core/Lib/fifo.c **** 	if (count > 0) {
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
   85:Core/Lib/fifo.c **** 	if (!fifo_is_empty(fifo)) {
   86:Core/Lib/fifo.c **** 		fifo_copy_from(fifo, item);
   87:Core/Lib/fifo.c **** 		fifo->storedbytes -= fifo->itemsize;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 3
 
 
   88:Core/Lib/fifo.c **** 		return true;
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
   32              		@ frame_needed = 0, uses_anonymous_args = 0
   33              		.loc 1 138 1 is_stmt 0 view .LVU1
   34 0000 10B5     		push	{r4, lr}
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 4
 
 
   35              	.LCFI0:
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
   84              		.thumb_func
   85              		.fpu fpv4-sp-d16
   87              	fifo_copy_from:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 5
 
 
   88              	.LVL3:
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  132:Core/Lib/fifo.c **** 		fifo->readoffset = 0;
  129              		.loc 1 132 5 view .LVU31
  130 0026 9342     		cmp	r3, r2
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 6
 
 
  131 0028 01D3     		bcc	.L4
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  176 0008 1420     		movs	r0, #20
  177              	.LVL8:
   32:Core/Lib/fifo.c **** 		if (newfifo != NULL) {
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 7
 
 
  178              		.loc 1 32 40 view .LVU43
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  214              		.loc 1 43 26 is_stmt 0 view .LVU61
  215 002a E381     		strh	r3, [r4, #14]	@ movhi
   44:Core/Lib/fifo.c **** 				// Return the pointer to fifo_descriptor structure
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 8
 
 
  216              		.loc 1 44 5 is_stmt 1 view .LVU62
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  263              		@ link register save eliminated.
   58:Core/Lib/fifo.c **** 	// Sanity check for memory and element sizes
  264              		.loc 1 58 1 is_stmt 0 view .LVU72
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 9
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 9
 
 
  265 0000 10B4     		push	{r4}
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
   70:Core/Lib/fifo.c **** 
  301              		.loc 1 70 1 is_stmt 0 view .LVU91
  302 001a 5DF8044B 		ldr	r4, [sp], #4
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 10
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 10
 
 
  303              	.LCFI4:
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  350 0006 01D3     		bcc	.L20
   97:Core/Lib/fifo.c **** 	else
  351              		.loc 1 97 10 view .LVU101
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 11
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 11
 
 
  352 0008 0120     		movs	r0, #1
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  399              	.L22:
   81:Core/Lib/fifo.c **** 
  400              		.loc 1 81 1 view .LVU111
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 12
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 12
 
 
  401 000e 38BD     		pop	{r3, r4, r5, pc}
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  445              		.loc 1 105 10 view .LVU123
  446 0004 0120     		movs	r0, #1
  447              	.LVL34:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 13
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 13
 
 
  105:Core/Lib/fifo.c **** 	else
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  494              		.loc 1 92 1 view .LVU133
  495 000e 38BD     		pop	{r3, r4, r5, pc}
  496              	.LVL39:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 14
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 14
 
 
  497              	.L33:
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  113:Core/Lib/fifo.c **** 	if (t <= fifo->storedbytes) // Check if we can remove the requested ammount of data
  541              		.loc 1 113 4 view .LVU146
  542 0006 89B2     		uxth	r1, r1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 15
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 15
 
 
  543              	.LVL43:
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  581 002a 0369     		ldr	r3, [r0, #16]
  582 002c 591A     		subs	r1, r3, r1
  583              	.LVL47:
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 16
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 16
 
 
  118:Core/Lib/fifo.c **** 		} else if (side == E_FIFO_BACK) {
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  623              		.loc 1 121 22 is_stmt 0 view .LVU177
  624 0050 0369     		ldr	r3, [r0, #16]
  625 0052 591A     		subs	r1, r3, r1
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 17
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 17
 
 
  626              	.LVL51:
@@ -979,29 +979,29 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 1
  641              		.file 8 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-
  642              		.file 9 "Core/Lib/FIFO.h"
  643              		.file 10 "<built-in>"
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s 			page 18
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s 			page 18
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 fifo.c
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:18     .text.fifo_copy_to:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:25     .text.fifo_copy_to:0000000000000000 fifo_copy_to
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:81     .text.fifo_copy_from:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:87     .text.fifo_copy_from:0000000000000000 fifo_copy_from
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:144    .text.fifo_create:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:151    .text.fifo_create:0000000000000000 fifo_create
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:249    .text.fifo_create_static:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:256    .text.fifo_create_static:0000000000000000 fifo_create_static
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:328    .text.fifo_is_full:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:335    .text.fifo_is_full:0000000000000000 fifo_is_full
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:367    .text.fifo_add:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:374    .text.fifo_add:0000000000000000 fifo_add
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:425    .text.fifo_is_empty:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:432    .text.fifo_is_empty:0000000000000000 fifo_is_empty
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:461    .text.fifo_get:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:468    .text.fifo_get:0000000000000000 fifo_get
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:519    .text.fifo_discard:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc9KwgBu.s:526    .text.fifo_discard:0000000000000000 fifo_discard
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:18     .text.fifo_copy_to:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:25     .text.fifo_copy_to:0000000000000000 fifo_copy_to
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:81     .text.fifo_copy_from:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:87     .text.fifo_copy_from:0000000000000000 fifo_copy_from
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:144    .text.fifo_create:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:151    .text.fifo_create:0000000000000000 fifo_create
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:249    .text.fifo_create_static:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:256    .text.fifo_create_static:0000000000000000 fifo_create_static
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:328    .text.fifo_is_full:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:335    .text.fifo_is_full:0000000000000000 fifo_is_full
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:367    .text.fifo_add:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:374    .text.fifo_add:0000000000000000 fifo_add
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:425    .text.fifo_is_empty:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:432    .text.fifo_is_empty:0000000000000000 fifo_is_empty
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:461    .text.fifo_get:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:468    .text.fifo_get:0000000000000000 fifo_get
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:519    .text.fifo_discard:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccMi5FNz.s:526    .text.fifo_discard:0000000000000000 fifo_discard
 
 UNDEFINED SYMBOLS
 memcpy

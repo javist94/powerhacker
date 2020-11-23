@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 1
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 1
   26:Core/Src/app/PowerManager.cpp **** 	 * 0: Check voltage is positive
   27:Core/Src/app/PowerManager.cpp **** 	 * 1: Check that voltage is reachable with current power input
   28:Core/Src/app/PowerManager.cpp **** 	 * 2: Calculate approximate DAC steps
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 2
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s 			page 2
 
 
   29:Core/Src/app/PowerManager.cpp **** 	 * 3: Implement PID until desired value is reached at the output
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 1
   72              		.section	.text._ZN12powerChannel10setVoltageEd,"ax",%progbits
   73              		.align	1
   74              		.global	_ZN12powerChannel10setVoltageEd
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 3
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s 			page 3
 
 
   75              		.syntax unified
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 1
  121 0026 0CA3     		adr	r3, .L11+8
  122 0028 D3E90023 		ldrd	r2, [r3]
  123 002c FFF7FEFF 		bl	__aeabi_dmul
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 4
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s 			page 4
 
 
  124              	.LVL9:
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 1
  171              		@ frame_needed = 0, uses_anonymous_args = 0
  172              		@ link register save eliminated.
   44:Core/Src/app/PowerManager.cpp **** 	this->_dacHandle = dacHandle;
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 5
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s 			page 5
 
 
  173              		.loc 1 44 2 view .LVU26
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 1
  222              	.LVL17:
   22:Core/Src/app/PowerManager.cpp **** 
  223              		.loc 1 22 1 view .LVU39
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 6
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s 			page 6
 
 
  224 000e 08BD     		pop	{r3, pc}
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 1
  279              		.file 42 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/lib
  280              		.file 43 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
  281              		.file 44 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 7
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s 			page 7
 
 
  282              		.file 45 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
@@ -367,25 +367,25 @@ ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 1
  285              		.file 48 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
  286              		.file 49 "Core/Inc/powerManager.hpp"
  287              		.file 50 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
-ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s 			page 8
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 PowerManager.cpp
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:18     .text._ZN12powerChannel11setDACStepsEs:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:26     .text._ZN12powerChannel11setDACStepsEs:0000000000000000 _ZN12powerChannel11setDACStepsEs
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:18     .text._ZN12powerChannel11setDACStepsEs:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:26     .text._ZN12powerChannel11setDACStepsEs:0000000000000000 _ZN12powerChannel11setDACStepsEs
 .ARM.extab.text._ZN12powerChannel11setDACStepsEs:0000000000000000 $d
 .ARM.exidx.text._ZN12powerChannel11setDACStepsEs:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:73     .text._ZN12powerChannel10setVoltageEd:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:80     .text._ZN12powerChannel10setVoltageEd:0000000000000000 _ZN12powerChannel10setVoltageEd
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:148    .text._ZN12powerChannel10setVoltageEd:0000000000000050 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:73     .text._ZN12powerChannel10setVoltageEd:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:80     .text._ZN12powerChannel10setVoltageEd:0000000000000000 _ZN12powerChannel10setVoltageEd
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:148    .text._ZN12powerChannel10setVoltageEd:0000000000000050 $d
 .ARM.exidx.text._ZN12powerChannel10setVoltageEd:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:157    .text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:164    .text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:0000000000000000 _ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:157    .text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:164    .text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:0000000000000000 _ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef
 .ARM.exidx.text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:0000000000000000 $d
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:196    .text._Z9powerInitv:0000000000000000 $t
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:203    .text._Z9powerInitv:0000000000000000 _Z9powerInitv
-/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc6YNrdI.s:228    .text._Z9powerInitv:0000000000000010 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:196    .text._Z9powerInitv:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:203    .text._Z9powerInitv:0000000000000000 _Z9powerInitv
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//cc82asZu.s:228    .text._Z9powerInitv:0000000000000010 $d
     .ARM.exidx.text._Z9powerInitv:0000000000000000 $d
 
 UNDEFINED SYMBOLS

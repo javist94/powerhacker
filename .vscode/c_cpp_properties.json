@@ -1,0 +1,68 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/local/bin/arm-none-eabi-g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-arm",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mfpu=fpv4-sp-d16",
+                "-mfloat-abi=hard",
+                "-DSTM32F373xC",
+                "-DUSE_HAL_DRIVER",
+                "-ICore/Inc",
+                "-ICore/Lib",
+                "-ICore/Lib/json",
+                "-IDrivers/CMSIS/Device/ST/STM32F3xx/Include",
+                "-IDrivers/CMSIS/Include",
+                "-IDrivers/STM32F3xx_HAL_Driver/Inc",
+                "-IDrivers/STM32F3xx_HAL_Driver/Inc/Legacy",
+                "-IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc",
+                "-IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IUSB_DEVICE/App",
+                "-IUSB_DEVICE/Target",
+                "-Og",
+                "-Wall",
+                "-fdata-sections",
+                "-ffunction-sections",
+                "-g",
+                "-gdwarf-2",
+                "-MMD",
+                "-MP"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
