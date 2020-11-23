@@ -1,0 +1,403 @@
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"PowerManager.cpp"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text._ZN12powerChannel11setDACStepsEs,"ax",%progbits
+  18              		.align	1
+  19              		.global	_ZN12powerChannel11setDACStepsEs
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv4-sp-d16
+  26              	_ZN12powerChannel11setDACStepsEs:
+  27              		.fnstart
+  28              	.LVL0:
+  29              	.LFB1335:
+  30              		.file 1 "Core/Src/app/PowerManager.cpp"
+   1:Core/Src/app/PowerManager.cpp **** /*
+   2:Core/Src/app/PowerManager.cpp ****  * powerManager.cpp
+   3:Core/Src/app/PowerManager.cpp ****  *
+   4:Core/Src/app/PowerManager.cpp ****  *  Created on: Nov 9, 2020
+   5:Core/Src/app/PowerManager.cpp ****  *      Author: javier
+   6:Core/Src/app/PowerManager.cpp ****  */
+   7:Core/Src/app/PowerManager.cpp **** 
+   8:Core/Src/app/PowerManager.cpp **** #include "main.h"
+   9:Core/Src/app/PowerManager.cpp **** #include <powerManager.hpp>
+  10:Core/Src/app/PowerManager.cpp **** #include <cmath>
+  11:Core/Src/app/PowerManager.cpp **** 
+  12:Core/Src/app/PowerManager.cpp **** extern SDADC_HandleTypeDef hsdadc1;
+  13:Core/Src/app/PowerManager.cpp **** extern SDADC_HandleTypeDef hsdadc2;
+  14:Core/Src/app/PowerManager.cpp **** extern SDADC_HandleTypeDef hsdadc3;
+  15:Core/Src/app/PowerManager.cpp **** extern DAC_HandleTypeDef hdac1;
+  16:Core/Src/app/PowerManager.cpp **** extern DAC_HandleTypeDef hdac2;
+  17:Core/Src/app/PowerManager.cpp **** extern PowerManager powerManager;
+  18:Core/Src/app/PowerManager.cpp **** 
+  19:Core/Src/app/PowerManager.cpp **** void powerInit(){
+  20:Core/Src/app/PowerManager.cpp **** //Channel 1 initialization
+  21:Core/Src/app/PowerManager.cpp **** 	powerManager.channel1.registerHandles(&hsdadc2, &hsdadc1, &hdac1);
+  22:Core/Src/app/PowerManager.cpp **** }
+  23:Core/Src/app/PowerManager.cpp **** 
+  24:Core/Src/app/PowerManager.cpp **** void powerChannel::setVoltage(double voltage){
+  25:Core/Src/app/PowerManager.cpp **** 	/*
+  26:Core/Src/app/PowerManager.cpp **** 	 * 0: Check voltage is positive
+  27:Core/Src/app/PowerManager.cpp **** 	 * 1: Check that voltage is reachable with current power input
+  28:Core/Src/app/PowerManager.cpp **** 	 * 2: Calculate approximate DAC steps
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s 			page 2
+
+
+  29:Core/Src/app/PowerManager.cpp **** 	 * 3: Implement PID until desired value is reached at the output
+  30:Core/Src/app/PowerManager.cpp **** 	 */
+  31:Core/Src/app/PowerManager.cpp **** 	if(voltage < 0.0) return;
+  32:Core/Src/app/PowerManager.cpp **** 	const double mockInputVoltage = 4.7;
+  33:Core/Src/app/PowerManager.cpp **** 	short targetSteps = std::floor((voltage / mockInputVoltage) * 4095);
+  34:Core/Src/app/PowerManager.cpp **** 	this->setDACSteps(targetSteps);
+  35:Core/Src/app/PowerManager.cpp **** }
+  36:Core/Src/app/PowerManager.cpp **** 
+  37:Core/Src/app/PowerManager.cpp **** void powerChannel::setDACSteps(short steps){
+  31              		.loc 1 37 44 view -0
+  32              		.cfi_startproc
+  33              		@ args = 0, pretend = 0, frame = 0
+  34              		@ frame_needed = 0, uses_anonymous_args = 0
+  38:Core/Src/app/PowerManager.cpp **** 	//DAC is 12 bits
+  39:Core/Src/app/PowerManager.cpp **** 	if(steps < 0 || steps > 4095) return; //Invalid input
+  35              		.loc 1 39 2 view .LVU1
+  36              		.loc 1 39 15 is_stmt 0 view .LVU2
+  37 0000 8AB2     		uxth	r2, r1
+  38              		.loc 1 39 2 view .LVU3
+  39 0002 B2F5805F 		cmp	r2, #4096
+  40 0006 00D3     		bcc	.L7
+  41 0008 7047     		bx	lr
+  42              	.L7:
+  37:Core/Src/app/PowerManager.cpp **** 	//DAC is 12 bits
+  43              		.loc 1 37 44 view .LVU4
+  44 000a 08B5     		push	{r3, lr}
+  45              		.save {r3, lr}
+  46              	.LCFI0:
+  47              		.cfi_def_cfa_offset 8
+  48              		.cfi_offset 3, -8
+  49              		.cfi_offset 14, -4
+  40:Core/Src/app/PowerManager.cpp **** 	HAL_DAC_SetValue(this->_dacHandle, DAC_CHANNEL_1, DAC_ALIGN_12B_R, steps);
+  50              		.loc 1 40 2 is_stmt 1 view .LVU5
+  51              		.loc 1 40 18 is_stmt 0 view .LVU6
+  52 000c 0B46     		mov	r3, r1
+  53 000e 0022     		movs	r2, #0
+  54 0010 1146     		mov	r1, r2
+  55              	.LVL1:
+  56              		.loc 1 40 18 view .LVU7
+  57 0012 C068     		ldr	r0, [r0, #12]
+  58              	.LVL2:
+  59              		.loc 1 40 18 view .LVU8
+  60 0014 FFF7FEFF 		bl	HAL_DAC_SetValue
+  61              	.LVL3:
+  41:Core/Src/app/PowerManager.cpp **** }
+  62              		.loc 1 41 1 view .LVU9
+  63 0018 08BD     		pop	{r3, pc}
+  64              		.cfi_endproc
+  65              	.LFE1335:
+  66              		.fnend
+  68              		.global	__aeabi_dcmplt
+  69              		.global	__aeabi_ddiv
+  70              		.global	__aeabi_dmul
+  71              		.global	__aeabi_d2iz
+  72              		.section	.text._ZN12powerChannel10setVoltageEd,"ax",%progbits
+  73              		.align	1
+  74              		.global	_ZN12powerChannel10setVoltageEd
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s 			page 3
+
+
+  75              		.syntax unified
+  76              		.thumb
+  77              		.thumb_func
+  78              		.fpu fpv4-sp-d16
+  80              	_ZN12powerChannel10setVoltageEd:
+  81              		.fnstart
+  82              	.LVL4:
+  83              	.LFB1334:
+  24:Core/Src/app/PowerManager.cpp **** 	/*
+  84              		.loc 1 24 46 is_stmt 1 view -0
+  85              		.cfi_startproc
+  86              		@ args = 0, pretend = 0, frame = 0
+  87              		@ frame_needed = 0, uses_anonymous_args = 0
+  24:Core/Src/app/PowerManager.cpp **** 	/*
+  88              		.loc 1 24 46 is_stmt 0 view .LVU11
+  89 0000 70B5     		push	{r4, r5, r6, lr}
+  90              		.save {r4, r5, r6, lr}
+  91              	.LCFI1:
+  92              		.cfi_def_cfa_offset 16
+  93              		.cfi_offset 4, -16
+  94              		.cfi_offset 5, -12
+  95              		.cfi_offset 6, -8
+  96              		.cfi_offset 14, -4
+  97 0002 0646     		mov	r6, r0
+  98 0004 55EC104B 		vmov	r4, r5, d0
+  31:Core/Src/app/PowerManager.cpp **** 	const double mockInputVoltage = 4.7;
+  99              		.loc 1 31 2 is_stmt 1 view .LVU12
+ 100 0008 0022     		movs	r2, #0
+ 101 000a 0023     		movs	r3, #0
+ 102 000c 10EE100A 		vmov	r0, s0	@ int
+ 103              	.LVL5:
+  31:Core/Src/app/PowerManager.cpp **** 	const double mockInputVoltage = 4.7;
+ 104              		.loc 1 31 2 is_stmt 0 view .LVU13
+ 105 0010 2946     		mov	r1, r5
+ 106 0012 FFF7FEFF 		bl	__aeabi_dcmplt
+ 107              	.LVL6:
+  31:Core/Src/app/PowerManager.cpp **** 	const double mockInputVoltage = 4.7;
+ 108              		.loc 1 31 2 view .LVU14
+ 109 0016 B8B9     		cbnz	r0, .L8
+  32:Core/Src/app/PowerManager.cpp **** 	short targetSteps = std::floor((voltage / mockInputVoltage) * 4095);
+ 110              		.loc 1 32 2 is_stmt 1 view .LVU15
+ 111              	.LVL7:
+  33:Core/Src/app/PowerManager.cpp **** 	this->setDACSteps(targetSteps);
+ 112              		.loc 1 33 2 view .LVU16
+  33:Core/Src/app/PowerManager.cpp **** 	this->setDACSteps(targetSteps);
+ 113              		.loc 1 33 42 is_stmt 0 view .LVU17
+ 114 0018 0DA3     		adr	r3, .L11
+ 115 001a D3E90023 		ldrd	r2, [r3]
+ 116 001e 2046     		mov	r0, r4
+ 117 0020 2946     		mov	r1, r5
+ 118 0022 FFF7FEFF 		bl	__aeabi_ddiv
+ 119              	.LVL8:
+  33:Core/Src/app/PowerManager.cpp **** 	this->setDACSteps(targetSteps);
+ 120              		.loc 1 33 32 view .LVU18
+ 121 0026 0CA3     		adr	r3, .L11+8
+ 122 0028 D3E90023 		ldrd	r2, [r3]
+ 123 002c FFF7FEFF 		bl	__aeabi_dmul
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s 			page 4
+
+
+ 124              	.LVL9:
+ 125 0030 41EC100B 		vmov	d0, r0, r1
+ 126 0034 FFF7FEFF 		bl	floor
+ 127              	.LVL10:
+ 128 0038 51EC100B 		vmov	r0, r1, d0
+  33:Core/Src/app/PowerManager.cpp **** 	this->setDACSteps(targetSteps);
+ 129              		.loc 1 33 8 view .LVU19
+ 130 003c FFF7FEFF 		bl	__aeabi_d2iz
+ 131              	.LVL11:
+  34:Core/Src/app/PowerManager.cpp **** }
+ 132              		.loc 1 34 2 is_stmt 1 view .LVU20
+  34:Core/Src/app/PowerManager.cpp **** }
+ 133              		.loc 1 34 19 is_stmt 0 view .LVU21
+ 134 0040 01B2     		sxth	r1, r0
+ 135 0042 3046     		mov	r0, r6
+ 136              	.LVL12:
+  34:Core/Src/app/PowerManager.cpp **** }
+ 137              		.loc 1 34 19 view .LVU22
+ 138 0044 FFF7FEFF 		bl	_ZN12powerChannel11setDACStepsEs
+ 139              	.LVL13:
+ 140              	.L8:
+  35:Core/Src/app/PowerManager.cpp **** 
+ 141              		.loc 1 35 1 view .LVU23
+ 142 0048 70BD     		pop	{r4, r5, r6, pc}
+ 143              	.LVL14:
+ 144              	.L12:
+  35:Core/Src/app/PowerManager.cpp **** 
+ 145              		.loc 1 35 1 view .LVU24
+ 146 004a 00BFAFF3 		.align	3
+ 146      0080
+ 147              	.L11:
+ 148 0050 CDCCCCCC 		.word	3435973837
+ 149 0054 CCCC1240 		.word	1074973900
+ 150 0058 00000000 		.word	0
+ 151 005c 00FEAF40 		.word	1085275648
+ 152              		.cfi_endproc
+ 153              	.LFE1334:
+ 154              		.fnend
+ 156              		.section	.text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDe
+ 157              		.align	1
+ 158              		.global	_ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef
+ 159              		.syntax unified
+ 160              		.thumb
+ 161              		.thumb_func
+ 162              		.fpu fpv4-sp-d16
+ 164              	_ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:
+ 165              		.fnstart
+ 166              	.LVL15:
+ 167              	.LFB1336:
+  42:Core/Src/app/PowerManager.cpp **** 
+  43:Core/Src/app/PowerManager.cpp **** void powerChannel::registerHandles(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_HandleTypeDef *sdad
+ 168              		.loc 1 43 143 is_stmt 1 view -0
+ 169              		.cfi_startproc
+ 170              		@ args = 0, pretend = 0, frame = 0
+ 171              		@ frame_needed = 0, uses_anonymous_args = 0
+ 172              		@ link register save eliminated.
+  44:Core/Src/app/PowerManager.cpp **** 	this->_dacHandle = dacHandle;
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s 			page 5
+
+
+ 173              		.loc 1 44 2 view .LVU26
+ 174              		.loc 1 44 19 is_stmt 0 view .LVU27
+ 175 0000 C360     		str	r3, [r0, #12]
+  45:Core/Src/app/PowerManager.cpp **** 	this->_sdadcHandleVRead = sdadcHandleVRead;
+ 176              		.loc 1 45 2 is_stmt 1 view .LVU28
+ 177              		.loc 1 45 26 is_stmt 0 view .LVU29
+ 178 0002 4160     		str	r1, [r0, #4]
+  46:Core/Src/app/PowerManager.cpp **** 	this->_sdadcHandleCRead = sdadcHandleCRead;
+ 179              		.loc 1 46 2 is_stmt 1 view .LVU30
+ 180              		.loc 1 46 26 is_stmt 0 view .LVU31
+ 181 0004 8260     		str	r2, [r0, #8]
+  47:Core/Src/app/PowerManager.cpp **** 	this->_chready = true;
+ 182              		.loc 1 47 2 is_stmt 1 view .LVU32
+ 183              		.loc 1 47 17 is_stmt 0 view .LVU33
+ 184 0006 0123     		movs	r3, #1
+ 185              	.LVL16:
+ 186              		.loc 1 47 17 view .LVU34
+ 187 0008 0370     		strb	r3, [r0]
+  48:Core/Src/app/PowerManager.cpp **** }
+ 188              		.loc 1 48 1 view .LVU35
+ 189 000a 7047     		bx	lr
+ 190              		.cfi_endproc
+ 191              	.LFE1336:
+ 192              		.cantunwind
+ 193              		.fnend
+ 195              		.section	.text._Z9powerInitv,"ax",%progbits
+ 196              		.align	1
+ 197              		.global	_Z9powerInitv
+ 198              		.syntax unified
+ 199              		.thumb
+ 200              		.thumb_func
+ 201              		.fpu fpv4-sp-d16
+ 203              	_Z9powerInitv:
+ 204              		.fnstart
+ 205              	.LFB1333:
+  19:Core/Src/app/PowerManager.cpp **** //Channel 1 initialization
+ 206              		.loc 1 19 17 is_stmt 1 view -0
+ 207              		.cfi_startproc
+ 208              		@ args = 0, pretend = 0, frame = 0
+ 209              		@ frame_needed = 0, uses_anonymous_args = 0
+ 210 0000 08B5     		push	{r3, lr}
+ 211              	.LCFI2:
+ 212              		.cfi_def_cfa_offset 8
+ 213              		.cfi_offset 3, -8
+ 214              		.cfi_offset 14, -4
+  21:Core/Src/app/PowerManager.cpp **** }
+ 215              		.loc 1 21 2 view .LVU37
+  21:Core/Src/app/PowerManager.cpp **** }
+ 216              		.loc 1 21 39 is_stmt 0 view .LVU38
+ 217 0002 034B     		ldr	r3, .L16
+ 218 0004 034A     		ldr	r2, .L16+4
+ 219 0006 0449     		ldr	r1, .L16+8
+ 220 0008 0448     		ldr	r0, .L16+12
+ 221 000a FFF7FEFF 		bl	_ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef
+ 222              	.LVL17:
+  22:Core/Src/app/PowerManager.cpp **** 
+ 223              		.loc 1 22 1 view .LVU39
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s 			page 6
+
+
+ 224 000e 08BD     		pop	{r3, pc}
+ 225              	.L17:
+ 226              		.align	2
+ 227              	.L16:
+ 228 0010 00000000 		.word	hdac1
+ 229 0014 00000000 		.word	hsdadc1
+ 230 0018 00000000 		.word	hsdadc2
+ 231 001c 00000000 		.word	powerManager
+ 232              		.cfi_endproc
+ 233              	.LFE1333:
+ 234              		.cantunwind
+ 235              		.fnend
+ 237              		.text
+ 238              	.Letext0:
+ 239              		.file 2 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-
+ 240              		.file 3 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-
+ 241              		.file 4 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm-
+ 242              		.file 5 "Drivers/CMSIS/Include/core_cm4.h"
+ 243              		.file 6 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
+ 244              		.file 7 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f373xc.h"
+ 245              		.file 8 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/lib/
+ 246              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
+ 247              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
+ 248              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dac.h"
+ 249              		.file 12 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_sdadc.h"
+ 250              		.file 13 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ 251              		.file 14 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 252              		.file 15 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 253              		.file 16 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 254              		.file 17 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 255              		.file 18 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 256              		.file 19 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 257              		.file 20 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 258              		.file 21 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 259              		.file 22 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 260              		.file 23 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 261              		.file 24 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 262              		.file 25 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 263              		.file 26 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 264              		.file 27 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 265              		.file 28 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 266              		.file 29 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 267              		.file 30 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 268              		.file 31 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 269              		.file 32 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 270              		.file 33 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 271              		.file 34 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 272              		.file 35 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 273              		.file 36 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 274              		.file 37 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 275              		.file 38 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 276              		.file 39 "<built-in>"
+ 277              		.file 40 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 278              		.file 41 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 279              		.file 42 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/lib
+ 280              		.file 43 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 281              		.file 44 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s 			page 7
+
+
+ 282              		.file 45 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 283              		.file 46 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 284              		.file 47 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 285              		.file 48 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ 286              		.file 49 "Core/Inc/powerManager.hpp"
+ 287              		.file 50 "/Users/javier/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.4.1/.content/arm
+ARM GAS  /var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s 			page 8
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 PowerManager.cpp
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:18     .text._ZN12powerChannel11setDACStepsEs:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:26     .text._ZN12powerChannel11setDACStepsEs:0000000000000000 _ZN12powerChannel11setDACStepsEs
+.ARM.extab.text._ZN12powerChannel11setDACStepsEs:0000000000000000 $d
+.ARM.exidx.text._ZN12powerChannel11setDACStepsEs:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:73     .text._ZN12powerChannel10setVoltageEd:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:80     .text._ZN12powerChannel10setVoltageEd:0000000000000000 _ZN12powerChannel10setVoltageEd
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:148    .text._ZN12powerChannel10setVoltageEd:0000000000000050 $d
+.ARM.exidx.text._ZN12powerChannel10setVoltageEd:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:157    .text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:164    .text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:0000000000000000 _ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef
+.ARM.exidx.text._ZN12powerChannel15registerHandlesEP21__SDADC_HandleTypeDefS1_P19__DAC_HandleTypeDef:0000000000000000 $d
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:196    .text._Z9powerInitv:0000000000000000 $t
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:203    .text._Z9powerInitv:0000000000000000 _Z9powerInitv
+/var/folders/jw/jcj5j9_530958b2rm5vp9wn00000gn/T//ccghJV0d.s:228    .text._Z9powerInitv:0000000000000010 $d
+    .ARM.exidx.text._Z9powerInitv:0000000000000000 $d
+
+UNDEFINED SYMBOLS
+HAL_DAC_SetValue
+__aeabi_unwind_cpp_pr1
+__aeabi_dcmplt
+__aeabi_ddiv
+__aeabi_dmul
+__aeabi_d2iz
+floor
+__aeabi_unwind_cpp_pr0
+hdac1
+hsdadc1
+hsdadc2
+powerManager
