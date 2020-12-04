@@ -23,6 +23,7 @@
 #include "stm32f3xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "../../USB_DEVICE/App/usbd_cdc_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -32,7 +33,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define msglen 35
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -83,13 +84,14 @@ void NMI_Handler(void)
   * @brief This function handles Hard fault interrupt.
   */
 void HardFault_Handler(void)
-{
+{ 
   /* USER CODE BEGIN HardFault_IRQn 0 */
-
-  /* USER CODE END HardFault_IRQn 0 */
+  char errorStr[msglen] = "ARM CORTEX(R) HardFault Exception\n";
+  CDC_Transmit_FS(errorStr, msglen);/* USER CODE END HardFault_IRQn 0 */
   while (1)
   {
     /* USER CODE BEGIN W1_HardFault_IRQn 0 */
+    // Infinite loop
     /* USER CODE END W1_HardFault_IRQn 0 */
   }
 }
