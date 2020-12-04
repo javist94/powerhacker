@@ -41,7 +41,7 @@ private:
 	powerMode_t powerMode = powerMode_t::notSet;
 	float _currentSetPoint = 0.0f, _voltageSetPoint = 0.0f;
 	int rawReadSDADCSteps();
-	void setDACSteps(short dacSteps);
+	void setDACSteps(uint32_t dacSteps);
 };
 
 class PowerManager {
