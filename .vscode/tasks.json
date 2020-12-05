@@ -33,9 +33,12 @@
             "command": "make test -j 4"
         },
         {
-            "label": "Flash STM32 (OpenOCD)",
+            "label": "Build & Flash STM32 (OpenOCD)",
             "type": "shell",
-            "command": "make flash"
+            "command": "make flash -j 4",
+            "problemMatcher": [
+                "$gcc"
+            ]
         },
         {
             "label": "Clean (GNU Makefile)",

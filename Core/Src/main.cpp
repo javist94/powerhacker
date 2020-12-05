@@ -124,6 +124,8 @@ int main(void)
   MX_SDADC3_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  HAL_DAC_Start(&hdac1, DAC_CHANNEL_1);
+  HAL_DAC_SetValue(&hdac1, DAC_CHANNEL_1, DAC_ALIGN_12B_L, 0x100); //TODO: Debug DAC values
   entryPointSetup();
   /* USER CODE END 2 */
 

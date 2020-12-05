@@ -47,7 +47,6 @@ private:
 class PowerManager {
 public:
 	powerChannel channel1 = {"Channel 1"}, channel2 = {"Channel 2"};
-
 };
 
 #endif /* SRC_APP_POWERMANAGER_H_ */

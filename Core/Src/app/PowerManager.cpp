@@ -23,6 +23,7 @@ extern jsonEngine jsonEngineRunner;
 void powerInit(){
 //Channel 1 initialization
 	powerManager.channel1.registerHandles(&hsdadc2, &hsdadc1, &hdac1);
+	
 }
 
 void powerChannel::setVoltage(double voltage){
@@ -53,5 +54,7 @@ void powerChannel::registerHandles(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_
 	this->_sdadcHandleVRead = sdadcHandleVRead;
 	this->_sdadcHandleCRead = sdadcHandleCRead;
 	this->_chready = true;
+	HAL_DAC_Start(this->_dacHandle, DAC_CHANNEL_1); //TODO: Handle channel assignments
+
 }
 
