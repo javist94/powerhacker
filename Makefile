@@ -36,13 +36,13 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
-Core/Lib/fifo.c \
-Core/Src/stm32f3xx_hal_msp.c \
-Core/Src/stm32f3xx_hal_timebase_tim.c \
-Core/Src/stm32f3xx_it.c \
-Core/Src/syscalls.c \
-Core/Src/sysmem.c \
-Core/Src/system_stm32f3xx.c \
+Core/Lib/fifo/fifo.c \
+Core/Src/system/stm32f3xx_hal_msp.c \
+Core/Src/system/stm32f3xx_hal_timebase_tim.c \
+Core/Src/system/stm32f3xx_it.c \
+Core/Src/system/syscalls.c \
+Core/Src/system/sysmem.c \
+Core/Src/system/system_stm32f3xx.c \
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c \
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c \
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c \
@@ -89,12 +89,12 @@ Core/Src/app/entryPoint.cpp \
 Core/Src/app/jsonEngine.cpp \
 Core/Src/app/masterController.cpp \
 Core/Src/app/serialInterfaces.cpp \
-Core/Src/main.cpp
+Core/Src/app/main.cpp
 
 
 # ASM sources
 ASM_SOURCES =  \
-Core/Startup/startup_stm32f373cctx.s
+Core/Src/startup/startup_stm32f373cctx.s
 # startup_stm32f373xc.s
 
 

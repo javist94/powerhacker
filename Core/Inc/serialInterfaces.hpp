@@ -12,7 +12,7 @@
 
 #include <usbd_cdc_if.h>
 #include <string>
-#include "../Lib/FIFO.h"
+#include "../Lib/fifo/fifo.h"
 
 class serialInterface{
 public:
@@ -28,7 +28,7 @@ protected:
 
 class USBInterface : public serialInterface{
 public:
-	uint8_t sendString(std::string const &sendstr);
+	uint8_t sendString(std::string const &sendstr) override;
 	std::string readChar();
 	std::string readUntil(char endchar, unsigned short timeout = 100);
 };

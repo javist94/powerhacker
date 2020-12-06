@@ -14,7 +14,7 @@
 	Author e-mail: ruben at geekfactory dot mx
  */
 
-#include "FIFO.h"
+#include "fifo.h"
 
 /*-------------------------------------------------------------*
  *		Private function prototypes			*
