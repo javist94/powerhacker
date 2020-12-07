@@ -19,6 +19,7 @@
 #include <serialInterfaces.hpp>
 #include <jsonEngine.hpp>
 
+//Objects loaded as global variables
 PowerManager powerManager;
 boardUserInterface boardUI;
 masterController masterControl;
@@ -32,14 +33,12 @@ extern DAC_HandleTypeDef hdac1;
 extern DAC_HandleTypeDef hdac2;
 extern volatile uint8_t RX_FLAG;
 
-extern void powerInit();
-
 uint32_t dac_value = 0;
 
 void entryPointSetup(){
-	powerInit(); //Peripheral initialization
+	usbController.sendString(masterControl.getBoardInfo());
+	powerManager.channel1.init(&hsdadc2, &hsdadc1, &hdac1, SDADC_CHANNEL_7, SDADC_CHANNEL_4, DAC_CHANNEL_1);
 	//TODO: Check if select is pressed on startup to execute calibration routine
-
 }
 
 void entryPointLoop(){

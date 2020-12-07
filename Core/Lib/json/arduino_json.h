@@ -21,11 +21,12 @@
 #define ARDUINOJSON_HAS_INT64 0
 #endif
 #ifndef ARDUINOJSON_EMBEDDED_MODE
-#if defined(ARDUINO)                /* Arduino*/                 \
+#if defined(__arm__)                /* ARM-PLATFORM */                 \
     || defined(__IAR_SYSTEMS_ICC__) /* IAR Embedded Workbench */ \
     || defined(__XC)                /* MPLAB XC compiler */      \
     || defined(__ARMCC_VERSION)     /* Keil ARM Compiler */      \
     || defined(__AVR)               /* Atmel AVR8/GNU C Compiler */
+
 #define ARDUINOJSON_EMBEDDED_MODE 1
 #else
 #define ARDUINOJSON_EMBEDDED_MODE 0

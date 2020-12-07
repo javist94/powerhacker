@@ -6,5 +6,6 @@
     "c-cpp-flylint.flexelint.enable": false,
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "terminal.integrated.fontFamily": "MesloLGS NF"
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "todo-tree.tree.showCountsInTree": true
 }
