@@ -4,13 +4,13 @@ PowerHacker is a fully featured, dual-channel, python-scriptable PSU unit that c
 
 It proudly features:
   * :snake: Fully scriptable in Python to wait for events and deliever specific curves to the load
-  * :memo: Maximum ratings: 2.5 A @ 24V (warning: special cooling required), or 500mA @ 12V in precision mode.
+  * :memo: Maximum ratings: 2.5 A @ 24V (warning: special cooling required), or 125mA @ 3.3V in precision mode.
   * :moneybag: Cost effective (approx. $23 as of 2022)
   * :computer: USB interface that allows control and data logging from a computer
   * :battery: Short circuit, overload, and overheating integrated protection measures
   * :bulb: Automotive grade, class 5 EMI filtering at the input stage
-  * :high_brightness: 16 bit DAC, high quality sigma ADCs, STM32F373 core.
-  * :mag: voltage, current, and power metering. Real time clock on board.
+  * :high_brightness: Double channel output, 16-bit DACs, high quality sigma ADCs, STM32F373 core.
+  * :mag: Voltage, current, and power real time metering and logging. Integrated realtime clock.
 
 
 
