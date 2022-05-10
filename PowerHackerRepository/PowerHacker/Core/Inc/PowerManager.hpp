@@ -24,7 +24,7 @@ enum class channel_e {
 class powerChannel{
 public:
 	powerChannel(string const &name) {this->_name = name;};
-	void init(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_HandleTypeDef *sdadcHandleCRead, DAC_HandleTypeDef *dacHandle);
+	void registerHandles(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_HandleTypeDef *sdadcHandleCRead, DAC_HandleTypeDef *dacHandle);
 	void setVoltage(double voltage);
 	void setCurrent();
 	float readVoltage();

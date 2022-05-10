@@ -32,6 +32,8 @@ public:
 	DeserializationError parseInstruction(const string &jsoninstruction, instructionChunk_t &instructionChunk);
 	string getACKPacket();
 	string getErrPacket(const string &errmsg);
+private:
+	void getInstructionType(const string&, instructionChunk_t &instructionChunk);
 };
 
 #endif /* INC_JSONENGINE_HPP_ */

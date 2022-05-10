@@ -18,7 +18,7 @@ extern PowerManager powerManager;
 
 void powerInit(){
 //Channel 1 initialization
-	powerManager.channel1.init(&hsdadc2, &hsdadc1, &hdac1);
+	powerManager.channel1.registerHandles(&hsdadc2, &hsdadc1, &hdac1);
 }
 
 void powerChannel::setVoltage(double voltage){
@@ -40,7 +40,7 @@ void powerChannel::setDACSteps(short steps){
 	HAL_DAC_SetValue(this->_dacHandle, DAC_CHANNEL_1, DAC_ALIGN_12B_R, steps);
 }
 
-void powerChannel::init(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_HandleTypeDef *sdadcHandleCRead, DAC_HandleTypeDef *dacHandle){
+void powerChannel::registerHandles(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_HandleTypeDef *sdadcHandleCRead, DAC_HandleTypeDef *dacHandle){
 	this->_dacHandle = dacHandle;
 	this->_sdadcHandleVRead = sdadcHandleVRead;
 	this->_sdadcHandleCRead = sdadcHandleCRead;

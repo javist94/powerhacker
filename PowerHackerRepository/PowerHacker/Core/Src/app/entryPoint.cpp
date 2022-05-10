@@ -51,8 +51,6 @@ void captureUserInput(){
 	if(boardUI.anyButtonPressed()){
 		buttonTree pressedBtns = boardUI.getPressedButtons();
 		masterControl.digestUI(pressedBtns);
-		std::string test = "{'action' : 'btnpress', 'button' : 'mode'}\r\n";
-		usbController.sendString(test);
 		HAL_Delay(200);
 	}
 

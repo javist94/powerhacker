@@ -26,16 +26,7 @@ DeserializationError jsonEngine::parseInstruction(const string &jsoninstruction,
 			else instructionChunk.channel = channel_e::ch1; //ch1 if channel is not specified
 
 		string msgtype = doc["type"].as<string>();
-			if(msgtype == "vset") instructionChunk.instructionType = instructionType_e::voltageSet;
-			else if(msgtype == "vget") instructionChunk.instructionType = instructionType_e::voltageGet;
-			else if(msgtype == "cset") instructionChunk.instructionType = instructionType_e::currentSet;
-			else if(msgtype == "cget") instructionChunk.instructionType = instructionType_e::currentGet;
-			else if(msgtype == "mode") instructionChunk.instructionType = instructionType_e::modeControl;
-			else if(msgtype == "error")instructionChunk.instructionType = instructionType_e::error;
-			else if(msgtype == "warning")instructionChunk.instructionType = instructionType_e::warning;
-			else if(msgtype == "info") instructionChunk.instructionType = instructionType_e::info;
-			else if(msgtype == "other")instructionChunk.instructionType = instructionType_e::other;
-			else instructionChunk.instructionType = instructionType_e::unknown;
+		this->getInstructionType(msgtype, instructionChunk); //Converts string to instructionChunk_t
 
 	}
 
@@ -58,4 +49,17 @@ string jsonEngine::getACKPacket(){
 	ack["message"] = "acknowledge";
 	serializeJson(ack, result);
 	return result + "\n";
+}
+
+void jsonEngine::getInstructionType(const string& inststr, instructionChunk_t &instructionChunk){
+	if(inststr == "vset") instructionChunk.instructionType = instructionType_e::voltageSet;
+	else if(inststr == "vget") instructionChunk.instructionType = instructionType_e::voltageGet;
+	else if(inststr == "cset") instructionChunk.instructionType = instructionType_e::currentSet;
+	else if(inststr == "cget") instructionChunk.instructionType = instructionType_e::currentGet;
+	else if(inststr == "mode") instructionChunk.instructionType = instructionType_e::modeControl;
+	else if(inststr == "error")instructionChunk.instructionType = instructionType_e::error;
+	else if(inststr == "warning")instructionChunk.instructionType = instructionType_e::warning;
+	else if(inststr == "info") instructionChunk.instructionType = instructionType_e::info;
+	else if(inststr == "other")instructionChunk.instructionType = instructionType_e::other;
+	else instructionChunk.instructionType = instructionType_e::unknown;
 }
