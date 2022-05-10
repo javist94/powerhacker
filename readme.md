@@ -2,7 +2,8 @@
 <h2>The world's first hackable, ultra-precise PSU unit (for its cost)</h2>
 PowerHacker is a fully featured, dual-channel, python-scriptable PSU unit that counts with an SD card and USB interface. It features an output precision of 2uA at a maximum voltage of 3.3V for its precision channel, or 0.5mA precision @ 24 V (max. current 2.5 A) for its secondary channel. 
 
-It proudly features:
+<h4>Main features</h4>
+
   * :snake: Fully scriptable in Python to wait for events and deliever specific curves to the load
   * :memo: Maximum ratings: 2.5 A @ 24V (warning: special cooling required), or 125mA @ 3.3V in precision mode.
   * :moneybag: Cost effective (approx. $23 as of 2022)
