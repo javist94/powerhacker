@@ -16,6 +16,7 @@ uint8_t USBInterface::sendString(std::string const &sendstr){
 	uint8_t* buffer = (uint8_t*)sendstr.c_str();
 	uint32_t buffsize = sendstr.length();
 	result = CDC_Transmit_FS(buffer, buffsize);
+	HAL_Delay(5);
 	return result;
 }
 
@@ -61,7 +62,7 @@ std::string USBInterface::readUntil(char endchar, unsigned short timeout){
 
 	if(op_timeout){
 		result.clear();
-		result = "{'error' : 'rx_timeout'}\n";
+		result = "{\"type\" : \"error\", \"message\" : \"RX operation timed out\"}\n";
 	}else{
 		result.clear();
 		result.insert(0, buffer_cstr);

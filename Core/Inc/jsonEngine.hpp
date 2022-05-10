@@ -21,15 +21,15 @@ enum class instructionType_e{
 };
 
 struct instructionChunk_t{
-	instructionType_e instructionType;
-	double value;
-	string message;
-	channel_e channel;
+	instructionType_e instructionType = instructionType_e::unknown;
+	double value = 0.0;
+	string message = "";
+	channel_e channel = channel_e::ch1;
 };
 
 class jsonEngine{
 public:
-	DeserializationError parseInstruction(const string &jsoninstruction, instructionChunk_t &instructionChunk);
+	DeserializationError parseInstruction(string jsoninstruction, instructionChunk_t &instructionChunk);
 	string getACKPacket();
 	string getErrPacket(const string &errmsg);
 private:
