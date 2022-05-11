@@ -6,7 +6,7 @@ PowerHacker is a fully featured, dual-channel, python-scriptable PSU that counts
 
 <h2>Main features</h2>
 
-  * :snake: Fully scriptable in Python to wait for events and deliever specific curves to the load
+  * :snake: Fully scriptable in Python to wait for events and deliver specific curves to the load
   * :memo: Maximum ratings: 2.5 A @ 24V (warning: special cooling required), or 125mA @ 3.3V in precision mode.
   * :moneybag: Cost effective (approx. $23 as of 2022)
   * :computer: USB interface that allows control and data logging from a computer
