@@ -1,5 +1,5 @@
-/Debug/
-/build/
+/code/Debug/
+/code/build/
 **/.DS_Store
 .DS_Store
 /.DS_Store
@@ -7,3 +7,4 @@
 .ds_store
 null.d
 **/null.d
+
