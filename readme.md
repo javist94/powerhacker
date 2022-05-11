@@ -1,8 +1,10 @@
-<h1>PowerHacker</h1>
-<h2>The world's first hackable, ultra-precise, low cost power supply unit</h2>
+<h1>PowerHacker scriptable PSU</h1>
+<h2>The world's cheapest hackable, ultra-precise power supply unit</h2>
 PowerHacker is a fully featured, dual-channel, python-scriptable PSU that counts with an SD card and USB interface. It features an output precision of 2uA at a maximum voltage of 3.3V for its precision channel, or 0.5mA precision @ 24 V (max. current 2.5 A) for its secondary channel. 
 
-<h4>Main features</h4>
+![3D Model of the PowerHacker board](https://github.com/javist94/powerhacker/blob/master/docu/powerhacker-3d.png)
+
+<h2>Main features</h2>
 
   * :snake: Fully scriptable in Python to wait for events and deliever specific curves to the load
   * :memo: Maximum ratings: 2.5 A @ 24V (warning: special cooling required), or 125mA @ 3.3V in precision mode.
@@ -13,7 +15,7 @@ PowerHacker is a fully featured, dual-channel, python-scriptable PSU that counts
   * :high_brightness: Double channel output, 16-bit DACs, high quality sigma ADCs, STM32F373 core.
   * :mag: Voltage, current, and power real time metering and logging. Integrated realtime clock.
 
-<h4>Contents of the project</h4>
+<h2>Contents of the project</h2>
 
   * Source code that can be directly compiled and flashed into a PowerHacker unit.
   * Hardware schematics (including BOM)
