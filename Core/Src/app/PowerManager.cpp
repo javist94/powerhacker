@@ -20,12 +20,6 @@ extern PowerManager powerManager;
 extern USBInterface usbController;
 extern jsonEngine jsonEngineRunner;
 
-void powerInit(){
-//Channel 1 initialization
-	powerManager.channel1.registerHandles(&hsdadc2, &hsdadc1, &hdac1);
-	
-}
-
 void powerChannel::setVoltage(double voltage){
 	/*
 	 * 0: Check voltage is positive
@@ -33,28 +27,51 @@ void powerChannel::setVoltage(double voltage){
 	 * 2: Calculate approximate DAC steps
 	 * 3: Implement PID until desired value is reached at the output
 	 */
-	if(voltage < 0.0) return;
-	const double mockInputVoltage = 4.7;
-	uint32_t targetSteps = std::floor((voltage / mockInputVoltage) * 4095);
-	this->setDACSteps(targetSteps);
+	if(voltage < 0) {
+		//Error v < 0
+		usbController.sendString(jsonEngineRunner.getErrPacket(string("Voltage cannot be inferior to zero!")));
+	}else{
+		uint32_t targetSteps = std::floor((voltage / 3.3f) * 4095);
+		this->_dacSet(targetSteps);
+	}
 }
 
-void powerChannel::setDACSteps(uint32_t steps){
+void powerChannel::_dacSet(uint32_t steps){
 	//DAC is 12 bits
 	if(steps < 0 || steps > 4095) return; //Invalid input
+	
 	if(!this->_chready) { //Channel has not been initialised: print error and return
 		usbController.sendString(jsonEngineRunner.getErrPacket(string("Channel not initialised. Please initialise the channel before attempting to use it.")));
 		return;
 	}
-	HAL_DAC_SetValue(this->_dacHandle, DAC_CHANNEL_1, DAC_ALIGN_12B_R, steps);
+
+	HAL_DAC_SetValue(this->_dacHandle, this->_DACChannel, DAC_ALIGN_12B_R, steps);
+
+	//DEBUG
+	std::string debug_steps_str = "DAC STEPS: ";
+	debug_steps_str.append(std::to_string(steps));
+	debug_steps_str.append("\n");
+	usbController.sendString(debug_steps_str);
 }
 
-void powerChannel::registerHandles(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_HandleTypeDef *sdadcHandleCRead, DAC_HandleTypeDef *dacHandle){
+void powerChannel::init(SDADC_HandleTypeDef *sdadcHandleVRead, SDADC_HandleTypeDef *sdadcHandleCRead, \
+ DAC_HandleTypeDef *dacHandle, const uint32_t vReadChannel, \
+ const uint32_t cReadChannel, const uint32_t DACChannel) {
+	//Store the information: handles
 	this->_dacHandle = dacHandle;
 	this->_sdadcHandleVRead = sdadcHandleVRead;
 	this->_sdadcHandleCRead = sdadcHandleCRead;
-	this->_chready = true;
-	HAL_DAC_Start(this->_dacHandle, DAC_CHANNEL_1); //TODO: Handle channel assignments
+	//Store the channels for each STM32 peripheral
+	this->_DACChannel = DACChannel;
+	this->_vSDADCChannel = vReadChannel;
+	this->_cSDADCChannel = cReadChannel;
 
+	//Cal HAL library startup routine for low level operations on the STM32
+	HAL_DAC_Start(dacHandle, DACChannel);
+	HAL_SDADC_Start(sdadcHandleVRead);
+	HAL_SDADC_Start(sdadcHandleCRead);
+
+	//Set its state to true
+	this->_chready = true;
 }
 

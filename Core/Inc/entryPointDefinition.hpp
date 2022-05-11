@@ -11,7 +11,9 @@ extern "C"
 {
 #endif
 
-// Prototypes
+#define SOFTWARE_VERSION "1.0-alpha";
+
+// Function prototypes
 void entryPointLoop();
 void entryPointSetup();
 void captureUserInput();

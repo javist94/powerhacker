@@ -8,9 +8,9 @@
 
 #include <jsonEngine.hpp>
 
-const int staticCapacity = JSON_OBJECT_SIZE(512);
+constexpr int staticCapacity = JSON_OBJECT_SIZE(512);
 
-DeserializationError jsonEngine::parseInstruction(const string &jsoninstruction, instructionChunk_t &instructionChunk){
+DeserializationError jsonEngine::parseInstruction(string jsoninstruction, instructionChunk_t &instructionChunk){
 
 	StaticJsonDocument<staticCapacity> doc;
 	DeserializationError err = deserializeJson(doc, jsoninstruction);
@@ -44,7 +44,7 @@ string jsonEngine::getErrPacket(const string &errmsg){
 
 string jsonEngine::getACKPacket(){
 	string result;
-	StaticJsonDocument<JSON_OBJECT_SIZE(30)> ack;
+	StaticJsonDocument<JSON_OBJECT_SIZE(32)> ack;
 	ack["type"] = "info";
 	ack["message"] = "acknowledge";
 	serializeJson(ack, result);

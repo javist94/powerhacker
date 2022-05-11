@@ -26,7 +26,7 @@ void masterController::digestUSB(){
 		cmd = usbController.readUntil('\n');
 
 		instructionChunk_t ichunk;
-		//TODO: check cmd is correct // EXAMPLE: {"type" : "vset", "channel" : "ch1", "value": 2.4}
+		//Example cmd: {"type" : "vset", "channel" : "ch1", "value": 2.4}
 		DeserializationError err;
 		err = jsonEngineRunner.parseInstruction(cmd, ichunk);
 
@@ -36,11 +36,13 @@ void masterController::digestUSB(){
 			usbController.sendString(jsonEngineRunner.getACKPacket());
 			//Decide what to do depending on ichunk
 			if(ichunk.instructionType == instructionType_e::voltageSet){
-				string valuestr = "";
-				valuestr = to_string(ichunk.value);
-				usbController.sendString("VSET: " + valuestr + "\n" + "CH: " + std::to_string(static_cast<int>(ichunk.channel)));
 				if(ichunk.channel == channel_e::ch1) powerManager.channel1.setVoltage(ichunk.value);
 				else if(ichunk.channel == channel_e::ch2) powerManager.channel2.setVoltage(ichunk.value);
+
+			}else if(ichunk.instructionType == instructionType_e::other){
+				if(ichunk.message == "showinfo"){
+					usbController.sendString(this->getBoardInfo());
+				}
 			}
 		}else{
 			//Parsing error, send back the error in JSON format
@@ -83,4 +85,8 @@ void masterController::rotateChannel(){
 						boardUI.ch1Led.setState(ledState::off);
 						boardUI.ch2Led.setState(ledState::off);
 	}
+}
+
+std::string masterController::getBoardInfo(){
+	return std::string("PowerHacker [1.0-alpha/ARM] @ usb-cdc\n");
 }
