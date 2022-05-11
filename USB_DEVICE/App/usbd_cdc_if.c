@@ -23,7 +23,7 @@
 #include "usbd_cdc_if.h"
 
 /* USER CODE BEGIN INCLUDE */
-#include "../Lib/FIFO.h"
+#include "../Lib/fifo/fifo.h"
 /* USER CODE END INCLUDE */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -246,8 +246,8 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
   /* USER CODE END 5 */
 }
 
-extern fifo_t fifo_rx;
-extern volatile uint8_t RX_FLAG;
+volatile extern fifo_t fifo_rx;
+volatile extern uint8_t RX_FLAG; //Added lastly yo see if we can...
 
 /**
   * @brief  Data received over USB OUT endpoint are sent over CDC interface
@@ -309,7 +309,6 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
   return (USBD_OK);
   /* USER CODE END 6 */
 }
-
 
 /**
   * @brief  CDC_Transmit_FS

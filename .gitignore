@@ -1,1 +1,9 @@
 /Debug/
+/build/
+**/.DS_Store
+.DS_Store
+/.DS_Store
+**/.ds_store
+.ds_store
+null.d
+**/null.d

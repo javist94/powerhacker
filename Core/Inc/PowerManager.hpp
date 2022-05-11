@@ -41,13 +41,12 @@ private:
 	powerMode_t powerMode = powerMode_t::notSet;
 	float _currentSetPoint = 0.0f, _voltageSetPoint = 0.0f;
 	int rawReadSDADCSteps();
-	void setDACSteps(short dacSteps);
+	void setDACSteps(uint32_t dacSteps);
 };
 
 class PowerManager {
 public:
 	powerChannel channel1 = {"Channel 1"}, channel2 = {"Channel 2"};
-
 };
 
 #endif /* SRC_APP_POWERMANAGER_H_ */

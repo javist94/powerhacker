@@ -1,0 +1,51 @@
+// Makefile
+// ${workspaceRoot} the path of the folder opened in VS Code
+// ${file} the current opened file
+// ${fileBasename} the current opened file's basename
+// ${fileDirname} the current opened file's dirname
+// ${fileExtname} the current opened file's extension
+// ${cwd} the task runner's current working directory on startup
+{
+    "version": "2.0.0",
+    "command": "bash",
+    "type": "shell",
+    "reveal": "always",
+    "options": {
+        "cwd": "${workspaceRoot}"
+    },
+	"args": [
+        "-c"
+    ],
+    "tasks": [
+        {
+            "label": "Build (GNU Makefile)",
+            "type": "shell",
+            "command": "make all -j 4",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Test (GNU Makefile)",
+            "type": "shell",
+            "command": "make test -j 4"
+        },
+        {
+            "label": "Build & Flash STM32 (OpenOCD)",
+            "type": "shell",
+            "command": "make flash -j 4",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Clean (GNU Makefile)",
+            "type": "shell",
+            "command": "make clean",
+            "problemMatcher": [],
+            "group": "build"
+        }
+    ]
+}

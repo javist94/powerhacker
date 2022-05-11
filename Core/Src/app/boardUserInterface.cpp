@@ -26,9 +26,7 @@ buttonTree boardUserInterface::getPressedButtons(){
 }
 
 void boardUserInterface::readButtons(){
-	this->modeBtn = false;
-	this->selectBtn = false;
-	this->toggleBtn = false;
+	this->modeBtn = false; this->selectBtn = false; this->toggleBtn = false;
 	if(HAL_GPIO_ReadPin(GPIOB, BUTTON_MODE_Pin) == false) this->modeBtn = true;
 	if(HAL_GPIO_ReadPin(GPIOA, BUTTON_CHSELECT_Pin) == false) this->selectBtn = true;
 	if(HAL_GPIO_ReadPin(GPIOA, BUTTON_CHENABLE_Pin) == false) this->toggleBtn = true;
@@ -63,8 +61,5 @@ void ledIndicator::setState(ledState state){
 					if(this->_status == ledState::on) this->_status = ledState::off; else this->_status = ledState::on;
 					break;
 		}
-	}else{
-		//We are demanding a state that is already active, so do_nothing() :)
 	}
-
 }
