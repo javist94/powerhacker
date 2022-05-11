@@ -12,7 +12,7 @@ PowerHacker is a fully featured, dual-channel, python-scriptable PSU that counts
   * :computer: USB interface that allows control and data logging from a computer
   * :battery: Short circuit, overload, and overheating integrated protection measures
   * :bulb: Automotive grade, class 5 EMI filtering at the input stage
-  * :high_brightness: Double channel output, 16-bit DACs, high quality sigma ADCs, STM32F373 core.
+  * :high_brightness: Double channel output, 16-bit DACs, high quality delta-sigma ADCs, STM32F373 core.
   * :mag: Voltage, current, and power real time metering and logging. Integrated realtime clock.
 
 <h2>Contents of the project</h2>
