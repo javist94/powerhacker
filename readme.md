@@ -1,5 +1,5 @@
 <h1>PowerHacker scriptable PSU</h1>
-<h2>The world's cheapest hackable, ultra-precise power supply unit</h2>
+<h2>The world's most cost-effective hackable, precision power supply unit</h2>
 PowerHacker is a fully featured, dual-channel, python-scriptable PSU that counts with an SD card and USB interface. It features an output precision of 2uA at a maximum voltage of 3.3V for its precision channel, or 0.5mA precision @ 24 V (max. current 2.5 A) for its secondary channel. 
 
 ![3D Model of the PowerHacker board](https://github.com/javist94/powerhacker/blob/master/docu/powerhacker-3d.png)
