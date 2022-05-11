@@ -21,4 +21,4 @@ PowerHacker is a fully featured, dual-channel, python-scriptable PSU that counts
 
 
 <h2>How to build the code</h2>
-<p>Simply go to the root directory and execute <i>make all -j 4</i>. To flash, execute <i>make flash</i>. If there are any errors, try <i>make clean</i>.</p>
+<p>Simply go to the /code directory and execute <i>make all</i> (you can optionally add "-j" followed by the number of cores of your machine to speed up the process). To flash, execute <i>make flash</i>. If there are any errors, try <i>make clean</i>.</p>
